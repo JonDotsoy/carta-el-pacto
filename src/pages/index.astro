@@ -241,6 +241,7 @@ const formatCategory = (category: string): string => {
 				this.innerText = new Intl.NumberFormat('es-CL', {
 					style: "currency",
 					currency,
+					currencyDisplay: 'symbol',
 					minimumFractionDigits: 0,
 					maximumFractionDigits: 0,
 				}).format(Number(value));

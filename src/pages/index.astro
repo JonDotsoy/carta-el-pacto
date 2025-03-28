@@ -238,9 +238,11 @@ const formatCategory = (category: string): string => {
 			try {
 				const currency = this.dataset.currency;
 				const value = this.dataset.value;
-				this.innerText = new Intl.NumberFormat(undefined, {
+				this.innerText = new Intl.NumberFormat('es-CL', {
 					style: "currency",
 					currency,
+					minimumFractionDigits: 0,
+					maximumFractionDigits: 0,
 				}).format(Number(value));
 			} catch {}
 		}

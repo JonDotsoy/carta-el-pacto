@@ -1,11 +1,396 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import products from "../data/carta-full.json";
+import { Image, imageConfig } from "astro:assets";
+import path from "path";
+import { ConditionHidden } from "../components/ConditionalHidden";
+import categoriesFormated from "../data/categories.json";
+import { images } from "../data/carta-images.astro";
+
+const producListEntries = Object.entries(products);
+
+const producList = producListEntries.map(([_, p]) => p);
+
+const categories = new Set();
+
+for (const p of producList) {
+	for (const c of p.product.categoria) {
+		categories.add(c);
+	}
+}
+
+const imageModules = new WeakMap<any, any>();
+
+for (const productInfo of producList) {
+	if ("image" in productInfo) {
+		const relative = path.relative(
+			new URL("./", import.meta.url).pathname,
+			new URL(productInfo.image).pathname,
+		);
+
+		const imageModule = Reflect.get(images, productInfo.id);
+
+		imageModules.set(productInfo, imageModule);
+	}
+}
+
+const formatCategory = (category: string): string => {
+	if (Reflect.has(categoriesFormated, category)) {
+		const c = Reflect.get(categoriesFormated, category);
+		return c.emoji ? `${c.emoji} ${c.label}` : c.label;
+	}
+	return category;
+};
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
+<style>
+	product-article {
+		grid-template:
+			"header image" auto
+			"description image" auto
+			"ingredients image" auto
+			"categories image" 1fr
+			"control control" auto
+			/ 1fr auto;
+	}
+</style>
+
+<script>
+	import { map, computed } from "nanostores";
+
+	const cartAddedLocalStorage = localStorage.getItem("_cart_added");
+	const cartFilteredLocalStorage = localStorage.getItem("_cart_filtered");
+
+	const $cartProductAdded = map<Record<string, number>>(
+		cartAddedLocalStorage ? JSON.parse(cartAddedLocalStorage) : {},
+	);
+
+	const $cartFiltered = map<Record<string, boolean>>(
+		cartFilteredLocalStorage ? JSON.parse(cartFilteredLocalStorage) : {},
+	);
+
+	const $cartProductAddedAndcartFiltered = computed(
+		[$cartProductAdded, $cartFiltered],
+		(cartProductAdded, cartFiltered) => {
+			return {
+				cartProductAdded: cartProductAdded,
+				cartFiltered: cartFiltered,
+			};
+		},
+	);
+
+	$cartProductAdded.listen(() =>
+		localStorage.setItem(
+			"_cart_added",
+			JSON.stringify($cartProductAdded.get()),
+		),
+	);
+
+	$cartFiltered.listen(() =>
+		localStorage.setItem(
+			"_cart_filtered",
+			JSON.stringify($cartFiltered.get()),
+		),
+	);
+
+	class CartProductCountAddeds extends HTMLElement {
+		connectedCallback() {
+			$cartProductAdded.subscribe(() => {
+				if (this.dataset.for) {
+					this.innerText = `${$cartProductAdded.get()[this.dataset.for] ?? 0}`;
+				}
+			});
+			this.addEventListener("click", () => {
+				if (this.dataset.addFor)
+					$cartProductAdded.setKey(
+						this.dataset.addFor,
+						($cartProductAdded.get()[this.dataset.addFor] ?? 0) + 1,
+					);
+			});
+		}
+		disconnectedCallback() {}
+	}
+
+	class CartButtonAddProduct extends HTMLElement {
+		connectedCallback() {
+			this.addEventListener("click", () => {
+				if (this.dataset.addFor)
+					$cartProductAdded.setKey(
+						this.dataset.addFor,
+						($cartProductAdded.get()[this.dataset.addFor] ?? 0) + 1,
+					);
+			});
+		}
+		disconnectedCallback() {}
+	}
+
+	class CartButtonRemoveProduct extends HTMLElement {
+		connectedCallback() {
+			this.addEventListener("click", () => {
+				if (this.dataset.removeFor)
+					$cartProductAdded.setKey(
+						this.dataset.removeFor,
+						Math.max(
+							0,
+							($cartProductAdded.get()[this.dataset.removeFor] ??
+								0) - 1,
+						),
+					);
+			});
+		}
+		disconnectedCallback() {}
+	}
+
+	class ProductArticle extends HTMLElement {
+		connectedCallback() {
+			$cartProductAdded.subscribe(() => {
+				if (this.id)
+					this.dataset.onCard = $cartProductAdded.get()[this.id]
+						? "true"
+						: "";
+			});
+			$cartProductAddedAndcartFiltered.subscribe(
+				({ cartFiltered, cartProductAdded }) => {
+					const { __ADDED__, ...e } = $cartFiltered.get();
+
+					const cartListFiltered = Object.entries(e)
+						.filter(([k, v]) => v)
+						.map(([k]) => k);
+
+					if (__ADDED__ && this.id) {
+						const cartAdded = $cartProductAdded.get()[this.id] ?? 0;
+
+						if (cartAdded === 0) {
+							this.dataset.filtered = "true";
+							return;
+						}
+					}
+
+					if (cartListFiltered.length === 0) {
+						this.dataset.filtered = "";
+						return;
+					}
+
+					if (this.dataset.categories) {
+						const categories: string[] = JSON.parse(
+							this.dataset.categories,
+						);
+
+						this.dataset.filtered = categories.some((c) =>
+							cartListFiltered.includes(c),
+						)
+							? ""
+							: "true";
+					}
+				},
+			);
+		}
+		disconnectedCallback() {}
+	}
+
+	class CartContainer extends HTMLElement {
+		connectedCallback() {}
+		disconnectedCallback() {}
+	}
+
+	class CartButtonAddFilter extends HTMLElement {
+		connectedCallback() {
+			this.addEventListener("click", () => {
+				if (this.dataset.for) {
+					if (this.dataset.for === "__ADDED__") {
+						$cartFiltered.set({
+							__ADDED__: !(
+								$cartFiltered.get()["__ADDED__"] ?? false
+							),
+						});
+						return;
+					}
+					$cartFiltered.set({
+						...$cartFiltered.get(),
+						__ADDED__: false,
+						[this.dataset.for]: !(
+							$cartFiltered.get()[this.dataset.for] ?? false
+						),
+					});
+				}
+			});
+			$cartFiltered.subscribe(() => {
+				if (this.dataset.for) {
+					this.dataset.active = $cartFiltered.get()[this.dataset.for]
+						? "true"
+						: "";
+				}
+			});
+		}
+		disconnectedCallback() {}
+	}
+
+	class CartButtonRemoveFilter extends HTMLElement {
+		connectedCallback() {}
+		disconnectedCallback() {}
+	}
+
+	customElements.define("cart-button-add-product", CartButtonAddProduct);
+	customElements.define(
+		"cart-button-remove-product",
+		CartButtonRemoveProduct,
+	);
+	customElements.define("product-article", ProductArticle);
+	customElements.define("cart-product-count-addeds", CartProductCountAddeds);
+	customElements.define("cart-container", CartContainer);
+	customElements.define("cart-button-add-filter", CartButtonAddFilter);
+	customElements.define("cart-button-remove-filter", CartButtonRemoveFilter);
+</script>
+
 <Layout>
-	<Welcome />
+	<div class="relative">
+		<section class="sticky w-full left-0 top-0 bg-white shadow">
+			<div class="container m-auto">
+				<section class="flex">
+					<a
+						class="px-2 py-4 hover:bg-gray-100 cursor-pointer"
+						href="#products">Productos</a
+					>
+					<a
+						class="px-2 py-4 hover:bg-gray-100 cursor-pointer"
+						href="#filters">Filtros</a
+					>
+					<span class="flex-auto"></span>
+					<cart-button-add-filter
+						class="px-2 py-4 hover:bg-gray-100 cursor-pointer [[data-active='true']]:bg-gray-300"
+						data-for={"__ADDED__"}
+					>
+						Filtrar los agregados
+					</cart-button-add-filter>
+				</section>
+			</div>
+		</section>
+
+		<cart-container
+			id="products"
+			class="container m-auto grid gap-2 py-4 px-2"
+		>
+			{
+				producList.map((productInfo) => {
+					const imageModule = imageModules.get(productInfo);
+
+					return (
+						<product-article
+							id={productInfo.id}
+							class="border rounded grid py-4 px-6 [[data-on-card='true']]:bg-gray-100 [[data-filtered='true']]:hidden"
+							data-categories={JSON.stringify(
+								productInfo.product.categoria,
+							)}
+						>
+							<header class="[grid-area:header]">
+								<h1 class="text-xl font-bold">
+									<a href={`#${productInfo.id}`}>
+										{productInfo.product.nombre}
+									</a>
+								</h1>
+							</header>
+
+							<section class="[grid-area:description] pb-2">
+								<h2 class="hidden">Descripcion</h2>
+								<p>{productInfo.product.descripcion}</p>
+							</section>
+
+							<section class="[grid-area:ingredients] pb-2">
+								<h2 class="hidden">Ingredientes</h2>
+								<ul class="list-disc pl-8">
+									{productInfo.product.ingredientes.map(
+										(ingrediente) => (
+											<li>{ingrediente}</li>
+										),
+									)}
+								</ul>
+							</section>
+
+							<section class="[grid-area:categories] pb-2">
+								<h2 class="hidden">Categorias</h2>
+								<ul class="flex gap-2 flex-wrap">
+									{productInfo.product.categoria.map(
+										(category) => (
+											<cart-button-add-filter
+												class="border rounded px-4 [[data-active='true']]:bg-gray-300 cursor-pointer"
+												data-for={category}
+											>
+												{formatCategory(
+													category as string,
+												)}
+											</cart-button-add-filter>
+										),
+									)}
+								</ul>
+							</section>
+
+							{imageModule && (
+								<div class="[grid-area:image] pl-2">
+									<Image
+										class="max-w-[100px] md:max-w-[300px]"
+										alt={`Image ${productInfo.id}`}
+										widths={[300, 120]}
+										title="sd"
+										src={imageModule}
+									/>
+								</div>
+							)}
+
+							<section class="[grid-area:control] pt-4">
+								<div class="flex gap-4 items-center">
+									<div class="flex">
+										<cart-button-add-product
+											class="py-2 px-6 border-l border-y rounded-l border-blue-500 cursor-pointer hover:bg-blue-200 focus:bg-blue-200"
+											data-add-for={productInfo.id}
+										>
+											+
+										</cart-button-add-product>
+										<cart-button-remove-product
+											class="py-2 px-6 border-r border-y rounded-r border-blue-500 cursor-pointer hover:bg-blue-200 focus:bg-blue-200"
+											data-remove-for={productInfo.id}
+										>
+											-
+										</cart-button-remove-product>
+									</div>
+									<span>
+										<cart-product-count-addeds
+											data-for={productInfo.id}
+										/>{" "}
+										agregados
+									</span>
+								</div>
+							</section>
+						</product-article>
+					);
+				})
+			}
+		</cart-container>
+
+		<section id="filters" class="container m-auto px-2 py-4">
+			<h2 class="font-bold">Filtros</h2>
+			<aside class="flex flex-wrap gap-2">
+				<cart-button-add-filter
+					class="border rounded px-4 [[data-active='true']]:bg-gray-300 cursor-pointer"
+					data-for={"__ADDED__"}
+				>
+					Agregado
+				</cart-button-add-filter>
+				{
+					Array.from(categories.values())
+						.sort()
+						.map((category) => (
+							<cart-button-add-filter
+								class="border rounded px-4 [[data-active='true']]:bg-gray-300 cursor-pointer"
+								data-for={category}
+							>
+								{formatCategory(category as string)}
+							</cart-button-add-filter>
+						))
+				}
+			</aside>
+		</section>
+	</div>
 </Layout>

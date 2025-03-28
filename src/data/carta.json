@@ -1,0 +1,2237 @@
+[
+    {
+        "nombre": "ALITAS DE POLLO BBQ",
+        "precio": 6990,
+        "descripcion": "8 unidades de alitas bañadas en salsa Barbecue",
+        "ingredientes": [
+            "alitas de pollo",
+            "salsa Barbecue"
+        ],
+        "foto": true,
+        "categoria": [
+            "PICOTEOS",
+            "ALITAS",
+            "APERITIVOS"
+        ]
+    },
+    {
+        "nombre": "ALITAS DE POLLO YANGNYEOM",
+        "precio": 6990,
+        "descripcion": "8 unidades de alitas bañadas en salsa dulce picante Yangnyeom",
+        "ingredientes": [
+            "alitas de pollo",
+            "salsa dulce picante Yangnyeom"
+        ],
+        "foto": true,
+        "categoria": [
+            "PICOTEOS",
+            "ALITAS",
+            "APERITIVOS",
+            "COREANO"
+        ]
+    },
+    {
+        "nombre": "AROS DE CEBOLLA",
+        "precio": 5990,
+        "descripcion": "Porción de aros de cebolla fritos + mayo cilantro",
+        "ingredientes": [
+            "aros de cebolla fritos",
+            "mayo cilantro"
+        ],
+        "foto": true,
+        "categoria": [
+            "PICOTEOS",
+            "FRITOS",
+            "APERITIVOS"
+        ]
+    },
+    {
+        "nombre": "EMPANADAS QUESO",
+        "precio": 7900,
+        "descripcion": "6 unidades de empanadas fritas de queso + mayo cilantro",
+        "ingredientes": [
+            "empanadas fritas de queso",
+            "mayo cilantro"
+        ],
+        "foto": true,
+        "categoria": [
+            "PICOTEOS",
+            "EMPANADAS",
+            "FRITOS",
+            "APERITIVOS"
+        ]
+    },
+    {
+        "nombre": "SOPAIPILLAS COCKTAIL",
+        "precio": 5990,
+        "descripcion": "10 unidades de sopaipillas cocktail + guacamole y mayo cilantro",
+        "ingredientes": [
+            "sopaipillas cocktail",
+            "guacamole",
+            "mayo cilantro"
+        ],
+        "foto": true,
+        "categoria": [
+            "PICOTEOS",
+            "SOPAIPILLAS",
+            "CHILENO",
+            "APERITIVOS"
+        ]
+    },
+    {
+        "nombre": "CHORRILLANA MECHADA",
+        "precio": 12500,
+        "descripcion": "Papas fritas, salteado de carne mechada y vegetales, cebolla caramelizada 2 huevos fritos + mayo cilantro",
+        "ingredientes": [
+            "papas fritas",
+            "salteado de carne mechada",
+            "vegetales",
+            "cebolla caramelizada",
+            "huevos fritos",
+            "mayo cilantro"
+        ],
+        "foto": true,
+        "categoria": [
+            "FONDOS",
+            "CHORRILLANA",
+            "CARNE",
+            "CHILENO",
+            "PARA COMPARTIR"
+        ]
+    },
+    {
+        "nombre": "CHORRILLANA POLLO",
+        "precio": 12200,
+        "descripcion": "Papas fritas, salteado de pollo y vegetales, cebolla caramelizada 2 huevos fritos + mayo cilantro",
+        "ingredientes": [
+            "papas fritas",
+            "salteado de pollo",
+            "vegetales",
+            "cebolla caramelizada",
+            "huevos fritos",
+            "mayo cilantro"
+        ],
+        "foto": true,
+        "categoria": [
+            "FONDOS",
+            "CHORRILLANA",
+            "POLLO",
+            "CHILENO",
+            "PARA COMPARTIR"
+        ]
+    },
+    {
+        "nombre": "CHORRILLANA VEGETALES",
+        "precio": 10900,
+        "descripcion": "Papas fritas, salteado de vegetales, cebolla caramelizada 2 huevos fritos + mayo cilantro",
+        "ingredientes": [
+            "papas fritas",
+            "salteado de vegetales",
+            "cebolla caramelizada",
+            "huevos fritos",
+            "mayo cilantro"
+        ],
+        "foto": true,
+        "categoria": [
+            "FONDOS",
+            "CHORRILLANA",
+            "VEGETARIANO",
+            "CHILENO",
+            "PARA COMPARTIR"
+        ]
+    },
+    {
+        "nombre": "PAPAS FRITAS 500GRS",
+        "precio": 5900,
+        "descripcion": "Porción de 500grs de papas fritas.",
+        "ingredientes": [
+            "papas fritas"
+        ],
+        "foto": true,
+        "categoria": [
+            "PICOTEOS",
+            "PAPAS FRITAS",
+            "ACOMPAÑAMIENTOS",
+            "FRITOS"
+        ]
+    },
+    {
+        "nombre": "PAPAS BRAVAS",
+        "precio": 6900,
+        "descripcion": "Porcion de Papas rusticas al merken acompañadas de salsa mostaza y miel",
+        "ingredientes": [
+            "papas rusticas al merken",
+            "salsa mostaza y miel"
+        ],
+        "foto": false,
+        "categoria": [
+            "PICOTEOS",
+            "PAPAS",
+            "ACOMPAÑAMIENTOS"
+        ]
+    },
+    {
+        "nombre": "PAPITAS CORAZON ❤️",
+        "precio": 11990,
+        "descripcion": "Papas fritas, cheddar derretido, sour cream, tocino, champiñon a las finas hierbas y cebollín",
+        "ingredientes": [
+            "papas fritas",
+            "cheddar derretido",
+            "sour cream",
+            "tocino",
+            "champiñon a las finas hierbas",
+            "cebollín"
+        ],
+        "foto": true,
+        "categoria": [
+            "PICOTEOS",
+            "PAPAS FRITAS",
+            "PARA COMPARTIR",
+            "LOADED FRIES"
+        ]
+    },
+    {
+        "nombre": "QUESADILLAS MECHADA",
+        "precio": 8900,
+        "descripcion": "8 porciones de quesadillas rellenas de cebolla, pimentón, choclo, carne mechada, queso más guacamole y sour cream",
+        "ingredientes": [
+            "quesadillas",
+            "cebolla",
+            "pimentón",
+            "choclo",
+            "carne mechada",
+            "queso",
+            "guacamole",
+            "sour cream"
+        ],
+        "foto": true,
+        "categoria": [
+            "QUESADILLAS",
+            "MEXICANO",
+            "CARNE"
+        ]
+    },
+    {
+        "nombre": "QUESADILLA POLLO",
+        "precio": 7900,
+        "descripcion": "8 porciones de quesadillas rellenas de cebolla, pimentón, choclo, pollo, queso más guacamole y sour cream",
+        "ingredientes": [
+            "quesadillas",
+            "cebolla",
+            "pimentón",
+            "choclo",
+            "pollo",
+            "queso",
+            "guacamole",
+            "sour cream"
+        ],
+        "foto": true,
+        "categoria": [
+            "QUESADILLAS",
+            "MEXICANO",
+            "POLLO"
+        ]
+    },
+    {
+        "nombre": "QUESADILLA VEGETALES",
+        "precio": 7500,
+        "descripcion": "8 porciones de quesadillas rellenas de cebolla, pimentón, choclo, champiñon, queso más guacamole y sour cream",
+        "ingredientes": [
+            "quesadillas",
+            "cebolla",
+            "pimentón",
+            "choclo",
+            "champiñon",
+            "queso",
+            "guacamole",
+            "sour cream"
+        ],
+        "foto": true,
+        "categoria": [
+            "QUESADILLAS",
+            "MEXICANO",
+            "VEGETARIANO"
+        ]
+    },
+    {
+        "nombre": "TABLA VEREDICTO",
+        "precio": 14900,
+        "descripcion": "Papas rusticas, aros de cebolla, alitas BBQ, empanadas de queso, sopaipillas cocktail, salsa BBQ, Mayo cilantro y sour cream",
+        "ingredientes": [
+            "papas rusticas",
+            "aros de cebolla",
+            "alitas BBQ",
+            "empanadas de queso",
+            "sopaipillas cocktail",
+            "salsa BBQ",
+            "mayo cilantro",
+            "sour cream"
+        ],
+        "foto": true,
+        "categoria": [
+            "TABLAS",
+            "PICOTEOS",
+            "PARA COMPARTIR",
+            "VARIADO"
+        ]
+    },
+    {
+        "nombre": "PACTO BURGER",
+        "precio": 9990,
+        "descripcion": "Hamburguesa hecha en casa, pan frica, mayonesa cilantro, Lechuga, tomate, cebolla morada, pepinillo, queso cheddar, acompañada de papas fritas.",
+        "ingredientes": [
+            "hamburguesa",
+            "pan frica",
+            "mayonesa cilantro",
+            "lechuga",
+            "tomate",
+            "cebolla morada",
+            "pepinillo",
+            "queso cheddar",
+            "papas fritas"
+        ],
+        "foto": true,
+        "categoria": [
+            "SANDWICHS",
+            "HAMBURGUESAS"
+        ]
+    },
+    {
+        "nombre": "JACK BURGER",
+        "precio": 10990,
+        "descripcion": "Hamburguesa hecha en casa, pan frica, Lechuga, tomate, cebolla, choclo, pimentón, tocino, queso cheddar, salsa jack BBQ (whiskey), acompañada de papas fritas",
+        "ingredientes": [
+            "hamburguesa",
+            "pan frica",
+            "lechuga",
+            "tomate",
+            "cebolla",
+            "choclo",
+            "pimentón",
+            "tocino",
+            "queso cheddar",
+            "salsa jack BBQ (whiskey)",
+            "papas fritas"
+        ],
+        "foto": true,
+        "categoria": [
+            "SANDWICHS",
+            "HAMBURGUESAS",
+            "WHISKY"
+        ]
+    },
+    {
+        "nombre": "SWEET CHILI BURGER",
+        "precio": 10990,
+        "descripcion": "Hamburguesa hecha en casa, pan frica, Lechuga, tomate, jalapeño, huevo, aros de cebolla, salsa sweet Chili, acompañada de papas fritas",
+        "ingredientes": [
+            "hamburguesa",
+            "pan frica",
+            "lechuga",
+            "tomate",
+            "jalapeño",
+            "huevo",
+            "aros de cebolla",
+            "salsa sweet Chili",
+            "papas fritas"
+        ],
+        "foto": true,
+        "categoria": [
+            "SANDWICHS",
+            "HAMBURGUESAS",
+            "PICANTE"
+        ]
+    },
+    {
+        "nombre": "BURGER ITALIANA",
+        "precio": 10990,
+        "descripcion": "Hamburguesa hecha en casa, pan frica, mayonesa, tomate, palta, acompañada de papas fritas",
+        "ingredientes": [
+            "hamburguesa",
+            "pan frica",
+            "mayonesa",
+            "tomate",
+            "palta",
+            "papas fritas"
+        ],
+        "foto": false,
+        "categoria": [
+            "SANDWICHS",
+            "HAMBURGUESAS",
+            "ITALIANO"
+        ]
+    },
+    {
+        "nombre": "MECHADA ITALIANA",
+        "precio": 10990,
+        "descripcion": "Jugosa carne mechada en pan frica, tomate, palta y mayonesa acompañada de papas fritas",
+        "ingredientes": [
+            "carne mechada",
+            "pan frica",
+            "tomate",
+            "palta",
+            "mayonesa",
+            "papas fritas"
+        ],
+        "foto": false,
+        "categoria": [
+            "SANDWICHS",
+            "MECHADA",
+            "ITALIANO",
+            "CHILENO"
+        ]
+    },
+    {
+        "nombre": "LA POCION",
+        "precio": 6290,
+        "descripcion": "La mezcla perfecta de crema de whiskey, amaretto, jugo de manzana, leche evaporada y almibar de canela dan forma a este delicioso coctel servido en botella Charmer",
+        "ingredientes": [
+            "crema de whiskey",
+            "amaretto",
+            "jugo de manzana",
+            "leche evaporada",
+            "almibar de canela"
+        ],
+        "foto": true,
+        "categoria": [
+            "TRAGOS DE LA CASA",
+            "COCTELERIA",
+            "WHISKY",
+            "LICOR",
+            "DULCE"
+        ]
+    },
+    {
+        "nombre": "FIRE",
+        "precio": 5990,
+        "descripcion": "Fireball Whisky, jugo de manzana, jugo de limón con un enllantado de azúcar y canela! Para encender la noche!",
+        "ingredientes": [
+            "Fireball Whisky",
+            "jugo de manzana",
+            "jugo de limón",
+            "azúcar",
+            "canela"
+        ],
+        "foto": true,
+        "categoria": [
+            "TRAGOS DE LA CASA",
+            "COCTELERIA",
+            "WHISKY",
+            "PICANTE"
+        ]
+    },
+    {
+        "nombre": "HEAL",
+        "precio": 5990,
+        "descripcion": "Refrescante cóctel a base de Ron de Coco, Curaçao blue, Jugo de piña en vaso enllantado de azúcar al limon",
+        "ingredientes": [
+            "Ron de Coco",
+            "Curaçao blue",
+            "Jugo de piña",
+            "azúcar al limon"
+        ],
+        "foto": true,
+        "categoria": [
+            "TRAGOS DE LA CASA",
+            "COCTELERIA",
+            "RON",
+            "TROPICAL",
+            "DULCE"
+        ]
+    },
+    {
+        "nombre": "PACTO DE SANGRE",
+        "precio": 5990,
+        "descripcion": "Infusión de azúcar y canela, jugos de naranja y manzana, triple sec, hielo, carmenere más fruta picada dan como resultado este exquisito y refrescante cóctel.",
+        "ingredientes": [
+            "infusión de azúcar y canela",
+            "jugo de naranja",
+            "jugo de manzana",
+            "triple sec",
+            "hielo",
+            "carmenere",
+            "fruta picada"
+        ],
+        "foto": true,
+        "categoria": [
+            "TRAGOS DE LA CASA",
+            "COCTELERIA",
+            "VINO",
+            "FRUTAL",
+            "REFRESCANTE"
+        ]
+    },
+    {
+        "nombre": "SPICY TEQUILA",
+        "precio": 5990,
+        "descripcion": "Tequila, triple sec, jugo de limon, syrup simple, jugo de naranja, enllantado de sal y Merken y gotitas de tabasco",
+        "ingredientes": [
+            "Tequila",
+            "triple sec",
+            "jugo de limon",
+            "syrup simple",
+            "jugo de naranja",
+            "sal",
+            "Merken",
+            "tabasco"
+        ],
+        "foto": false,
+        "categoria": [
+            "TRAGOS DE LA CASA",
+            "COCTELERIA",
+            "TEQUILA",
+            "PICANTE"
+        ]
+    },
+    {
+        "nombre": "BRAMBLE SOUR",
+        "precio": 5990,
+        "descripcion": "Combinacion de pisco, Licor de moras Chambord, limón, azúcar canela y pulpa de Berries.",
+        "ingredientes": [
+            "pisco",
+            "Licor de moras Chambord",
+            "limón",
+            "azúcar canela",
+            "pulpa de Berries"
+        ],
+        "foto": true,
+        "categoria": [
+            "TRAGOS DE LA CASA",
+            "COCTELERIA",
+            "PISCO",
+            "SOUR",
+            "FRUTAL"
+        ]
+    },
+    {
+        "nombre": "CAIPIRIÑA",
+        "precio": 5490,
+        "descripcion": "Cóctel brasileño clásico.",
+        "ingredientes": [
+            "Cachaça",
+            "lima",
+            "azúcar"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "CACHAÇA",
+            "BRASILEÑO"
+        ]
+    },
+    {
+        "nombre": "CAIPIROSKA",
+        "precio": 5490,
+        "descripcion": "Variación de la caipiriña con vodka.",
+        "ingredientes": [
+            "Vodka",
+            "lima",
+            "azúcar"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "VODKA"
+        ]
+    },
+    {
+        "nombre": "DAIKIRI SABOR",
+        "precio": 5490,
+        "descripcion": "Daiquiri clásico con opción de sabor.",
+        "ingredientes": [
+            "Ron",
+            "lima",
+            "azúcar",
+            "sabor a elección"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "RON",
+            "DAIQUIRI",
+            "FRUTAL"
+        ]
+    },
+    {
+        "nombre": "DAIKIRI JAGER",
+        "precio": 6490,
+        "descripcion": "Variación de daiquiri con Jägermeister.",
+        "ingredientes": [
+            "Jägermeister",
+            "Ron",
+            "lima",
+            "azúcar"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "LICOR",
+            "JAGERMEISTER",
+            "RON",
+            "DAIQUIRI"
+        ]
+    },
+    {
+        "nombre": "TOM COLLINS",
+        "precio": 5490,
+        "descripcion": "Cóctel clásico refrescante con gin.",
+        "ingredientes": [
+            "Gin",
+            "jugo de limón",
+            "azúcar",
+            "agua con gas"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "GIN",
+            "COLLINS"
+        ]
+    },
+    {
+        "nombre": "JHON COLLINS",
+        "precio": 5990,
+        "descripcion": "Variación del Tom Collins con whisky.",
+        "ingredientes": [
+            "Whisky",
+            "jugo de limón",
+            "azúcar",
+            "agua con gas"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "WHISKY",
+            "COLLINS"
+        ]
+    },
+    {
+        "nombre": "MARGARITA",
+        "precio": 5990,
+        "descripcion": "Cóctel clásico mexicano con tequila.",
+        "ingredientes": [
+            "Tequila",
+            "Triple Sec",
+            "jugo de lima",
+            "sal"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "TEQUILA",
+            "MARGARITA"
+        ]
+    },
+    {
+        "nombre": "MARGARITA BLUE",
+        "precio": 6290,
+        "descripcion": "Margarita con un toque de Curaçao Blue.",
+        "ingredientes": [
+            "Tequila",
+            "Curaçao Blue",
+            "jugo de lima",
+            "sal"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "TEQUILA",
+            "MARGARITA",
+            "LICOR"
+        ]
+    },
+    {
+        "nombre": "MOJITO CLASICO",
+        "precio": 5490,
+        "descripcion": "Cóctel cubano clásico con ron y menta.",
+        "ingredientes": [
+            "Ron",
+            "menta",
+            "lima",
+            "azúcar",
+            "agua con gas"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "RON",
+            "MOJITO",
+            "CUBANO"
+        ]
+    },
+    {
+        "nombre": "MOJITO SABORES",
+        "precio": 5990,
+        "descripcion": "Mojito clásico con opción de sabor.",
+        "ingredientes": [
+            "Ron",
+            "menta",
+            "lima",
+            "azúcar",
+            "agua con gas",
+            "sabor a elección"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "RON",
+            "MOJITO",
+            "FRUTAL"
+        ]
+    },
+    {
+        "nombre": "MOJITO COCO",
+        "precio": 6190,
+        "descripcion": "Mojito con sabor a coco.",
+        "ingredientes": [
+            "Ron de Coco",
+            "menta",
+            "lima",
+            "azúcar",
+            "agua con gas"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "RON",
+            "MOJITO",
+            "COCO",
+            "TROPICAL"
+        ]
+    },
+    {
+        "nombre": "MOJITO JÄGER",
+        "precio": 6990,
+        "descripcion": "Mojito con Jägermeister.",
+        "ingredientes": [
+            "Jägermeister",
+            "menta",
+            "lima",
+            "azúcar",
+            "agua con gas"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "LICOR",
+            "JAGERMEISTER",
+            "MOJITO"
+        ]
+    },
+    {
+        "nombre": "GIN TONIC",
+        "precio": 5990,
+        "descripcion": "Cóctel clásico con gin y tónica.",
+        "ingredientes": [
+            "Gin",
+            "agua tónica",
+            "cítrico"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "GIN",
+            "GIN TONIC"
+        ]
+    },
+    {
+        "nombre": "TROPICAL GIN",
+        "precio": 6990,
+        "descripcion": "Gin, Pulpa maracuya, Ginger",
+        "ingredientes": [
+            "Gin",
+            "Pulpa maracuya",
+            "Ginger Ale/Beer"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "GIN",
+            "TROPICAL",
+            "FRUTAL"
+        ]
+    },
+    {
+        "nombre": "VODKA TONIC",
+        "precio": 5490,
+        "descripcion": "Cóctel simple con vodka y tónica.",
+        "ingredientes": [
+            "Vodka",
+            "agua tónica",
+            "cítrico"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "VODKA",
+            "VODKA TONIC"
+        ]
+    },
+    {
+        "nombre": "RAMAZZOTTI SPRITZ",
+        "precio": 5990,
+        "descripcion": "Spritz refrescante con Ramazzotti Rosato.",
+        "ingredientes": [
+            "Ramazzotti Aperitivo Rosato",
+            "Prosecco",
+            "agua con gas",
+            "albahaca",
+            "lima"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "APERITIVO",
+            "SPRITZ",
+            "RAMAZZOTTI",
+            "ITALIANO"
+        ]
+    },
+    {
+        "nombre": "APEROL SPRITZ",
+        "precio": 5990,
+        "descripcion": "Spritz italiano clásico con Aperol.",
+        "ingredientes": [
+            "Aperol",
+            "Prosecco",
+            "agua con gas",
+            "naranja"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "APERITIVO",
+            "SPRITZ",
+            "APEROL",
+            "ITALIANO"
+        ]
+    },
+    {
+        "nombre": "LONG ISLAND",
+        "precio": 5990,
+        "descripcion": "Vodka + Tequila + Gin + Ron Blanco + Triple Sec + Azucar + Jugo de Limon + Coca Cola",
+        "ingredientes": [
+            "Vodka",
+            "Tequila",
+            "Gin",
+            "Ron Blanco",
+            "Triple Sec",
+            "Azucar",
+            "Jugo de Limon",
+            "Coca Cola"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "VODKA",
+            "TEQUILA",
+            "GIN",
+            "RON",
+            "LICOR"
+        ]
+    },
+    {
+        "nombre": "MOSCOW MULE",
+        "precio": 6290,
+        "descripcion": "Cóctel con vodka, ginger beer y lima.",
+        "ingredientes": [
+            "Vodka",
+            "Ginger Beer",
+            "jugo de lima"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "VODKA",
+            "MULE"
+        ]
+    },
+    {
+        "nombre": "LONDON MULE",
+        "precio": 6990,
+        "descripcion": "Variación del Moscow Mule con gin.",
+        "ingredientes": [
+            "Gin",
+            "Ginger Beer",
+            "jugo de lima"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "GIN",
+            "MULE"
+        ]
+    },
+    {
+        "nombre": "ITALO MULE",
+        "precio": 6990,
+        "descripcion": "Variación del Mule con Amaro italiano.",
+        "ingredientes": [
+            "Amaro",
+            "Ginger Beer",
+            "jugo de lima"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "LICOR",
+            "AMARO",
+            "MULE",
+            "ITALIANO"
+        ]
+    },
+    {
+        "nombre": "PADRINO",
+        "precio": 6490,
+        "descripcion": "Cóctel simple de whisky y amaretto.",
+        "ingredientes": [
+            "Whisky",
+            "Amaretto"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "WHISKY",
+            "LICOR",
+            "AMARETTO"
+        ]
+    },
+    {
+        "nombre": "JAGERMEISTER SOUR",
+        "precio": 5690,
+        "descripcion": "Versión sour con Jägermeister.",
+        "ingredientes": [
+            "Jägermeister",
+            "jugo de limón",
+            "azúcar"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "LICOR",
+            "JAGERMEISTER",
+            "SOUR"
+        ]
+    },
+    {
+        "nombre": "AMARETTO SOUR",
+        "precio": 5690,
+        "descripcion": "Cóctel sour clásico con Amaretto.",
+        "ingredientes": [
+            "Amaretto",
+            "jugo de limón",
+            "azúcar"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "LICOR",
+            "AMARETTO",
+            "SOUR"
+        ]
+    },
+    {
+        "nombre": "PISCO SOUR",
+        "precio": 4490,
+        "descripcion": "Cóctel sour clásico de Perú/Chile.",
+        "ingredientes": [
+            "Pisco",
+            "jugo de limón",
+            "jarabe de goma",
+            "clara de huevo",
+            "amargo de angostura"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA CLASICA",
+            "PISCO",
+            "SOUR",
+            "CHILENO",
+            "PERUANO"
+        ]
+    },
+    {
+        "nombre": "COPA ESPUMANTE",
+        "precio": 3490,
+        "descripcion": "Copa de vino espumante.",
+        "ingredientes": [
+            "Vino espumante"
+        ],
+        "foto": false,
+        "categoria": [
+            "VINOS",
+            "ESPUMANTE"
+        ]
+    },
+    {
+        "nombre": "COPA DE VINO",
+        "precio": 2000,
+        "descripcion": "Copa de vino tinto o blanco.",
+        "ingredientes": [
+            "Vino (tinto o blanco)"
+        ],
+        "foto": false,
+        "categoria": [
+            "VINOS"
+        ]
+    },
+    {
+        "nombre": "ALTO DEL CARMEN 35°",
+        "precio": 4490,
+        "descripcion": "Pisco chileno.",
+        "ingredientes": [
+            "Pisco Alto del Carmen 35°"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "PISCO",
+            "CHILENO"
+        ]
+    },
+    {
+        "nombre": "MISTRAL 35°",
+        "precio": 5990,
+        "descripcion": "Pisco chileno.",
+        "ingredientes": [
+            "Pisco Mistral 35°"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "PISCO",
+            "CHILENO"
+        ]
+    },
+    {
+        "nombre": "MISTRAL NOBEL 40",
+        "precio": 6990,
+        "descripcion": "Pisco chileno premium.",
+        "ingredientes": [
+            "Pisco Mistral Nobel 40°"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "PISCO",
+            "CHILENO",
+            "PREMIUM"
+        ]
+    },
+    {
+        "nombre": "JAGERMEISTER",
+        "precio": 4990,
+        "descripcion": "Licor de hierbas alemán.",
+        "ingredientes": [
+            "Jägermeister"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "LICOR",
+            "JAGERMEISTER",
+            "ALEMAN"
+        ]
+    },
+    {
+        "nombre": "JACK DANIELS N7",
+        "precio": 7490,
+        "descripcion": "Tennessee Whiskey.",
+        "ingredientes": [
+            "Jack Daniel's Old No. 7 Tennessee Whiskey"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "WHISKY",
+            "TENNESSEE WHISKEY",
+            "AMERICANO"
+        ]
+    },
+    {
+        "nombre": "JIM BEAM HONEY",
+        "precio": 6290,
+        "descripcion": "Licor de bourbon con miel.",
+        "ingredientes": [
+            "Jim Beam Honey Bourbon Liqueur"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "WHISKY",
+            "BOURBON",
+            "LICOR",
+            "AMERICANO"
+        ]
+    },
+    {
+        "nombre": "JOHNNIE WALKER RED",
+        "precio": 5490,
+        "descripcion": "Scotch Whisky.",
+        "ingredientes": [
+            "Johnnie Walker Red Label Scotch Whisky"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "WHISKY",
+            "SCOTCH",
+            "ESCOCES"
+        ]
+    },
+    {
+        "nombre": "FERNET BRANCA",
+        "precio": 4990,
+        "descripcion": "Amaro italiano.",
+        "ingredientes": [
+            "Fernet Branca"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "LICOR",
+            "FERNET",
+            "AMARO",
+            "ITALIANO"
+        ]
+    },
+    {
+        "nombre": "FERNET BUHERO NEGRO",
+        "precio": 4990,
+        "descripcion": "Fernet.",
+        "ingredientes": [
+            "Fernet Buhero Negro"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "LICOR",
+            "FERNET"
+        ]
+    },
+    {
+        "nombre": "GIN WAV",
+        "precio": 6990,
+        "descripcion": "Gin.",
+        "ingredientes": [
+            "Gin WAV"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "GIN"
+        ]
+    },
+    {
+        "nombre": "ABSOLUT BLUE",
+        "precio": 5200,
+        "descripcion": "Vodka sueco.",
+        "ingredientes": [
+            "Absolut Vodka (Blue)"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "VODKA",
+            "SUECO"
+        ]
+    },
+    {
+        "nombre": "VODKA STOLICH",
+        "precio": 4490,
+        "descripcion": "Vodka ruso.",
+        "ingredientes": [
+            "Stolichnaya Vodka"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "VODKA",
+            "RUSO"
+        ]
+    },
+    {
+        "nombre": "SHOT TEQUILA",
+        "precio": 3890,
+        "descripcion": "Shot de Tequila.",
+        "ingredientes": [
+            "Tequila"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "TEQUILA",
+            "SHOTS"
+        ]
+    },
+    {
+        "nombre": "SHOT JAGER",
+        "precio": 3890,
+        "descripcion": "Shot de Jägermeister.",
+        "ingredientes": [
+            "Jägermeister"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "LICOR",
+            "JAGERMEISTER",
+            "SHOTS"
+        ]
+    },
+    {
+        "nombre": "SHOT AMARETTO",
+        "precio": 3890,
+        "descripcion": "Shot de Amaretto.",
+        "ingredientes": [
+            "Amaretto"
+        ],
+        "foto": false,
+        "categoria": [
+            "DESTILADOS",
+            "LICOR",
+            "AMARETTO",
+            "SHOTS"
+        ]
+    },
+    {
+        "nombre": "SCHOP AUSTRAL CALAFATE 500cc",
+        "precio": 4800,
+        "descripcion": "Cerveza de barril Austral Calafate.",
+        "ingredientes": [
+            "Cerveza Austral Calafate (Schop/Draft)"
+        ],
+        "foto": true,
+        "categoria": [
+            "CERVEZAS",
+            "SCHOP",
+            "DRAFT",
+            "AUSTRAL",
+            "ARTESANAL",
+            "CHILENO"
+        ]
+    },
+    {
+        "nombre": "SCHOP HEINEKEN 500cc",
+        "precio": 4000,
+        "descripcion": "Cerveza de barril Heineken.",
+        "ingredientes": [
+            "Cerveza Heineken (Schop/Draft)"
+        ],
+        "foto": false,
+        "categoria": [
+            "CERVEZAS",
+            "SCHOP",
+            "DRAFT",
+            "HEINEKEN",
+            "LAGER"
+        ]
+    },
+    {
+        "nombre": "CORONA 330cc",
+        "precio": 3000,
+        "descripcion": "Cerveza mexicana en botella.",
+        "ingredientes": [
+            "Cerveza Corona"
+        ],
+        "foto": true,
+        "categoria": [
+            "CERVEZAS",
+            "BOTELLA",
+            "LAGER",
+            "MEXICANO"
+        ]
+    },
+    {
+        "nombre": "ROYAL GOLDEN LAGER 355cc",
+        "precio": 3000,
+        "descripcion": "Cerveza lager en botella.",
+        "ingredientes": [
+            "Cerveza Royal Golden Lager"
+        ],
+        "foto": true,
+        "categoria": [
+            "CERVEZAS",
+            "BOTELLA",
+            "LAGER"
+        ]
+    },
+    {
+        "nombre": "BELLANGE IPA 7° 473cc",
+        "precio": 5200,
+        "descripcion": "Cerveza artesanal IPA.",
+        "ingredientes": [
+            "Cerveza Bellange IPA 7°"
+        ],
+        "foto": false,
+        "categoria": [
+            "CERVEZAS",
+            "LATA",
+            "ARTESANAL",
+            "IPA"
+        ]
+    },
+    {
+        "nombre": "BELLANGE AAA 5,7° 473cc",
+        "precio": 4600,
+        "descripcion": "Cerveza artesanal AAA.",
+        "ingredientes": [
+            "Cerveza Bellange AAA 5,7°"
+        ],
+        "foto": false,
+        "categoria": [
+            "CERVEZAS",
+            "LATA",
+            "ARTESANAL",
+            "AMBER ALE"
+        ]
+    },
+    {
+        "nombre": "LINEA 1 - American Amber Ale 5,5°",
+        "precio": 5200,
+        "descripcion": "Una Amber Ale roja como las venas que atraviesan el subsuelo santiaguino desde los Dominicos hasta San Pablo. Cerveza acaramelada, de tonos cobrizos y un complejo perfil de maltas que incluye Pilsen, Munich, aroma, Cara Munich II, Cara Amber y levaduras US-05.",
+        "ingredientes": [
+            "Malta Pilsen",
+            "Malta Munich",
+            "Malta aroma",
+            "Malta Cara Munich II",
+            "Malta Cara Amber",
+            "Levadura US-05",
+            "lúpulo",
+            "agua"
+        ],
+        "foto": true,
+        "categoria": [
+            "CERVEZAS",
+            "LATA",
+            "ARTESANAL",
+            "AMBER ALE",
+            "CHILENO"
+        ]
+    },
+    {
+        "nombre": "SAN PATO - Stout 4,2°",
+        "precio": 4900,
+        "descripcion": "Cerveza negra, con espuma color canela, aromas a Malta tostada y café con chocolate. Sabor tostado intenso con tintes terrosos.",
+        "ingredientes": [
+            "Malta tostada",
+            "Café (aroma)",
+            "Chocolate (aroma)",
+            "lúpulo",
+            "levadura",
+            "agua"
+        ],
+        "foto": true,
+        "categoria": [
+            "CERVEZAS",
+            "LATA",
+            "ARTESANAL",
+            "STOUT",
+            "CHILENO"
+        ]
+    },
+    {
+        "nombre": "PRE EMERGENCIA - Hazy Ipa 6°",
+        "precio": 5200,
+        "descripcion": "Cerveza ultra turbia, muy sedosa en boca y acompañada de una inmensa cantidad de lúpulos.",
+        "ingredientes": [
+            "Lúpulos (varios)",
+            "malta",
+            "levadura",
+            "agua"
+        ],
+        "foto": true,
+        "categoria": [
+            "CERVEZAS",
+            "LATA",
+            "ARTESANAL",
+            "IPA",
+            "HAZY IPA",
+            "CHILENO"
+        ]
+    },
+    {
+        "nombre": "RE EMERGENCIA - Doble Hazy Ipa 8,1°",
+        "precio": 5400,
+        "descripcion": "La versión doble de la icónica Pre Emergencia, más turbia, lupulada y alcohólica.",
+        "ingredientes": [
+            "Lúpulos (varios, alta cantidad)",
+            "malta",
+            "levadura",
+            "agua"
+        ],
+        "foto": true,
+        "categoria": [
+            "CERVEZAS",
+            "LATA",
+            "ARTESANAL",
+            "IPA",
+            "HAZY IPA",
+            "DOBLE IPA",
+            "CHILENO"
+        ]
+    },
+    {
+        "nombre": "MAHOU Sin Alcohol",
+        "precio": 3000,
+        "descripcion": "Cerveza sin alcohol.",
+        "ingredientes": [
+            "Cerveza Mahou Sin Alcohol"
+        ],
+        "foto": false,
+        "categoria": [
+            "CERVEZAS",
+            "SIN ALCOHOL"
+        ]
+    },
+    {
+        "nombre": "AGUA MINERAL SIN GAS",
+        "precio": 1200,
+        "descripcion": "Agua mineral embotellada sin gas.",
+        "ingredientes": [
+            "Agua mineral sin gas"
+        ],
+        "foto": true,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "AGUA",
+            "SIN GAS"
+        ]
+    },
+    {
+        "nombre": "AGUA CON GAS",
+        "precio": 1200,
+        "descripcion": "Agua mineral embotellada con gas.",
+        "ingredientes": [
+            "Agua mineral con gas"
+        ],
+        "foto": true,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "AGUA",
+            "CON GAS"
+        ]
+    },
+    {
+        "nombre": "JUGO MARACUYA",
+        "precio": 3500,
+        "descripcion": "Jugo de maracuyá.",
+        "ingredientes": [
+            "Jugo de maracuyá"
+        ],
+        "foto": false,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "JUGOS",
+            "FRUTAL",
+            "TROPICAL"
+        ]
+    },
+    {
+        "nombre": "JUGO MANGO",
+        "precio": 3500,
+        "descripcion": "Jugo de mango.",
+        "ingredientes": [
+            "Jugo de mango"
+        ],
+        "foto": false,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "JUGOS",
+            "FRUTAL",
+            "TROPICAL"
+        ]
+    },
+    {
+        "nombre": "JUGO PIÑA",
+        "precio": 3500,
+        "descripcion": "Jugo de piña.",
+        "ingredientes": [
+            "Jugo de piña"
+        ],
+        "foto": false,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "JUGOS",
+            "FRUTAL",
+            "TROPICAL"
+        ]
+    },
+    {
+        "nombre": "JUGO BERRIES",
+        "precio": 3500,
+        "descripcion": "Jugo de berries.",
+        "ingredientes": [
+            "Jugo de berries"
+        ],
+        "foto": false,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "JUGOS",
+            "FRUTAL"
+        ]
+    },
+    {
+        "nombre": "LIMONADA MENTA JENGIBRE",
+        "precio": 3500,
+        "descripcion": "Limonada casera con menta y jengibre.",
+        "ingredientes": [
+            "Limonada",
+            "menta",
+            "jengibre"
+        ],
+        "foto": true,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "LIMONADA",
+            "REFRESCANTE",
+            "SIN ALCOHOL"
+        ]
+    },
+    {
+        "nombre": "COCA NORMAL 350cc",
+        "precio": 2500,
+        "descripcion": "Coca-Cola clásica en lata.",
+        "ingredientes": [
+            "Coca-Cola Normal"
+        ],
+        "foto": true,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "BEBIDAS GASEOSAS",
+            "COCA-COLA"
+        ]
+    },
+    {
+        "nombre": "COCA ZERO 350cc",
+        "precio": 2500,
+        "descripcion": "Coca-Cola Zero azúcar en lata.",
+        "ingredientes": [
+            "Coca-Cola Zero"
+        ],
+        "foto": true,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "BEBIDAS GASEOSAS",
+            "COCA-COLA",
+            "SIN AZUCAR"
+        ]
+    },
+    {
+        "nombre": "AGUA TÓNICA 350cc",
+        "precio": 2500,
+        "descripcion": "Agua tónica Schweppes en lata.",
+        "ingredientes": [
+            "Agua tónica (Schweppes)"
+        ],
+        "foto": true,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "BEBIDAS GASEOSAS",
+            "AGUA TONICA",
+            "MIXER"
+        ]
+    },
+    {
+        "nombre": "GINGER ALE 350cc",
+        "precio": 2500,
+        "descripcion": "Ginger Ale Schweppes en lata.",
+        "ingredientes": [
+            "Ginger Ale (Schweppes)"
+        ],
+        "foto": true,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "BEBIDAS GASEOSAS",
+            "GINGER ALE",
+            "MIXER"
+        ]
+    },
+    {
+        "nombre": "PEPSI ZERO 350cc",
+        "precio": 2500,
+        "descripcion": "Pepsi Zero azúcar en lata.",
+        "ingredientes": [
+            "Pepsi Zero"
+        ],
+        "foto": false,
+        "categoria": [
+            "BEBIDAS Y JUGOS",
+            "BEBIDAS GASEOSAS",
+            "PEPSI",
+            "SIN AZUCAR"
+        ]
+    },
+    {
+        "nombre": "QUESO CHEDDAR",
+        "precio": 1000,
+        "descripcion": "Extra de queso cheddar.",
+        "ingredientes": [
+            "Queso cheddar"
+        ],
+        "foto": false,
+        "categoria": [
+            "EXTRAS",
+            "QUESO"
+        ]
+    },
+    {
+        "nombre": "TOCINO",
+        "precio": 1000,
+        "descripcion": "Extra de tocino.",
+        "ingredientes": [
+            "Tocino"
+        ],
+        "foto": false,
+        "categoria": [
+            "EXTRAS",
+            "CARNE"
+        ]
+    },
+    {
+        "nombre": "CHELADA (limon y sal)",
+        "precio": 1000,
+        "descripcion": "Preparación para cerveza con limón y sal.",
+        "ingredientes": [
+            "Limón",
+            "sal"
+        ],
+        "foto": false,
+        "categoria": [
+            "EXTRAS",
+            "PREPARACION CERVEZA"
+        ]
+    },
+    {
+        "nombre": "MICHELADA (limon, sal, tabasco, salsa inglesa)",
+        "precio": 1000,
+        "descripcion": "Preparación para cerveza con limón, sal, tabasco y salsa inglesa.",
+        "ingredientes": [
+            "Limón",
+            "sal",
+            "tabasco",
+            "salsa inglesa"
+        ],
+        "foto": false,
+        "categoria": [
+            "EXTRAS",
+            "PREPARACION CERVEZA",
+            "PICANTE"
+        ]
+    },
+    {
+        "nombre": "BOMBILLA COMESTIBLE",
+        "precio": 1000,
+        "descripcion": "Bombilla que se puede comer.",
+        "ingredientes": [
+            "Bombilla comestible"
+        ],
+        "foto": true,
+        "categoria": [
+            "EXTRAS",
+            "OTROS"
+        ]
+    },
+    {
+        "nombre": "BARRA",
+        "precio": 0,
+        "descripcion": "Opción de consumo en barra.",
+        "ingredientes": [],
+        "foto": false,
+        "categoria": [
+            "EXTRAS",
+            "OTROS"
+        ]
+    },
+    {
+        "nombre": "SOUR CREAM",
+        "precio": 1000,
+        "descripcion": "Extra de sour cream.",
+        "ingredientes": [
+            "Sour cream"
+        ],
+        "foto": false,
+        "categoria": [
+            "EXTRAS",
+            "SALSAS"
+        ]
+    },
+    {
+        "nombre": "EXTRA PULPA",
+        "precio": 1000,
+        "descripcion": "Extra de pulpa de fruta para jugos o cócteles.",
+        "ingredientes": [
+            "Pulpa de fruta"
+        ],
+        "foto": false,
+        "categoria": [
+            "EXTRAS",
+            "FRUTA"
+        ]
+    },
+    {
+        "nombre": "MOSTAZA MIEL",
+        "precio": 1000,
+        "descripcion": "Extra de salsa mostaza y miel.",
+        "ingredientes": [
+            "Salsa mostaza y miel"
+        ],
+        "foto": false,
+        "categoria": [
+            "EXTRAS",
+            "SALSAS"
+        ]
+    },
+    {
+        "nombre": "MAYO CILANTRO",
+        "precio": 1000,
+        "descripcion": "Extra de mayonesa con cilantro.",
+        "ingredientes": [
+            "Mayonesa con cilantro"
+        ],
+        "foto": false,
+        "categoria": [
+            "EXTRAS",
+            "SALSAS"
+        ]
+    },
+    {
+        "nombre": "EXTRA VEGETALES",
+        "precio": 800,
+        "descripcion": "Extra de vegetales.",
+        "ingredientes": [
+            "Vegetales adicionales"
+        ],
+        "foto": false,
+        "categoria": [
+            "EXTRAS",
+            "VEGETALES"
+        ]
+    },
+    {
+        "nombre": "ALTO DEL CARMEN 35° X2",
+        "precio": 6490,
+        "descripcion": "+1 bebida lata 350ml",
+        "ingredientes": [
+            "2x Pisco Alto del Carmen 35°",
+            "1x bebida lata 350ml"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "PISCO",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "MISTRAL 35° 2X",
+        "precio": 6990,
+        "descripcion": "Promoción 2x1 en Pisco Mistral 35°.",
+        "ingredientes": [
+            "2x Pisco Mistral 35°"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "PISCO",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "HAVANA CLUB ESPECIAL X2",
+        "precio": 6990,
+        "descripcion": "Promoción 2x1 en Ron Havana Club Especial.",
+        "ingredientes": [
+            "2x Ron Havana Club Especial"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "RON",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "BACARDI AÑEJO 2X",
+        "precio": 6990,
+        "descripcion": "Promoción 2x1 en Ron Bacardi Añejo.",
+        "ingredientes": [
+            "2x Ron Bacardi Añejo"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "RON",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "FERNET BRANCA X2",
+        "precio": 7990,
+        "descripcion": "Promoción 2x1 en Fernet Branca.",
+        "ingredientes": [
+            "2x Fernet Branca"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "LICOR",
+            "FERNET",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "FERNET BUHERO NEGRO X2",
+        "precio": 7990,
+        "descripcion": "Promoción 2x1 en Fernet Buhero Negro.",
+        "ingredientes": [
+            "2x Fernet Buhero Negro"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "LICOR",
+            "FERNET",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "VODKA STOLI X2",
+        "precio": 6990,
+        "descripcion": "Promoción 2x1 en Vodka Stolichnaya.",
+        "ingredientes": [
+            "2x Stolichnaya Vodka"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "VODKA",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "VODKA SKYY BLUE X2",
+        "precio": 6990,
+        "descripcion": "Promoción 2x1 en Vodka SKYY.",
+        "ingredientes": [
+            "2x Vodka SKYY"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "VODKA",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "VODKA SKYY PIÑA X2",
+        "precio": 6990,
+        "descripcion": "Promoción 2x1 en Vodka SKYY Infusions Pineapple.",
+        "ingredientes": [
+            "2x Vodka SKYY Infusions Pineapple"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "VODKA",
+            "SABORIZADO",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "VODKA SKYY STRAWBERRY X2",
+        "precio": 6990,
+        "descripcion": "Promoción 2x1 en Vodka SKYY Infusions Strawberry.",
+        "ingredientes": [
+            "2x Vodka SKYY Infusions Strawberry"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "VODKA",
+            "SABORIZADO",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "VODKA SKYY RASPBERRY X2",
+        "precio": 6990,
+        "descripcion": "Promoción 2x1 en Vodka SKYY Infusions Raspberry.",
+        "ingredientes": [
+            "2x Vodka SKYY Infusions Raspberry"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "VODKA",
+            "SABORIZADO",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "JOHNNIE WALKER ROJO X2",
+        "precio": 9990,
+        "descripcion": "1 bebida lata 350ml",
+        "ingredientes": [
+            "2x Johnnie Walker Red Label",
+            "1x bebida lata 350ml"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "WHISKY",
+            "SCOTCH",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "BALLANTINE'S X2",
+        "precio": 9990,
+        "descripcion": "Promoción 2x1 en Ballantine's Finest Scotch Whisky.",
+        "ingredientes": [
+            "2x Ballantine's Finest Scotch Whisky"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "WHISKY",
+            "SCOTCH",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "JACK DANIELS N7 X2",
+        "precio": 10990,
+        "descripcion": "1 bebida lata 350ml",
+        "ingredientes": [
+            "2x Jack Daniel's Old No. 7",
+            "1x bebida lata 350ml"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "WHISKY",
+            "TENNESSEE WHISKEY",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "WOODFORD RESERVE Bourbon 2X",
+        "precio": 11990,
+        "descripcion": "Promoción 2x1 en Woodford Reserve Bourbon.",
+        "ingredientes": [
+            "2x Woodford Reserve Bourbon"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "WHISKY",
+            "BOURBON",
+            "PREMIUM",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "ABSOLUT RASPBERRY X2",
+        "precio": 7490,
+        "descripcion": "Promoción 2x1 en Absolut Raspberri Vodka.",
+        "ingredientes": [
+            "2x Absolut Raspberri Vodka"
+        ],
+        "foto": false,
+        "categoria": [
+            "PROMOS",
+            "DESTILADOS",
+            "VODKA",
+            "SABORIZADO",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "CAIPIRIÑA 2X",
+        "precio": 8490,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Caipiriña"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "CACHAÇA",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "CAIPIROSKA 2X",
+        "precio": 8490,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Caipiroska"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "VODKA",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "DAIKIRI 2X",
+        "precio": 8490,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Daiquiri (sabor a elección)"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "RON",
+            "DAIQUIRI",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "MARGARITA 2X",
+        "precio": 9490,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Margarita"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "TEQUILA",
+            "MARGARITA",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "MARGARITA BLUE 2X",
+        "precio": 9990,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Margarita Blue"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "TEQUILA",
+            "MARGARITA",
+            "LICOR",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "MOJITO SABOR 2X",
+        "precio": 9490,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Mojito Sabores"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "RON",
+            "MOJITO",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "GIN TONIC 2X",
+        "precio": 9490,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Gin Tonic"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "GIN",
+            "GIN TONIC",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "TROPICAL GIN 2X",
+        "precio": 10990,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Tropical Gin"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "GIN",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "RAMAZZOTTI 2X",
+        "precio": 8990,
+        "descripcion": "Martes a Jueves todo el dia (Probablemente Ramazzotti Spritz)",
+        "ingredientes": [
+            "2x Ramazzotti Spritz"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "APERITIVO",
+            "SPRITZ",
+            "RAMAZZOTTI",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "APEROL 2X",
+        "precio": 8990,
+        "descripcion": "Martes a Jueves todo el dia (Probablemente Aperol Spritz)",
+        "ingredientes": [
+            "2x Aperol Spritz"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "APERITIVO",
+            "SPRITZ",
+            "APEROL",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "MOSCOW MULE 2X",
+        "precio": 8990,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Moscow Mule"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "VODKA",
+            "MULE",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "LONDON MULE 2X",
+        "precio": 9990,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x London Mule"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "GIN",
+            "MULE",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "PIÑA COLADA X2",
+        "precio": 8990,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Piña Colada"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "RON",
+            "TROPICAL",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "PISCO SOUR 2X",
+        "precio": 6990,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Pisco Sour"
+        ],
+        "foto": false,
+        "categoria": [
+            "COCTELERIA 2X",
+            "PROMOS",
+            "COCTELERIA CLASICA",
+            "PISCO",
+            "SOUR",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "SCHOP CALAFATE 2X",
+        "precio": 8490,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Schop Austral Calafate 500cc"
+        ],
+        "foto": true,
+        "categoria": [
+            "SCHOP 2X",
+            "PROMOS",
+            "CERVEZAS",
+            "SCHOP",
+            "DRAFT",
+            "OFERTAS"
+        ]
+    },
+    {
+        "nombre": "SCHOP HEINEKEN 2X",
+        "precio": 6990,
+        "descripcion": "Martes a Jueves todo el dia",
+        "ingredientes": [
+            "2x Schop Heineken 500cc"
+        ],
+        "foto": false,
+        "categoria": [
+            "SCHOP 2X",
+            "PROMOS",
+            "CERVEZAS",
+            "SCHOP",
+            "DRAFT",
+            "OFERTAS"
+        ]
+    }
+]

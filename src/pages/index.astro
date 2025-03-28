@@ -233,6 +233,20 @@ const formatCategory = (category: string): string => {
 		disconnectedCallback() {}
 	}
 
+	class DataCurrency extends HTMLElement {
+		connectedCallback() {
+			try {
+				const currency = this.dataset.currency;
+				const value = this.dataset.value;
+				this.innerText = new Intl.NumberFormat(undefined, {
+					style: "currency",
+					currency,
+				}).format(Number(value));
+			} catch {}
+		}
+		disconnectedCallback() {}
+	}
+
 	customElements.define("cart-button-add-product", CartButtonAddProduct);
 	customElements.define(
 		"cart-button-remove-product",
@@ -243,6 +257,7 @@ const formatCategory = (category: string): string => {
 	customElements.define("cart-container", CartContainer);
 	customElements.define("cart-button-add-filter", CartButtonAddFilter);
 	customElements.define("cart-button-remove-filter", CartButtonRemoveFilter);
+	customElements.define("data-currency", DataCurrency);
 </script>
 
 <Layout>
@@ -291,6 +306,15 @@ const formatCategory = (category: string): string => {
 										{productInfo.product.nombre}
 									</a>
 								</h1>
+
+								<p>
+									<data-currency
+										data-currency="CLT"
+										data-value={productInfo.product.precio}
+									>
+										{productInfo.product.precio}
+									</data-currency>
+								</p>
 							</header>
 
 							<section class="[grid-area:description] pb-2">

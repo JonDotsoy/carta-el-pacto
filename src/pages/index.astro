@@ -13,32 +13,32 @@ const producList = producListEntries.map(([_, p]) => p);
 const categories = new Set();
 
 for (const p of producList) {
-	for (const c of p.product.categoria) {
-		categories.add(c);
-	}
+  for (const c of p.product.categoria) {
+    categories.add(c);
+  }
 }
 
 const imageModules = new WeakMap<any, any>();
 
 for (const productInfo of producList) {
-	if ("image" in productInfo) {
-		const relative = path.relative(
-			new URL("./", import.meta.url).pathname,
-			new URL(productInfo.image).pathname,
-		);
+  if ("image" in productInfo) {
+    const relative = path.relative(
+      new URL("./", import.meta.url).pathname,
+      new URL(productInfo.image).pathname,
+    );
 
-		const imageModule = Reflect.get(images, productInfo.id);
+    const imageModule = Reflect.get(images, productInfo.id);
 
-		imageModules.set(productInfo, imageModule);
-	}
+    imageModules.set(productInfo, imageModule);
+  }
 }
 
 const formatCategory = (category: string): string => {
-	if (Reflect.has(categoriesFormated, category)) {
-		const c = Reflect.get(categoriesFormated, category);
-		return c.emoji ? `${c.emoji} ${c.label}` : c.label;
-	}
-	return category;
+  if (Reflect.has(categoriesFormated, category)) {
+    const c = Reflect.get(categoriesFormated, category);
+    return c.emoji ? `${c.emoji} ${c.label}` : c.label;
+  }
+  return category;
 };
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
@@ -46,206 +46,187 @@ const formatCategory = (category: string): string => {
 ---
 
 <style>
-	product-article {
-		grid-template:
-			"header image" auto
-			"description image" auto
-			"ingredients image" auto
-			"categories image" 1fr
-			"control control" auto
-			/ 1fr auto;
-	}
+  product-article {
+    grid-template:
+      "header image" auto
+      "description image" auto
+      "ingredients image" auto
+      "categories image" 1fr
+      "control control" auto
+      / 1fr auto;
+  }
 </style>
 
 <script>
-	import "../components/cmps";
+  import "../components/cmps";
 </script>
 
 <Layout>
-	<div class="relative">
-		<section class="sticky w-full left-0 top-0 bg-white shadow">
-			<div class="container m-auto">
-				<section class="flex">
-					<a
-						class="px-2 py-4 hover:bg-gray-100 cursor-pointer"
-						href="#products">Productos</a
-					>
-					<a
-						class="px-2 py-4 hover:bg-gray-100 cursor-pointer"
-						href="#filters">Filtros</a
-					>
-					<span class="flex-auto"></span>
-					<cart-button-add-filter
-						class="px-2 py-4 hover:bg-gray-100 cursor-pointer [[data-active='true']]:bg-gray-300"
-						h-call="cartService.toggleShowOnlyCart"
-					>
-						Mostrar solo agregados
-					</cart-button-add-filter>
-				</section>
-			</div>
-		</section>
+  <div class="relative">
+    <section class="sticky w-full left-0 top-0 bg-white shadow">
+      <div class="container m-auto">
+        <section class="flex">
+          <a class="px-2 py-4 hover:bg-gray-100 cursor-pointer" href="#products"
+            >Productos</a
+          >
+          <a class="px-2 py-4 hover:bg-gray-100 cursor-pointer" href="#filters"
+            >Filtros</a
+          >
+          <span class="flex-auto"></span>
+          <cart-button-add-filter
+            class="px-2 py-4 hover:bg-gray-100 cursor-pointer [[data-active='true']]:bg-gray-300"
+            h-call="cartService.toggleShowOnlyCart"
+          >
+            Mostrar solo agregados
+          </cart-button-add-filter>
+        </section>
+      </div>
+    </section>
 
-		<cart-container
-			id="products"
-			class="container m-auto grid gap-2 py-4 px-2"
-		>
-			{
-				producList.map((productInfo) => {
-					const imageModule = imageModules.get(productInfo);
+    <cart-container id="products" class="container m-auto grid gap-2 py-4 px-2">
+      {
+        producList.map((productInfo) => {
+          const imageModule = imageModules.get(productInfo);
 
-					return (
-						<product-article
-							id={productInfo.id}
-							class="border border-gray-300 shadow rounded grid py-4 px-6 [[data-on-cart='true']]:bg-gray-100 [[data-filtered='true']]:hidden"
-							data-categories={JSON.stringify(
-								productInfo.product.categoria,
-							)}
-							data-filtered:h-call="cartService.subscribeFilteredByCategories"
-							h-call-categories={JSON.stringify(
-								productInfo.product.categoria,
-							)}
-							h-call-product-id={productInfo.id}
-						>
-							<header class="[grid-area:header]">
-								<h1 class="text-xl font-bold">
-									<a href={`#${productInfo.id}`}>
-										{productInfo.product.nombre}
-									</a>
-								</h1>
+          return (
+            <product-article
+              id={productInfo.id}
+              class="border border-gray-300 shadow rounded grid py-4 px-6 [[data-on-cart='true']]:bg-gray-100 [[data-filtered='true']]:hidden"
+              data-categories={JSON.stringify(productInfo.product.categoria)}
+              data-filtered:h-call="cartService.subscribeFilteredByCategories"
+              h-call-categories={JSON.stringify(productInfo.product.categoria)}
+              h-call-product-id={productInfo.id}
+            >
+              <header class="[grid-area:header]">
+                <h1 class="text-xl font-bold">
+                  <a href={`#${productInfo.id}`}>
+                    {productInfo.product.nombre}
+                  </a>
+                </h1>
 
-								<p>
-									<data-currency
-										class="text-3xl text-green-600 font-bold"
-										h-locale="es-cl"
-										h-intl="numberFormat"
-										h-intl-style="currency"
-										h-intl-currency="CLT"
-										h-intl-minimum-fraction-digits="0"
-										h-intl-maximum-fraction-digits="0"
-										h-value={productInfo.product.precio}
-									>
-										{productInfo.product.precio}
-									</data-currency>
-								</p>
-							</header>
+                <p>
+                  <data-currency
+                    class="text-3xl text-green-600 font-bold"
+                    h-locale="es-cl"
+                    h-intl="numberFormat"
+                    h-intl-style="currency"
+                    h-intl-currency="CLT"
+                    h-intl-minimum-fraction-digits="0"
+                    h-intl-maximum-fraction-digits="0"
+                    h-value={productInfo.product.precio}
+                  >
+                    {productInfo.product.precio}
+                  </data-currency>
+                </p>
+              </header>
 
-							<section class="[grid-area:description] pb-2">
-								<h2 class="hidden">Descripcion</h2>
-								<p class="text-gray-600">
-									{productInfo.product.descripcion}
-								</p>
-							</section>
+              <section class="[grid-area:description] pb-2">
+                <h2 class="hidden">Descripcion</h2>
+                <p class="text-gray-600">{productInfo.product.descripcion}</p>
+              </section>
 
-							<section class="[grid-area:ingredients] pb-2">
-								<h2 class="hidden">Ingredientes</h2>
-								<ul class="list-disc pl-8 text-gray-600">
-									{productInfo.product.ingredientes.map(
-										(ingrediente) => (
-											<li>{ingrediente}</li>
-										),
-									)}
-								</ul>
-							</section>
+              <section class="[grid-area:ingredients] pb-2">
+                <h2 class="hidden">Ingredientes</h2>
+                <ul class="list-disc pl-8 text-gray-600">
+                  {productInfo.product.ingredientes.map((ingrediente) => (
+                    <li>{ingrediente}</li>
+                  ))}
+                </ul>
+              </section>
 
-							<section class="[grid-area:categories] pb-2">
-								<h2 class="hidden">Categorias</h2>
-								<ul class="flex gap-2 flex-wrap">
-									{productInfo.product.categoria.map(
-										(category) => (
-											<cart-button-add-filter
-												class="text-blue-500 text-sm hover:underline rounded [[data-active='true']]:bg-gray-200 cursor-pointer px-2 py-1"
-												h-call="cartService.toggleFilter"
-												h-call-category={category}
-												data-active:h-call="cartService.subscribeCategoryActive"
-											>
-												{formatCategory(
-													category as string,
-												)}
-											</cart-button-add-filter>
-										),
-									)}
-								</ul>
-							</section>
+              <section class="[grid-area:categories] pb-2">
+                <h2 class="hidden">Categorias</h2>
+                <ul class="flex gap-2 flex-wrap">
+                  {productInfo.product.categoria.map((category) => (
+                    <cart-button-add-filter
+                      class="text-blue-500 text-sm hover:underline rounded [[data-active='true']]:bg-gray-200 cursor-pointer px-2 py-1"
+                      h-call="cartService.toggleFilter"
+                      h-call-category={category}
+                      data-active:h-call="cartService.subscribeCategoryActive"
+                    >
+                      {formatCategory(category as string)}
+                    </cart-button-add-filter>
+                  ))}
+                </ul>
+              </section>
 
-							{imageModule && (
-								<div class="[grid-area:image] pl-2">
-									<Image
-										class="max-w-[100px] md:max-w-[300px]"
-										alt={`Image ${productInfo.id}`}
-										widths={[300, 120]}
-										title="sd"
-										src={imageModule}
-									/>
-								</div>
-							)}
+              {imageModule && (
+                <div class="[grid-area:image] pl-2">
+                  <Image
+                    class="max-w-[100px] md:max-w-[300px]"
+                    alt={`Image ${productInfo.id}`}
+                    widths={[300, 120]}
+                    title="sd"
+                    src={imageModule}
+                  />
+                </div>
+              )}
 
-							<section class="[grid-area:control] pt-4">
-								<div class="flex gap-4 items-center">
-									<div class="flex">
-										<cart-button-add-product
-											class="py-2 px-6 border-l border-y rounded-l border-blue-500 cursor-pointer hover:bg-blue-200 focus:bg-blue-200"
-											data-add-for={productInfo.id}
-											h-call="cartService.addProduct"
-											h-call-product-id={productInfo.id}
-										>
-											+
-										</cart-button-add-product>
-										<cart-button-remove-product
-											class="py-2 px-6 border-r border-y rounded-r border-blue-500 cursor-pointer hover:bg-blue-200 focus:bg-blue-200"
-											data-remove-for={productInfo.id}
-											h-call="cartService.removeProduct"
-											h-call-product-id={productInfo.id}
-										>
-											-
-										</cart-button-remove-product>
-									</div>
-									<span>
-										<cart-product-count-addeds
-											class="before:content-[attr(before)]"
-											before="0"
-											h-call-product-id={productInfo.id}
-											before:h-call="cartService.subscribeCountProducts"
-										/>{" "}
-										agregados
-									</span>
+              <section class="[grid-area:control] pt-4">
+                <div class="flex gap-4 items-center">
+                  <div class="flex">
+                    <cart-button-add-product
+                      class="py-2 px-6 border-l border-y rounded-l border-blue-500 cursor-pointer hover:bg-blue-200 focus:bg-blue-200"
+                      data-add-for={productInfo.id}
+                      h-call="cartService.addProduct"
+                      h-call-product-id={productInfo.id}
+                    >
+                      +
+                    </cart-button-add-product>
+                    <cart-button-remove-product
+                      class="py-2 px-6 border-r border-y rounded-r border-blue-500 cursor-pointer hover:bg-blue-200 focus:bg-blue-200"
+                      data-remove-for={productInfo.id}
+                      h-call="cartService.removeProduct"
+                      h-call-product-id={productInfo.id}
+                    >
+                      -
+                    </cart-button-remove-product>
+                  </div>
+                  <span>
+                    <cart-product-count-addeds
+                      class="before:content-[attr(before)]"
+                      before="0"
+                      h-call-product-id={productInfo.id}
+                      before:h-call="cartService.subscribeCountProducts"
+                    />{" "}
+                    agregados
+                  </span>
 
-									<span>
-										<h-element
-											class="before:content-[attr(before)]"
-											before="0"
-											h-call-product-id={productInfo.id}
-											h-call-product-price={
-												productInfo.product.precio
-											}
-											bedore:h-call="cartService.subscribeShowPrice"
-										/>
-									</span>
-								</div>
-							</section>
-						</product-article>
-					);
-				})
-			}
-		</cart-container>
+                  <span>
+                    <h-element
+                      class="before:content-[attr(before)]"
+                      before="0"
+                      h-call-product-id={productInfo.id}
+                      h-call-product-price={productInfo.product.precio}
+                      bedore:h-call="cartService.subscribeShowPrice"
+                    />
+                  </span>
+                </div>
+              </section>
+            </product-article>
+          );
+        })
+      }
+    </cart-container>
 
-		<section id="filters" class="container m-auto px-2 py-4">
-			<h2 class="font-bold text-gray-600">Categorias:</h2>
-			<aside class="flex flex-wrap gap-2">
-				{
-					Array.from(categories.values())
-						.sort()
-						.map((category) => (
-							<cart-button-add-filter
-								className="border border-gray-300 rounded px-2 py-1 [[data-active='true']]:bg-gray-300 cursor-pointer"
-								h-call="cartService.toggleFilter"
-								h-call-category={category}
-								data-active:h-call="cartService.subscribeCategoryActive"
-							>
-								{formatCategory(category as string)}
-							</cart-button-add-filter>
-						))
-				}
-			</aside>
-		</section>
-	</div>
+    <section id="filters" class="container m-auto px-2 py-4">
+      <h2 class="font-bold text-gray-600">Categorias:</h2>
+      <aside class="flex flex-wrap gap-2">
+        {
+          Array.from(categories.values())
+            .sort()
+            .map((category) => (
+              <cart-button-add-filter
+                className="border border-gray-300 rounded px-2 py-1 [[data-active='true']]:bg-gray-300 cursor-pointer"
+                h-call="cartService.toggleFilter"
+                h-call-category={category}
+                data-active:h-call="cartService.subscribeCategoryActive"
+              >
+                {formatCategory(category as string)}
+              </cart-button-add-filter>
+            ))
+        }
+      </aside>
+    </section>
+  </div>
 </Layout>

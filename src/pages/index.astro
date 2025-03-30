@@ -1,9 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import products from "../data/carta-full.json";
-import { Image, imageConfig } from "astro:assets";
+import { Image } from "astro:assets";
 import path from "path";
-import { ConditionHidden } from "../components/ConditionalHidden";
 import categoriesFormated from "../data/categories.json";
 import { images } from "../data/carta-images.astro";
 
@@ -59,208 +58,7 @@ const formatCategory = (category: string): string => {
 </style>
 
 <script>
-	import { map, computed } from "nanostores";
-
-	const cartAddedLocalStorage = localStorage.getItem("_cart_added");
-	const cartFilteredLocalStorage = localStorage.getItem("_cart_filtered");
-
-	const $cartProductAdded = map<Record<string, number>>(
-		cartAddedLocalStorage ? JSON.parse(cartAddedLocalStorage) : {},
-	);
-
-	const $cartFiltered = map<Record<string, boolean>>(
-		cartFilteredLocalStorage ? JSON.parse(cartFilteredLocalStorage) : {},
-	);
-
-	const $cartProductAddedAndcartFiltered = computed(
-		[$cartProductAdded, $cartFiltered],
-		(cartProductAdded, cartFiltered) => {
-			return {
-				cartProductAdded: cartProductAdded,
-				cartFiltered: cartFiltered,
-			};
-		},
-	);
-
-	$cartProductAdded.listen(() =>
-		localStorage.setItem(
-			"_cart_added",
-			JSON.stringify($cartProductAdded.get()),
-		),
-	);
-
-	$cartFiltered.listen(() =>
-		localStorage.setItem(
-			"_cart_filtered",
-			JSON.stringify($cartFiltered.get()),
-		),
-	);
-
-	class CartProductCountAddeds extends HTMLElement {
-		connectedCallback() {
-			$cartProductAdded.subscribe(() => {
-				if (this.dataset.for) {
-					this.innerText = `${$cartProductAdded.get()[this.dataset.for] ?? 0}`;
-				}
-			});
-			this.addEventListener("click", () => {
-				if (this.dataset.addFor)
-					$cartProductAdded.setKey(
-						this.dataset.addFor,
-						($cartProductAdded.get()[this.dataset.addFor] ?? 0) + 1,
-					);
-			});
-		}
-		disconnectedCallback() {}
-	}
-
-	class CartButtonAddProduct extends HTMLElement {
-		connectedCallback() {
-			this.addEventListener("click", () => {
-				if (this.dataset.addFor)
-					$cartProductAdded.setKey(
-						this.dataset.addFor,
-						($cartProductAdded.get()[this.dataset.addFor] ?? 0) + 1,
-					);
-			});
-		}
-		disconnectedCallback() {}
-	}
-
-	class CartButtonRemoveProduct extends HTMLElement {
-		connectedCallback() {
-			this.addEventListener("click", () => {
-				if (this.dataset.removeFor)
-					$cartProductAdded.setKey(
-						this.dataset.removeFor,
-						Math.max(
-							0,
-							($cartProductAdded.get()[this.dataset.removeFor] ??
-								0) - 1,
-						),
-					);
-			});
-		}
-		disconnectedCallback() {}
-	}
-
-	class ProductArticle extends HTMLElement {
-		connectedCallback() {
-			$cartProductAdded.subscribe(() => {
-				if (this.id)
-					this.dataset.onCard = $cartProductAdded.get()[this.id]
-						? "true"
-						: "";
-			});
-			$cartProductAddedAndcartFiltered.subscribe(
-				({ cartFiltered, cartProductAdded }) => {
-					const { __ADDED__, ...e } = $cartFiltered.get();
-
-					const cartListFiltered = Object.entries(e)
-						.filter(([k, v]) => v)
-						.map(([k]) => k);
-
-					if (__ADDED__ && this.id) {
-						const cartAdded = $cartProductAdded.get()[this.id] ?? 0;
-
-						if (cartAdded === 0) {
-							this.dataset.filtered = "true";
-							return;
-						}
-					}
-
-					if (cartListFiltered.length === 0) {
-						this.dataset.filtered = "";
-						return;
-					}
-
-					if (this.dataset.categories) {
-						const categories: string[] = JSON.parse(
-							this.dataset.categories,
-						);
-
-						this.dataset.filtered = categories.some((c) =>
-							cartListFiltered.includes(c),
-						)
-							? ""
-							: "true";
-					}
-				},
-			);
-		}
-		disconnectedCallback() {}
-	}
-
-	class CartContainer extends HTMLElement {
-		connectedCallback() {}
-		disconnectedCallback() {}
-	}
-
-	class CartButtonAddFilter extends HTMLElement {
-		connectedCallback() {
-			this.addEventListener("click", () => {
-				if (this.dataset.for) {
-					if (this.dataset.for === "__ADDED__") {
-						$cartFiltered.set({
-							__ADDED__: !(
-								$cartFiltered.get()["__ADDED__"] ?? false
-							),
-						});
-						return;
-					}
-					$cartFiltered.set({
-						...$cartFiltered.get(),
-						__ADDED__: false,
-						[this.dataset.for]: !(
-							$cartFiltered.get()[this.dataset.for] ?? false
-						),
-					});
-				}
-			});
-			$cartFiltered.subscribe(() => {
-				if (this.dataset.for) {
-					this.dataset.active = $cartFiltered.get()[this.dataset.for]
-						? "true"
-						: "";
-				}
-			});
-		}
-		disconnectedCallback() {}
-	}
-
-	class CartButtonRemoveFilter extends HTMLElement {
-		connectedCallback() {}
-		disconnectedCallback() {}
-	}
-
-	class DataCurrency extends HTMLElement {
-		connectedCallback() {
-			try {
-				const currency = this.dataset.currency;
-				const value = this.dataset.value;
-				this.innerText = new Intl.NumberFormat('es-CL', {
-					style: "currency",
-					currency,
-					currencyDisplay: 'symbol',
-					minimumFractionDigits: 0,
-					maximumFractionDigits: 0,
-				}).format(Number(value));
-			} catch {}
-		}
-		disconnectedCallback() {}
-	}
-
-	customElements.define("cart-button-add-product", CartButtonAddProduct);
-	customElements.define(
-		"cart-button-remove-product",
-		CartButtonRemoveProduct,
-	);
-	customElements.define("product-article", ProductArticle);
-	customElements.define("cart-product-count-addeds", CartProductCountAddeds);
-	customElements.define("cart-container", CartContainer);
-	customElements.define("cart-button-add-filter", CartButtonAddFilter);
-	customElements.define("cart-button-remove-filter", CartButtonRemoveFilter);
-	customElements.define("data-currency", DataCurrency);
+	import "../components/cmps";
 </script>
 
 <Layout>
@@ -279,7 +77,7 @@ const formatCategory = (category: string): string => {
 					<span class="flex-auto"></span>
 					<cart-button-add-filter
 						class="px-2 py-4 hover:bg-gray-100 cursor-pointer [[data-active='true']]:bg-gray-300"
-						data-for={"__ADDED__"}
+						h-call="cartService.toggleShowOnlyCart"
 					>
 						Filtrar los agregados
 					</cart-button-add-filter>
@@ -313,8 +111,13 @@ const formatCategory = (category: string): string => {
 								<p>
 									<data-currency
 										class="text-3xl"
-										data-currency="CLT"
-										data-value={productInfo.product.precio}
+										h-locale="es-cl"
+										h-intl="numberFormat"
+										h-intl-style="currency"
+										h-intl-currency="CLT"
+										h-intl-minimum-fraction-digits="0"
+										h-intl-maximum-fraction-digits="0"
+										h-value={productInfo.product.precio}
 									>
 										{productInfo.product.precio}
 									</data-currency>
@@ -344,7 +147,9 @@ const formatCategory = (category: string): string => {
 										(category) => (
 											<cart-button-add-filter
 												class="border rounded px-4 [[data-active='true']]:bg-gray-300 cursor-pointer"
-												data-for={category}
+												h-call="cartService.toggleFilter"
+												h-call-category={category}
+												data-active:h-call="cartService.subscribeCategoryActive"
 											>
 												{formatCategory(
 													category as string,
@@ -373,19 +178,25 @@ const formatCategory = (category: string): string => {
 										<cart-button-add-product
 											class="py-2 px-6 border-l border-y rounded-l border-blue-500 cursor-pointer hover:bg-blue-200 focus:bg-blue-200"
 											data-add-for={productInfo.id}
+											h-call="cartService.addProduct"
+											h-call-product-id={productInfo.id}
 										>
 											+
 										</cart-button-add-product>
 										<cart-button-remove-product
 											class="py-2 px-6 border-r border-y rounded-r border-blue-500 cursor-pointer hover:bg-blue-200 focus:bg-blue-200"
 											data-remove-for={productInfo.id}
+											h-call="cartService.removeProduct"
+											h-call-product-id={productInfo.id}
 										>
 											-
 										</cart-button-remove-product>
 									</div>
 									<span>
 										<cart-product-count-addeds
-											data-for={productInfo.id}
+											class="before:content-[attr(before)]"
+											h-call-product-id={productInfo.id}
+											before:h-call="cartService.subscribeCountProducts"
 										/>{" "}
 										agregados
 									</span>
@@ -402,7 +213,7 @@ const formatCategory = (category: string): string => {
 			<aside class="flex flex-wrap gap-2">
 				<cart-button-add-filter
 					class="border rounded px-4 [[data-active='true']]:bg-gray-300 cursor-pointer"
-					data-for={"__ADDED__"}
+					h-call="cartService.toggleShowOnlyCart"
 				>
 					Agregado
 				</cart-button-add-filter>
@@ -411,8 +222,9 @@ const formatCategory = (category: string): string => {
 						.sort()
 						.map((category) => (
 							<cart-button-add-filter
-								class="border rounded px-4 [[data-active='true']]:bg-gray-300 cursor-pointer"
-								data-for={category}
+								className="border rounded px-4 [[data-active='true']]:bg-gray-300 cursor-pointer"
+								h-call="cartService.toggleFilter"
+								h-call-category={category}
 							>
 								{formatCategory(category as string)}
 							</cart-button-add-filter>

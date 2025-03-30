@@ -1,13 +1,13 @@
-import type { FC } from "react"
+import type { FC } from "react";
 
 interface CartFilterLabelProps {
-    className?: string
+  className?: string;
 }
 
 export const CartFilterLabel: FC<CartFilterLabelProps> = () => {
-    return <>
-        <span>
-
-        </span>
+  return (
+    <>
+      <span></span>
     </>
-}
+  );
+};

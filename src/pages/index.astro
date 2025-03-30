@@ -96,10 +96,15 @@ const formatCategory = (category: string): string => {
 					return (
 						<product-article
 							id={productInfo.id}
-							class="border rounded grid py-4 px-6 [[data-on-card='true']]:bg-gray-100 [[data-filtered='true']]:hidden"
+							class="border border-gray-300 shadow rounded grid py-4 px-6 [[data-on-cart='true']]:bg-gray-100 [[data-filtered='true']]:hidden"
 							data-categories={JSON.stringify(
 								productInfo.product.categoria,
 							)}
+							data-filtered:h-call="cartService.subscribeFilteredByCategories"
+							h-call-categories={JSON.stringify(
+								productInfo.product.categoria,
+							)}
+							h-call-product-id={productInfo.id}
 						>
 							<header class="[grid-area:header]">
 								<h1 class="text-xl font-bold">
@@ -110,7 +115,7 @@ const formatCategory = (category: string): string => {
 
 								<p>
 									<data-currency
-										class="text-3xl"
+										class="text-3xl text-green-600 font-bold"
 										h-locale="es-cl"
 										h-intl="numberFormat"
 										h-intl-style="currency"
@@ -126,12 +131,14 @@ const formatCategory = (category: string): string => {
 
 							<section class="[grid-area:description] pb-2">
 								<h2 class="hidden">Descripcion</h2>
-								<p>{productInfo.product.descripcion}</p>
+								<p class="text-gray-600">
+									{productInfo.product.descripcion}
+								</p>
 							</section>
 
 							<section class="[grid-area:ingredients] pb-2">
 								<h2 class="hidden">Ingredientes</h2>
-								<ul class="list-disc pl-8">
+								<ul class="list-disc pl-8 text-gray-600">
 									{productInfo.product.ingredientes.map(
 										(ingrediente) => (
 											<li>{ingrediente}</li>
@@ -146,7 +153,7 @@ const formatCategory = (category: string): string => {
 									{productInfo.product.categoria.map(
 										(category) => (
 											<cart-button-add-filter
-												class="border rounded px-4 [[data-active='true']]:bg-gray-300 cursor-pointer"
+												class="text-blue-500 text-sm hover:underline rounded [[data-active='true']]:bg-gray-200 cursor-pointer px-2 py-1"
 												h-call="cartService.toggleFilter"
 												h-call-category={category}
 												data-active:h-call="cartService.subscribeCategoryActive"
@@ -195,10 +202,23 @@ const formatCategory = (category: string): string => {
 									<span>
 										<cart-product-count-addeds
 											class="before:content-[attr(before)]"
+											before="0"
 											h-call-product-id={productInfo.id}
 											before:h-call="cartService.subscribeCountProducts"
 										/>{" "}
 										agregados
+									</span>
+
+									<span>
+										<h-element
+											class="before:content-[attr(before)]"
+											before="0"
+											h-call-product-id={productInfo.id}
+											h-call-product-price={
+												productInfo.product.precio
+											}
+											bedore:h-call="cartService.subscribeShowPrice"
+										/>
 									</span>
 								</div>
 							</section>
@@ -209,22 +229,17 @@ const formatCategory = (category: string): string => {
 		</cart-container>
 
 		<section id="filters" class="container m-auto px-2 py-4">
-			<h2 class="font-bold">Filtros</h2>
+			<h2 class="font-bold text-gray-600">Categorias:</h2>
 			<aside class="flex flex-wrap gap-2">
-				<cart-button-add-filter
-					class="border rounded px-4 [[data-active='true']]:bg-gray-300 cursor-pointer"
-					h-call="cartService.toggleShowOnlyCart"
-				>
-					Agregado
-				</cart-button-add-filter>
 				{
 					Array.from(categories.values())
 						.sort()
 						.map((category) => (
 							<cart-button-add-filter
-								className="border rounded px-4 [[data-active='true']]:bg-gray-300 cursor-pointer"
+								className="border border-gray-300 rounded px-2 py-1 [[data-active='true']]:bg-gray-300 cursor-pointer"
 								h-call="cartService.toggleFilter"
 								h-call-category={category}
+								data-active:h-call="cartService.subscribeCategoryActive"
 							>
 								{formatCategory(category as string)}
 							</cart-button-add-filter>

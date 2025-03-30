@@ -77,7 +77,18 @@ const formatCategory = (category: string): string => {
             class="px-2 py-4 hover:bg-gray-100 cursor-pointer [[data-active='true']]:bg-gray-300"
             h-call="cartService.toggleShowOnlyCart"
           >
-            Mostrar solo agregados
+            Carrito: <h-element
+              class="before:content-[attr(before)]"
+              before="CLT 0"
+              h-call-prices={JSON.stringify(
+                Object.fromEntries(
+                  Object.values(producList).map((p) => [
+                    p.id,
+                    p.product.precio,
+                  ]),
+                ),
+              )}
+              before:h-call="cartService.subscribeTotalPricing"></h-element>
           </cart-button-add-filter>
         </section>
       </div>
@@ -182,23 +193,20 @@ const formatCategory = (category: string): string => {
                       -
                     </cart-button-remove-product>
                   </div>
-                  <span>
+                  <span class="text-gray-500">
                     <cart-product-count-addeds
                       class="before:content-[attr(before)]"
                       before="0"
                       h-call-product-id={productInfo.id}
                       before:h-call="cartService.subscribeCountProducts"
                     />{" "}
-                    agregados
-                  </span>
-
-                  <span>
+                    agregados /{" "}
                     <h-element
                       class="before:content-[attr(before)]"
                       before="0"
                       h-call-product-id={productInfo.id}
                       h-call-product-price={productInfo.product.precio}
-                      bedore:h-call="cartService.subscribeShowPrice"
+                      before:h-call="cartService.subscribeShowPrice"
                     />
                   </span>
                 </div>

@@ -89,7 +89,39 @@ export class CartService {
           const e = Math.max(s[productId], 0);
           const b = Number.isNaN(e) ? 0 : e;
 
-          cb(productPrice * b);
+          cb(
+            new Intl.NumberFormat("es-cl", {
+              style: "currency",
+              currency: "clt",
+              minimumFractionDigits: 0,
+              maximumFractionDigits: 0,
+            }).format(productPrice * b),
+          );
+        });
+      },
+    };
+  }
+
+  subscribeTotalPricing({ prices: pricesStr }: { prices: string }) {
+    const prices: Record<string, number> = JSON.parse(pricesStr);
+
+    return {
+      subscribe: (cb: (value: any) => any) => {
+        return this.productsInCartAtom.subscribe((s) => {
+          let total = 0;
+
+          for (const [pid, c] of Object.entries(s)) {
+            total += prices[pid] * c;
+          }
+
+          cb(
+            new Intl.NumberFormat("es-cl", {
+              style: "currency",
+              currency: "clt",
+              minimumFractionDigits: 0,
+              maximumFractionDigits: 0,
+            }).format(total),
+          );
         });
       },
     };

@@ -1,1962 +1,2873 @@
 {
-  "d4b99b1f421183dbbf06977636c98843690fafe39f4527dd5435f759240be987": {
-    "id": "d4b99b1f421183dbbf06977636c98843690fafe39f4527dd5435f759240be987",
+  "0161b27d029b0b65ae77b82f9155d450758836260bbebf0a888e4b468148c81b": {
+    "id": "0161b27d029b0b65ae77b82f9155d450758836260bbebf0a888e4b468148c81b",
     "product": {
-      "nombre": "ALITAS DE POLLO BBQ",
-      "precio": 6990,
-      "descripcion": "8 unidades de alitas bañadas en salsa Barbecue",
-      "ingredientes": ["alitas de pollo", "salsa Barbecue"],
-      "foto": true,
-      "categoria": ["PICOTEOS", "ALITAS", "APERITIVOS"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/d4b99b1f421183dbbf06977636c98843690fafe39f4527dd5435f759240be987.png"
-  },
-  "70b342a85baae571375d0fb90d0cebc4e8aab8f4ff136c8406c434fe35aca620": {
-    "id": "70b342a85baae571375d0fb90d0cebc4e8aab8f4ff136c8406c434fe35aca620",
-    "product": {
-      "nombre": "ALITAS DE POLLO YANGNYEOM",
-      "precio": 6990,
-      "descripcion": "8 unidades de alitas bañadas en salsa dulce picante Yangnyeom",
-      "ingredientes": ["alitas de pollo", "salsa dulce picante Yangnyeom"],
-      "foto": true,
-      "categoria": ["PICOTEOS", "ALITAS", "APERITIVOS", "COREANO"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/70b342a85baae571375d0fb90d0cebc4e8aab8f4ff136c8406c434fe35aca620.png"
-  },
-  "1b45713433e1d9b401d08cd9ebc9d3cf1a5666d4a597d27498fff4f72bd5daf6": {
-    "id": "1b45713433e1d9b401d08cd9ebc9d3cf1a5666d4a597d27498fff4f72bd5daf6",
-    "product": {
-      "nombre": "AROS DE CEBOLLA",
-      "precio": 5990,
-      "descripcion": "Porción de aros de cebolla fritos + mayo cilantro",
-      "ingredientes": ["aros de cebolla fritos", "mayo cilantro"],
-      "foto": true,
-      "categoria": ["PICOTEOS", "FRITOS", "APERITIVOS"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/1b45713433e1d9b401d08cd9ebc9d3cf1a5666d4a597d27498fff4f72bd5daf6.png"
-  },
-  "0ef7de8d3a155f0b7571d7d254fd5d508e0bcc5f9b10e51ca1ee5d2d61ba428d": {
-    "id": "0ef7de8d3a155f0b7571d7d254fd5d508e0bcc5f9b10e51ca1ee5d2d61ba428d",
-    "product": {
-      "nombre": "EMPANADAS QUESO",
-      "precio": 7900,
-      "descripcion": "6 unidades de empanadas fritas de queso + mayo cilantro",
-      "ingredientes": ["empanadas fritas de queso", "mayo cilantro"],
-      "foto": true,
-      "categoria": ["PICOTEOS", "EMPANADAS", "FRITOS", "APERITIVOS"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/0ef7de8d3a155f0b7571d7d254fd5d508e0bcc5f9b10e51ca1ee5d2d61ba428d.png"
-  },
-  "700cbf32540c3bc76ff9f831d2be3045169bf52dcdf30ccd9a51927d64ea8749": {
-    "id": "700cbf32540c3bc76ff9f831d2be3045169bf52dcdf30ccd9a51927d64ea8749",
-    "product": {
-      "nombre": "SOPAIPILLAS COCKTAIL",
-      "precio": 5990,
-      "descripcion": "10 unidades de sopaipillas cocktail + guacamole y mayo cilantro",
-      "ingredientes": ["sopaipillas cocktail", "guacamole", "mayo cilantro"],
-      "foto": true,
-      "categoria": ["PICOTEOS", "SOPAIPILLAS", "CHILENO", "APERITIVOS"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/700cbf32540c3bc76ff9f831d2be3045169bf52dcdf30ccd9a51927d64ea8749.png"
-  },
-  "00587e975a26148feed1a2857409b22bf639095ebf2f4755da00dff1cc688988": {
-    "id": "00587e975a26148feed1a2857409b22bf639095ebf2f4755da00dff1cc688988",
-    "product": {
-      "nombre": "CHORRILLANA MECHADA",
-      "precio": 12500,
-      "descripcion": "Papas fritas, salteado de carne mechada y vegetales, cebolla caramelizada 2 huevos fritos + mayo cilantro",
+      "nombre": "2 SCHOPS X 9000",
+      "precio": 9000,
+      "descripcion": "Opciones: Barbudo - Coffe stout 5,5°, huaso - dulcinea - red ale 4,5°. Promo válida de lunes a miércoles todo el día y de jueves a sábado desde las 16:30 hasta las 20 hrs",
       "ingredientes": [
-        "papas fritas",
-        "salteado de carne mechada",
-        "vegetales",
-        "cebolla caramelizada",
-        "huevos fritos",
-        "mayo cilantro"
+        "Barbudo - Coffe stout 5,5°",
+        "huaso - dulcinea - red ale 4,5°"
       ],
       "foto": true,
       "categoria": [
-        "FONDOS",
-        "CHORRILLANA",
-        "CARNE",
-        "CHILENO",
-        "PARA COMPARTIR"
+        "PROMO CHELA DEL DÍA"
       ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/00587e975a26148feed1a2857409b22bf639095ebf2f4755da00dff1cc688988.png"
-  },
-  "7ed18bc7994f5d0c80bbfc845b34ddb51598d28079d3dfb49e455f89693e6cdf": {
-    "id": "7ed18bc7994f5d0c80bbfc845b34ddb51598d28079d3dfb49e455f89693e6cdf",
-    "product": {
-      "nombre": "CHORRILLANA POLLO",
-      "precio": 12200,
-      "descripcion": "Papas fritas, salteado de pollo y vegetales, cebolla caramelizada 2 huevos fritos + mayo cilantro",
-      "ingredientes": [
-        "papas fritas",
-        "salteado de pollo",
-        "vegetales",
-        "cebolla caramelizada",
-        "huevos fritos",
-        "mayo cilantro"
-      ],
-      "foto": true,
-      "categoria": [
-        "FONDOS",
-        "CHORRILLANA",
-        "POLLO",
-        "CHILENO",
-        "PARA COMPARTIR"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/7ed18bc7994f5d0c80bbfc845b34ddb51598d28079d3dfb49e455f89693e6cdf.png"
-  },
-  "1258baea61bc0788f8345ddceea4ecd920cd5cb36f30f783f6a16ac249d628e2": {
-    "id": "1258baea61bc0788f8345ddceea4ecd920cd5cb36f30f783f6a16ac249d628e2",
-    "product": {
-      "nombre": "CHORRILLANA VEGETALES",
-      "precio": 10900,
-      "descripcion": "Papas fritas, salteado de vegetales, cebolla caramelizada 2 huevos fritos + mayo cilantro",
-      "ingredientes": [
-        "papas fritas",
-        "salteado de vegetales",
-        "cebolla caramelizada",
-        "huevos fritos",
-        "mayo cilantro"
-      ],
-      "foto": true,
-      "categoria": [
-        "FONDOS",
-        "CHORRILLANA",
-        "VEGETARIANO",
-        "CHILENO",
-        "PARA COMPARTIR"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/1258baea61bc0788f8345ddceea4ecd920cd5cb36f30f783f6a16ac249d628e2.png"
-  },
-  "2983d612c3d665e25155a79698a0e944f79c4408ef2b8867b6f7505c1e308c3b": {
-    "id": "2983d612c3d665e25155a79698a0e944f79c4408ef2b8867b6f7505c1e308c3b",
-    "product": {
-      "nombre": "PAPAS FRITAS 500GRS",
-      "precio": 5900,
-      "descripcion": "Porción de 500grs de papas fritas.",
-      "ingredientes": ["papas fritas"],
-      "foto": true,
-      "categoria": ["PICOTEOS", "PAPAS FRITAS", "ACOMPAÑAMIENTOS", "FRITOS"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/2983d612c3d665e25155a79698a0e944f79c4408ef2b8867b6f7505c1e308c3b.png"
-  },
-  "8caee6ef0da7b05b3a5db14ad9951add11c930004d2b106963651989cf3139f4": {
-    "id": "8caee6ef0da7b05b3a5db14ad9951add11c930004d2b106963651989cf3139f4",
-    "product": {
-      "nombre": "PAPAS BRAVAS",
-      "precio": 6900,
-      "descripcion": "Porcion de Papas rusticas al merken acompañadas de salsa mostaza y miel",
-      "ingredientes": ["papas rusticas al merken", "salsa mostaza y miel"],
-      "foto": false,
-      "categoria": ["PICOTEOS", "PAPAS", "ACOMPAÑAMIENTOS"]
     }
   },
-  "090575a6112bb1be9927af0cfe38e346209ece2c5e8126df1b00420ad40f5822": {
-    "id": "090575a6112bb1be9927af0cfe38e346209ece2c5e8126df1b00420ad40f5822",
+  "0f57f31139c91a9d694ae7c637ceb33090a87f4d67a62f0b04451e5b976c610d": {
+    "id": "0f57f31139c91a9d694ae7c637ceb33090a87f4d67a62f0b04451e5b976c610d",
     "product": {
-      "nombre": "PAPITAS CORAZON ❤️",
-      "precio": 11990,
-      "descripcion": "Papas fritas, cheddar derretido, sour cream, tocino, champiñon a las finas hierbas y cebollín",
+      "nombre": "SAMPLER",
+      "precio": 13000,
+      "descripcion": "Sampler con 4 cervezas artesanales de 255cc a tu elección. Aplica sólo para productos nacionales.",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "f1fa00c02321a97e0126900ed7ba4ffd2b8feb50c254486c49ea7da94a259643": {
+    "id": "f1fa00c02321a97e0126900ed7ba4ffd2b8feb50c254486c49ea7da94a259643",
+    "product": {
+      "nombre": "TAMANGO - CORTA CORRIENTE - HAZY IPA 330 CC",
+      "precio": 5700,
+      "descripcion": "6°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "e5d613ffd86a35efbad54cc5539374daef03ef1d72614a6719017311145bb9b3": {
+    "id": "e5d613ffd86a35efbad54cc5539374daef03ef1d72614a6719017311145bb9b3",
+    "product": {
+      "nombre": "TAMANGO - CORTA CORRIENTE - HAZY IPA 473 CC",
+      "precio": 6300,
+      "descripcion": "6°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "c5a7a8f68a4729fe8e088f357a3ad8f9942744fc907d9774b5daa109df01f49b": {
+    "id": "c5a7a8f68a4729fe8e088f357a3ad8f9942744fc907d9774b5daa109df01f49b",
+    "product": {
+      "nombre": "CODA - REQUIEM STOUT - AMERICAN STOUT 330CC",
+      "precio": 4900,
+      "descripcion": "Requiem Stout no es una cerveza simple. La complejidad en maltas aporta fuertes características tostadas a chocolate y café. Sin embargo, todo viene contrarrestado por altas dosis de lúpulos, apoyando el balance con amargor y aromas. 55 IBU, 6,4% ABV",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "5276f538a7ffa59b293df720bf887a70755cacb92e7a76d11ab2d81ae86387f1": {
+    "id": "5276f538a7ffa59b293df720bf887a70755cacb92e7a76d11ab2d81ae86387f1",
+    "product": {
+      "nombre": "CODA - REQUIEM STOUT - AMERICAN STOUT 473 CC",
+      "precio": 5500,
+      "descripcion": "Requiem Stout no es una cerveza simple. La complejidad en maltas aporta fuertes características tostadas a chocolate y café. Sin embargo, todo viene contrarrestado por altas dosis de lúpulos, apoyando el balance con amargor y aromas. 55 IBU, 6,4% ABV",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "c2474a294700a05bcd4176a6f3e682740b9434508f12af5f9b70bfa00eebbd94": {
+    "id": "c2474a294700a05bcd4176a6f3e682740b9434508f12af5f9b70bfa00eebbd94",
+    "product": {
+      "nombre": "TÜBINGER - HOPPINNES IPA 330CC",
+      "precio": 4900,
+      "descripcion": "6°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "d70fe7281f58a23e01bae2e886c9e58c14f17e480ff69f7fa0a349dbae143814": {
+    "id": "d70fe7281f58a23e01bae2e886c9e58c14f17e480ff69f7fa0a349dbae143814",
+    "product": {
+      "nombre": "TÜBINGER - HOPPINNES IPA 473 CC",
+      "precio": 5500,
+      "descripcion": "6°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "582b26bbd7d41c0af298ff45c18933118c2a7b06fddc373564ced768bb6ed010": {
+    "id": "582b26bbd7d41c0af298ff45c18933118c2a7b06fddc373564ced768bb6ed010",
+    "product": {
+      "nombre": "BUNDOR - BELZEBOO- IMPERIAL STOUT 330CC",
+      "precio": 5200,
+      "descripcion": "11°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "12deab4be0d6044a0f2f5a681fbe632cd10d3db968d23a7f2c3aef0f2481eb1f": {
+    "id": "12deab4be0d6044a0f2f5a681fbe632cd10d3db968d23a7f2c3aef0f2481eb1f",
+    "product": {
+      "nombre": "BUNDOR - BELZEBOO- IMPERIAL STOUT 470 CC",
+      "precio": 5800,
+      "descripcion": "11°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "b4d451e39885289a2aa1e541fc72917cc274cf16779e6103ad1c957991209879": {
+    "id": "b4d451e39885289a2aa1e541fc72917cc274cf16779e6103ad1c957991209879",
+    "product": {
+      "nombre": "CUELLO NEGRO- AMBAR 330CC",
+      "precio": 5000,
+      "descripcion": "5,8°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "f49e88316a48bdb47c4922ab3b1dfa51b659da5a6822bfffb3e9ae4af561cdce": {
+    "id": "f49e88316a48bdb47c4922ab3b1dfa51b659da5a6822bfffb3e9ae4af561cdce",
+    "product": {
+      "nombre": "CUELLO NEGRO- AMBAR 470 CC",
+      "precio": 5600,
+      "descripcion": "5,8°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "c6aeb8536b2fec99845e2461770dad682fe025ef9419a55cb0ea491a4cdb834b": {
+    "id": "c6aeb8536b2fec99845e2461770dad682fe025ef9419a55cb0ea491a4cdb834b",
+    "product": {
+      "nombre": "DELIRIUM- TREMENS - BELGIAN STRONG ALE 330 CC",
+      "precio": 6200,
+      "descripcion": "8,5°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "129eb6745a976fc2461513f64ee1802afcd2a30ef41107457122894c60fb29d8": {
+    "id": "129eb6745a976fc2461513f64ee1802afcd2a30ef41107457122894c60fb29d8",
+    "product": {
+      "nombre": "DELIRIUM- TREMENS - BELGIAN STRONG ALE 473 CC",
+      "precio": 6800,
+      "descripcion": "8,5°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "24bc06b7a92c4e4e0e44fdf5f0f47a6a7aa465e1ed6e2b546e8977198282684b": {
+    "id": "24bc06b7a92c4e4e0e44fdf5f0f47a6a7aa465e1ed6e2b546e8977198282684b",
+    "product": {
+      "nombre": "ZIGURAT - WEE HEAVY CON ADICIÓN DE AVELLANA Y PISTACHO 330 CC",
+      "precio": 4900,
+      "descripcion": "7,5° Cerveza maltosa, dextrinosa y usualmente con sabor a caramelo dulce, en este caso con adición de pistacho y avellana.",
       "ingredientes": [
-        "papas fritas",
-        "cheddar derretido",
-        "sour cream",
-        "tocino",
-        "champiñon a las finas hierbas",
-        "cebollín"
+        "avellana",
+        "pistacho"
       ],
       "foto": true,
       "categoria": [
-        "PICOTEOS",
-        "PAPAS FRITAS",
-        "PARA COMPARTIR",
-        "LOADED FRIES"
+        "EN SCHOP"
       ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/090575a6112bb1be9927af0cfe38e346209ece2c5e8126df1b00420ad40f5822.png"
+    }
   },
-  "5424eda8819311d1e2e3fc600f80bda56ccec652526a7cdfc1d638bae2437b7b": {
-    "id": "5424eda8819311d1e2e3fc600f80bda56ccec652526a7cdfc1d638bae2437b7b",
+  "29fee167f31e29f37d94a40f41e1181227bd25af3b37ad6b247cd931d3430633": {
+    "id": "29fee167f31e29f37d94a40f41e1181227bd25af3b37ad6b247cd931d3430633",
     "product": {
-      "nombre": "QUESADILLAS MECHADA",
-      "precio": 8900,
-      "descripcion": "8 porciones de quesadillas rellenas de cebolla, pimentón, choclo, carne mechada, queso más guacamole y sour cream",
+      "nombre": "ZIGURAT - WEE HEAVY CON ADICIÓN DE AVELLANA Y PISTACHO 470 CC",
+      "precio": 5500,
+      "descripcion": "7,5° Cerveza maltosa, dextrinosa y usualmente con sabor a caramelo dulce, en este caso con adición de pistacho y avellana.",
       "ingredientes": [
-        "quesadillas",
-        "cebolla",
-        "pimentón",
-        "choclo",
-        "carne mechada",
-        "queso",
-        "guacamole",
-        "sour cream"
+        "avellana",
+        "pistacho"
       ],
       "foto": true,
-      "categoria": ["QUESADILLAS", "MEXICANO", "CARNE"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/5424eda8819311d1e2e3fc600f80bda56ccec652526a7cdfc1d638bae2437b7b.png"
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
   },
-  "77d8ed333b128dbc056bddb67232a833602b4ede5940bd6926b87925f5a480fd": {
-    "id": "77d8ed333b128dbc056bddb67232a833602b4ede5940bd6926b87925f5a480fd",
+  "cd5522e405d33bf0e5cf70633898abd483490bb7b62178672a8ed707486ef816": {
+    "id": "cd5522e405d33bf0e5cf70633898abd483490bb7b62178672a8ed707486ef816",
     "product": {
-      "nombre": "QUESADILLA POLLO",
-      "precio": 7900,
-      "descripcion": "8 porciones de quesadillas rellenas de cebolla, pimentón, choclo, pollo, queso más guacamole y sour cream",
+      "nombre": "KEYER - WEST COAST IPA 330 CC",
+      "precio": 4900,
+      "descripcion": "La Keyer West Coast IPA es una cerveza de 6.6% ABV y 35 IBU, originaria de Quilpué, Valparaíso, Chile. Con un color dorado brillante, esta IPA destaca por sus intensas notas cítricas gracias al lúpulo Citra, que aporta aromas a maracuyá y pomelo, y al lúpulo Chinook, que otorga un amargor robusto y resinoso. Con un final seco y alta tomabilidad, esta cerveza captura la esencia refrescante y vibrante de la costa oeste. Características: Estilo: West Coast IPA, ABV: 6.6%, IBU: 35, Color: Dorado",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "807f235bc59d16a5664c0b4d3da7cf80e3a3e99485d9f16052f80a6ba90cc219": {
+    "id": "807f235bc59d16a5664c0b4d3da7cf80e3a3e99485d9f16052f80a6ba90cc219",
+    "product": {
+      "nombre": "KEYER - WEST COAST IPA 473 CC",
+      "precio": 5500,
+      "descripcion": "La Keyer West Coast IPA es una cerveza de 6.6% ABV y 35 IBU, originaria de Quilpué, Valparaíso, Chile. Con un color dorado brillante, esta IPA destaca por sus intensas notas cítricas gracias al lúpulo Citra, que aporta aromas a maracuyá y pomelo, y al lúpulo Chinook, que otorga un amargor robusto y resinoso. Con un final seco y alta tomabilidad, esta cerveza captura la esencia refrescante y vibrante de la costa oeste. Características: Estilo: West Coast IPA, ABV: 6.6%, IBU: 35, Color: Dorado",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "0b70bbc97bfedfd241f42a7a53c2d3884ab7cd8a7678c8d34dd4c8b0dd143f9d": {
+    "id": "0b70bbc97bfedfd241f42a7a53c2d3884ab7cd8a7678c8d34dd4c8b0dd143f9d",
+    "product": {
+      "nombre": "DE HALVE MAAN STRAFFE HENDRICK TRIPEL 330 CC",
+      "precio": 5600,
+      "descripcion": "Belgian Tripel, dorada con un collar de espuma consistente. El aroma es especiado con notas de pimienta negra, cilantro y jengibre con un toque de naranja. La primera impresión es de caramelo, que luego se desarrolla hacia un significativo sabor amargo. En el final en boca se puede detectar un toque de banana en combinación con la presencia prominente de frutos cítricos. 9.0% ABV",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "76573ae012c269629ba92d1f64b60e33cb023768528d0c90a9a071211a12fea1": {
+    "id": "76573ae012c269629ba92d1f64b60e33cb023768528d0c90a9a071211a12fea1",
+    "product": {
+      "nombre": "DE HALVE MAAN STRAFFE HENDRICK TRIPEL 473 CC",
+      "precio": 6200,
+      "descripcion": "Belgian Tripel, dorada con un collar de espuma consistente. El aroma es especiado con notas de pimienta negra, cilantro y jengibre con un toque de naranja. La primera impresión es de caramelo, que luego se desarrolla hacia un significativo sabor amargo. En el final en boca se puede detectar un toque de banana en combinación con la presencia prominente de frutos cítricos. 9.0% ABV",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "69c794e40b5bac0c0cb3709f9046c7cb21dc4120a1d34265f17eb085228df44e": {
+    "id": "69c794e40b5bac0c0cb3709f9046c7cb21dc4120a1d34265f17eb085228df44e",
+    "product": {
+      "nombre": "BARBUDO - COFFEE STOUT 330 CC",
+      "precio": 4600,
+      "descripcion": "7°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "2b0d2a0d7ce0e86f2bd451174fb8632cab779b73da4ce2baa4026b68e95b0d2a": {
+    "id": "2b0d2a0d7ce0e86f2bd451174fb8632cab779b73da4ce2baa4026b68e95b0d2a",
+    "product": {
+      "nombre": "BARBUDO - COFFEE STOUT 470CC",
+      "precio": 5200,
+      "descripcion": "7°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "d8d851b1e4ea7b9b3c77b0ef2495155b7f95f55ab2f0a676c681ae57861a67ae": {
+    "id": "d8d851b1e4ea7b9b3c77b0ef2495155b7f95f55ab2f0a676c681ae57861a67ae",
+    "product": {
+      "nombre": "PRIMATOR - PREMIUM LAGER 330 CC",
+      "precio": 5000,
+      "descripcion": "5°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "f59d5da0ec922659dd279442fd15c209d8adf54dc10f5ece0d57deb377cc45b6": {
+    "id": "f59d5da0ec922659dd279442fd15c209d8adf54dc10f5ece0d57deb377cc45b6",
+    "product": {
+      "nombre": "PRIMATOR - PREMIUM LAGER 470 CC",
+      "precio": 5600,
+      "descripcion": "5°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "ef4d04d9c3200e189c85fdf6e1c3f69db78b50b31ff3dfdf8155e6546460b495": {
+    "id": "ef4d04d9c3200e189c85fdf6e1c3f69db78b50b31ff3dfdf8155e6546460b495",
+    "product": {
+      "nombre": "HUASO - IPANZA - SESSION IPA 330CC",
+      "precio": 4600,
+      "descripcion": "4,5°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "0b9be97ed5ccf547149da0496acbcd804fee43da9cea56e1d2a1c364f0f5721d": {
+    "id": "0b9be97ed5ccf547149da0496acbcd804fee43da9cea56e1d2a1c364f0f5721d",
+    "product": {
+      "nombre": "HUASO - IPANZA - SESSION IPA 473 CC",
+      "precio": 5200,
+      "descripcion": "4,5°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "693b89dc159df0017bd849d9cb3ad885c606b0cf13544523ce29ea3150ddc953": {
+    "id": "693b89dc159df0017bd849d9cb3ad885c606b0cf13544523ce29ea3150ddc953",
+    "product": {
+      "nombre": "SPOH - ANIMAL IPA - DOBLE IPA 330 CC",
+      "precio": 5100,
+      "descripcion": "Todo un clásico entre las lupuladas nacionales; cuenta con su propia barra brava de fanáticos. La animal es una doble IPA salvaje de amargor alto pero gran tomabilidad. En ella Spoh desato toda la potencia del lúpulo con perfiles tropicales y cítricos. Estilo: Doble IPA, ABV: 7,5%, IBU: 100",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "47c1d67a48369a481c1aac390eb31d238d7f6c2939663561f0e9a49d5108eb35": {
+    "id": "47c1d67a48369a481c1aac390eb31d238d7f6c2939663561f0e9a49d5108eb35",
+    "product": {
+      "nombre": "SPOH - ANIMAL IPA - DOBLE IPA 470 CC",
+      "precio": 5700,
+      "descripcion": "Todo un clásico entre las lupuladas nacionales; cuenta con su propia barra brava de fanáticos. La animal es una doble IPA salvaje de amargor alto pero gran tomabilidad. En ella Spoh desato toda la potencia del lúpulo con perfiles tropicales y cítricos. Estilo: Doble IPA, ABV: 7,5%, IBU: 100",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "555ceb69e8a6a13a8d83ba32ccce36c061c1b248a8d0bd07db9d1d96a52b846a": {
+    "id": "555ceb69e8a6a13a8d83ba32ccce36c061c1b248a8d0bd07db9d1d96a52b846a",
+    "product": {
+      "nombre": "INTERGALACTIC- HAZY IPA 330 CC",
+      "precio": 5200,
+      "descripcion": "6°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "7486fc74a15aa3861de511539fea9cb987fcd6d3250d3673614a432e09f054dc": {
+    "id": "7486fc74a15aa3861de511539fea9cb987fcd6d3250d3673614a432e09f054dc",
+    "product": {
+      "nombre": "INTERGALACTIC- HAZY IPA 470CC",
+      "precio": 5800,
+      "descripcion": "6°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "35ec04466d22575c7d355c796c75317112111681ccfb3a665411e48595887ed9": {
+    "id": "35ec04466d22575c7d355c796c75317112111681ccfb3a665411e48595887ed9",
+    "product": {
+      "nombre": "CZECHVAR-PREMIUM LAGER 330 CC",
+      "precio": 5000,
+      "descripcion": "4,8°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "33e5dc4094ebf5259a0e96197b71242154acb2a82dcb130776ce4e788d0e9a97": {
+    "id": "33e5dc4094ebf5259a0e96197b71242154acb2a82dcb130776ce4e788d0e9a97",
+    "product": {
+      "nombre": "CZECHVAR-PREMIUM LAGER 473 CC",
+      "precio": 5600,
+      "descripcion": "4,8°",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "517425e3a884a8076abb5b50cf938ceb34a793a41292e781c25c27663ef92f28": {
+    "id": "517425e3a884a8076abb5b50cf938ceb34a793a41292e781c25c27663ef92f28",
+    "product": {
+      "nombre": "VASO CHELADO",
+      "precio": 700,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "EN SCHOP"
+      ]
+    }
+  },
+  "84b5affb44c174b4ecffcad1d3a801a74510487f2d9191aa72365ee22bbb2942": {
+    "id": "84b5affb44c174b4ecffcad1d3a801a74510487f2d9191aa72365ee22bbb2942",
+    "product": {
+      "nombre": "GRISETTE FRUITS DES BOIS ORGANIC",
+      "precio": 4500,
+      "descripcion": "Cerveza sin alcohol de espuma compacta y fina. Cerveza de contraste pleno, asociando a la vez sabores dulces y deliciosamente ácidos, un exquisito corte de frutos. Los aromas de frutos rojos son muy perceptibles a frambuesa fresca. Sabor a frutos bosque con un dulzor natural y un toque amargo.",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "CERVEZAS SIN ALCOHOL"
+      ]
+    }
+  },
+  "f106b6d22331a194413150301995571720524ff9cf83f2e8eacf7a207f5a5fc8": {
+    "id": "f106b6d22331a194413150301995571720524ff9cf83f2e8eacf7a207f5a5fc8",
+    "product": {
+      "nombre": "HALVE MAAN -SPORTZOT",
+      "precio": 5200,
+      "descripcion": "Estilo y características de la cerveza, método de fabricación, ingredientes, lúpulos empleados: Sportzot es una cerveza belga de estilo blond ale, de cuerpo ligero y refrescante. Se elabora mediante una técnica de fermentación alta y se utiliza malta de cebada, lúpulos nobles y levadura de alta fermentación. A pesar de ser una cerveza sin alcohol, Sportzot mantiene un perfil de sabor equilibrado con notas dulces y afrutadas, y un final ligeramente amargo.",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "CERVEZAS SIN ALCOHOL"
+      ]
+    }
+  },
+  "77ab9288694c0297ec008851c79655685db549c9eac0aa8d935d8ce689693f58": {
+    "id": "77ab9288694c0297ec008851c79655685db549c9eac0aa8d935d8ce689693f58",
+    "product": {
+      "nombre": "KASTEEL ROUGE 0.0 ALCOHOL",
+      "precio": 5200,
+      "descripcion": "País: Bélgica, Formato: Lata 330cc, Alcohol: 0.0. Más info: Kasteel Rouge 0.0 sin alcohol es una opción exquisita y refrescante para los amantes de la cerveza que buscan disfrutar de todo el sabor de una fruit beer sin los efectos del alcohol. Elaborada por la prestigiosa Brasserie Van Honsebrouck en Bélgica, esta cerveza destaca por su color rojo intenso y su irresistible sabor a cereza. Desde su lanzamiento, ha cautivado a los consumidores por su equilibrada combinación de dulzura y acidez, lo que la convierte en una excelente alternativa para aquellos que desean disfrutar de una cerveza sin comprometer su estilo de vida sin alcohol.",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "CERVEZAS SIN ALCOHOL"
+      ]
+    }
+  },
+  "ad164dc3ecb8af48b8536341305f79a628c9c933e0fb769d57f31a680246497a": {
+    "id": "ad164dc3ecb8af48b8536341305f79a628c9c933e0fb769d57f31a680246497a",
+    "product": {
+      "nombre": "TABLA BBG",
+      "precio": 9000,
+      "descripcion": "Compuesta de jamón serrano, lomo embuchado ibérico, salchichón extra y chorizo extra, también viene aceitunas sevillanas, tostadas, maní salado, queso mozzarella y tomate rallado al estilo español.",
       "ingredientes": [
-        "quesadillas",
-        "cebolla",
-        "pimentón",
-        "choclo",
-        "pollo",
-        "queso",
-        "guacamole",
-        "sour cream"
+        "jamón serrano",
+        "lomo embuchado ibérico",
+        "salchichón extra",
+        "chorizo extra",
+        "aceitunas sevillanas",
+        "tostadas",
+        "maní salado",
+        "queso mozzarella",
+        "tomate rallado"
       ],
       "foto": true,
-      "categoria": ["QUESADILLAS", "MEXICANO", "POLLO"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/77d8ed333b128dbc056bddb67232a833602b4ede5940bd6926b87925f5a480fd.png"
+      "categoria": [
+        "PARA COMPARTIR"
+      ]
+    }
   },
-  "32543eebdd328950070e47cbfed008b1eed1442672fd6b631317b6c4c50bb9cf": {
-    "id": "32543eebdd328950070e47cbfed008b1eed1442672fd6b631317b6c4c50bb9cf",
+  "bdd24af0509c12c74973d0087efa7f137b24d2456b45916972eccf0c8595eb97": {
+    "id": "bdd24af0509c12c74973d0087efa7f137b24d2456b45916972eccf0c8595eb97",
     "product": {
-      "nombre": "QUESADILLA VEGETALES",
+      "nombre": "CAMARONES APANADOS",
       "precio": 7500,
-      "descripcion": "8 porciones de quesadillas rellenas de cebolla, pimentón, choclo, champiñon, queso más guacamole y sour cream",
+      "descripcion": "10 camarones apanados para compartir, incluyen salsa gold y salsa de ajo.",
       "ingredientes": [
-        "quesadillas",
+        "camarones",
+        "salsa gold",
+        "salsa de ajo"
+      ],
+      "foto": true,
+      "categoria": [
+        "PARA COMPARTIR"
+      ]
+    }
+  },
+  "8f876cac6a4958184d59bda766f2be1ff1d2b7f3a2174295d92f8862cbdce002": {
+    "id": "8f876cac6a4958184d59bda766f2be1ff1d2b7f3a2174295d92f8862cbdce002",
+    "product": {
+      "nombre": "QUESADILLA CHAMPIQUESO",
+      "precio": 6600,
+      "descripcion": "Doble tortilla mexicana a la plancha rellena de queso fundido, champiñones salteados y choclo. Acompañado de guacamole.",
+      "ingredientes": [
+        "tortilla mexicana",
+        "queso fundido",
+        "champiñones salteados",
+        "choclo",
+        "guacamole"
+      ],
+      "foto": false,
+      "categoria": [
+        "PARA COMPARTIR"
+      ]
+    }
+  },
+  "c10f8a6bee4a47c2d6cd0eeb061c958b2a7839156acff4fd2abc8d0c53e559e4": {
+    "id": "c10f8a6bee4a47c2d6cd0eeb061c958b2a7839156acff4fd2abc8d0c53e559e4",
+    "product": {
+      "nombre": "QUESADILLA DEL RANCHO",
+      "precio": 6800,
+      "descripcion": "Doble tortilla mexicana a la plancha, rellenas de carne de res, queso fundido y pimentón.",
+      "ingredientes": [
+        "tortilla mexicana",
+        "carne de res",
+        "queso fundido",
+        "pimentón"
+      ],
+      "foto": false,
+      "categoria": [
+        "PARA COMPARTIR"
+      ]
+    }
+  },
+  "50bf3beb1dce9baf1fb9b496fd45a1eee2bdd15c88f5ff76febab53ebb9a41e0": {
+    "id": "50bf3beb1dce9baf1fb9b496fd45a1eee2bdd15c88f5ff76febab53ebb9a41e0",
+    "product": {
+      "nombre": "CEVICHE INDIVIDUAL",
+      "precio": 7500,
+      "descripcion": "Pescado del día, trocitos de salmón con colitas de camarón, limón sutil, leche de tigre cervecera, cebolla morada acompañada de camote, palta y maíz cancha.",
+      "ingredientes": [
+        "pescado del día",
+        "salmón",
+        "camarón",
+        "limón sutil",
+        "leche de tigre cervecera",
+        "cebolla morada",
+        "camote",
+        "palta",
+        "maíz cancha"
+      ],
+      "foto": false,
+      "categoria": [
+        "PARA COMPARTIR"
+      ]
+    }
+  },
+  "843f409fb8734af6030034c18c8c13b63469e8508d1f365d019364a43e6b9d3d": {
+    "id": "843f409fb8734af6030034c18c8c13b63469e8508d1f365d019364a43e6b9d3d",
+    "product": {
+      "nombre": "COSTILLAS BBQ",
+      "precio": 11000,
+      "descripcion": "Costillas de cerdo marinadas en salsa bbq.",
+      "ingredientes": [
+        "costillas de cerdo",
+        "salsa bbq"
+      ],
+      "foto": false,
+      "categoria": [
+        "PARA COMPARTIR"
+      ]
+    }
+  },
+  "da714334826c64ac8869d4bece58d58302c9a42d0d9e932a25579ea4ea4df76a": {
+    "id": "da714334826c64ac8869d4bece58d58302c9a42d0d9e932a25579ea4ea4df76a",
+    "product": {
+      "nombre": "TRUTROS DE POLLO BBQ",
+      "precio": 10500,
+      "descripcion": "Trutros de pollo crujientes bañados en salsa bbq.",
+      "ingredientes": [
+        "trutros de pollo",
+        "salsa bbq"
+      ],
+      "foto": false,
+      "categoria": [
+        "PARA COMPARTIR"
+      ]
+    }
+  },
+  "9fff335dc1392cd95479e132a49e81f9b039b07e9f93fa3dda18b2b023ecc56e": {
+    "id": "9fff335dc1392cd95479e132a49e81f9b039b07e9f93fa3dda18b2b023ecc56e",
+    "product": {
+      "nombre": "PORCIÓN INDIVIDUAL DE PAPAS FRITAS CON SALSA DE LA CASA",
+      "precio": 3500,
+      "descripcion": "",
+      "ingredientes": [
+        "papas fritas",
+        "salsa de la casa"
+      ],
+      "foto": false,
+      "categoria": [
+        "PARA COMPARTIR"
+      ]
+    }
+  },
+  "0f7d5fbc3ba86f339464a36ae19344ada17a733ce86ff37a34f9a6bed33ca1df": {
+    "id": "0f7d5fbc3ba86f339464a36ae19344ada17a733ce86ff37a34f9a6bed33ca1df",
+    "product": {
+      "nombre": "PEBRE GUACAMOLE",
+      "precio": 2500,
+      "descripcion": "Típico mexicano con palta, tomates, cilantro.(acompañado de nachos)",
+      "ingredientes": [
+        "palta",
+        "tomates",
+        "cilantro",
+        "nachos"
+      ],
+      "foto": false,
+      "categoria": [
+        "PARA COMPARTIR"
+      ]
+    }
+  },
+  "39fe178687f24124956e840b3a243a548a46c016e03975ef9839675d597e36d1": {
+    "id": "39fe178687f24124956e840b3a243a548a46c016e03975ef9839675d597e36d1",
+    "product": {
+      "nombre": "PEBRE CHILENO",
+      "precio": 2500,
+      "descripcion": "A base de tomates frescos, cebolla morada, cilantro y salsa de ají chileno. (acompañado de nachos)",
+      "ingredientes": [
+        "tomates frescos",
+        "cebolla morada",
+        "cilantro",
+        "salsa de ají chileno",
+        "nachos"
+      ],
+      "foto": false,
+      "categoria": [
+        "PARA COMPARTIR"
+      ]
+    }
+  },
+  "ff529efa60b89694d51b55650cb78c4a4b54d6e851e576142b16da1ac0b5ceb8": {
+    "id": "ff529efa60b89694d51b55650cb78c4a4b54d6e851e576142b16da1ac0b5ceb8",
+    "product": {
+      "nombre": "CRUDO BARBUDO",
+      "precio": 11500,
+      "descripcion": "200grs. de carne cruda acompañado de pepinillos, cebolla morada, ají verde, cilantro, jugo de limón, nuestras salsas de la casa y tostadas al oliva y orégano.",
+      "ingredientes": [
+        "carne cruda",
+        "pepinillos",
+        "cebolla morada",
+        "ají verde",
+        "cilantro",
+        "jugo de limón",
+        "salsas de la casa",
+        "tostadas al oliva",
+        "orégano"
+      ],
+      "foto": false,
+      "categoria": [
+        "PARA COMPARTIR"
+      ]
+    }
+  },
+  "823018d63ad8d88ce15f0c65ddb5b334cccf43aafc71bc82687fdec906286527": {
+    "id": "823018d63ad8d88ce15f0c65ddb5b334cccf43aafc71bc82687fdec906286527",
+    "product": {
+      "nombre": "PIZZA RUCULETA",
+      "precio": 9900,
+      "descripcion": "Mozzarella, rúcula y tomate",
+      "ingredientes": [
+        "Mozzarella",
+        "rúcula",
+        "tomate"
+      ],
+      "foto": false,
+      "categoria": [
+        "PIZZAS"
+      ]
+    }
+  },
+  "2af2d1c2993760c19f5f43ea4b47ae5c12ac79f434e90af3bc4b208436f1a6d6": {
+    "id": "2af2d1c2993760c19f5f43ea4b47ae5c12ac79f434e90af3bc4b208436f1a6d6",
+    "product": {
+      "nombre": "PIZZA MARGARITA",
+      "precio": 9900,
+      "descripcion": "Mozzarella, albahaca y tomate",
+      "ingredientes": [
+        "Mozzarella",
+        "albahaca",
+        "tomate"
+      ],
+      "foto": false,
+      "categoria": [
+        "PIZZAS"
+      ]
+    }
+  },
+  "506c538a51876b804fc6a2047e180e373797e1f24fa72bfed1c5c4da50c79d3f": {
+    "id": "506c538a51876b804fc6a2047e180e373797e1f24fa72bfed1c5c4da50c79d3f",
+    "product": {
+      "nombre": "PIZZA CARNICERA",
+      "precio": 12500,
+      "descripcion": "Mozzarella, mix de carnes salteadas con tocino, cebolla, pimentón y pepperoni.",
+      "ingredientes": [
+        "Mozzarella",
+        "mix de carnes salteadas",
+        "tocino",
         "cebolla",
         "pimentón",
-        "choclo",
+        "pepperoni"
+      ],
+      "foto": false,
+      "categoria": [
+        "PIZZAS"
+      ]
+    }
+  },
+  "c571503ffa160d2a61444831854fd1a390b2838d0148723754c41515bd153214": {
+    "id": "c571503ffa160d2a61444831854fd1a390b2838d0148723754c41515bd153214",
+    "product": {
+      "nombre": "PIZZA PEPERONI",
+      "precio": 10500,
+      "descripcion": "Mozzarella y pepperoni",
+      "ingredientes": [
+        "Mozzarella",
+        "pepperoni"
+      ],
+      "foto": false,
+      "categoria": [
+        "PIZZAS"
+      ]
+    }
+  },
+  "52ead71b8408071929c505a107f29d43abfb62f4c7099dcba364e8cdaad8f383": {
+    "id": "52ead71b8408071929c505a107f29d43abfb62f4c7099dcba364e8cdaad8f383",
+    "product": {
+      "nombre": "PIZZA BARBUDA",
+      "precio": 10800,
+      "descripcion": "Tocino, champiñon, pollo y crema",
+      "ingredientes": [
+        "Tocino",
         "champiñon",
-        "queso",
-        "guacamole",
-        "sour cream"
+        "pollo",
+        "crema"
       ],
-      "foto": true,
-      "categoria": ["QUESADILLAS", "MEXICANO", "VEGETARIANO"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/32543eebdd328950070e47cbfed008b1eed1442672fd6b631317b6c4c50bb9cf.png"
+      "foto": false,
+      "categoria": [
+        "PIZZAS"
+      ]
+    }
   },
-  "c4a5523c8fda20b5f5dc5579297d28d65fff53a1d8b98dd62fc23e31b58e5c1f": {
-    "id": "c4a5523c8fda20b5f5dc5579297d28d65fff53a1d8b98dd62fc23e31b58e5c1f",
+  "a813396412f80e4181da13f48520296423b1392ee809a6cc5038e1f77003f690": {
+    "id": "a813396412f80e4181da13f48520296423b1392ee809a6cc5038e1f77003f690",
     "product": {
-      "nombre": "TABLA VEREDICTO",
-      "precio": 14900,
-      "descripcion": "Papas rusticas, aros de cebolla, alitas BBQ, empanadas de queso, sopaipillas cocktail, salsa BBQ, Mayo cilantro y sour cream",
+      "nombre": "PIZZA CUATRO QUESOS",
+      "precio": 12500,
+      "descripcion": "Queso mozarella, queso de cabra, queso rockefort (azul), queso gauda y cebollas caramelizadas.",
       "ingredientes": [
-        "papas rusticas",
-        "aros de cebolla",
-        "alitas BBQ",
-        "empanadas de queso",
-        "sopaipillas cocktail",
-        "salsa BBQ",
-        "mayo cilantro",
-        "sour cream"
+        "Queso mozarella",
+        "queso de cabra",
+        "queso rockefort (azul)",
+        "queso gauda",
+        "cebollas caramelizadas"
       ],
-      "foto": true,
-      "categoria": ["TABLAS", "PICOTEOS", "PARA COMPARTIR", "VARIADO"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/c4a5523c8fda20b5f5dc5579297d28d65fff53a1d8b98dd62fc23e31b58e5c1f.png"
+      "foto": false,
+      "categoria": [
+        "PIZZAS"
+      ]
+    }
   },
-  "d60ec5d8d206d698c821b3afe6955468cfb94e8b090aaf9474946eb79fc418ba": {
-    "id": "d60ec5d8d206d698c821b3afe6955468cfb94e8b090aaf9474946eb79fc418ba",
+  "7c72451d50cd3506f1aa873ffa410c0dce3a8589a3bd855a4f2232fa8da6ec03": {
+    "id": "7c72451d50cd3506f1aa873ffa410c0dce3a8589a3bd855a4f2232fa8da6ec03",
     "product": {
-      "nombre": "PACTO BURGER",
-      "precio": 9990,
-      "descripcion": "Hamburguesa hecha en casa, pan frica, mayonesa cilantro, Lechuga, tomate, cebolla morada, pepinillo, queso cheddar, acompañada de papas fritas.",
+      "nombre": "PIZZA VEGETARIANA",
+      "precio": 12000,
+      "descripcion": "Queso mozzarella, champiñón, palmito, espárrago, pimentón, choclo, aceituna negra y alcachofa.",
       "ingredientes": [
-        "hamburguesa",
-        "pan frica",
-        "mayonesa cilantro",
-        "lechuga",
+        "Queso mozzarella",
+        "champiñón",
+        "palmito",
+        "espárrago",
+        "pimentón",
+        "choclo",
+        "aceituna negra",
+        "alcachofa"
+      ],
+      "foto": false,
+      "categoria": [
+        "PIZZAS"
+      ]
+    }
+  },
+  "1927c8454a9724560c67911373a1d04d16c65a63532bc59c6ddd92608d8b515e": {
+    "id": "1927c8454a9724560c67911373a1d04d16c65a63532bc59c6ddd92608d8b515e",
+    "product": {
+      "nombre": "PIZZA MARINERA",
+      "precio": 11500,
+      "descripcion": "Salmón ahumado, tomate y rúcula fresca.",
+      "ingredientes": [
+        "Salmón ahumado",
         "tomate",
+        "rúcula fresca"
+      ],
+      "foto": false,
+      "categoria": [
+        "PIZZAS"
+      ]
+    }
+  },
+  "cfd84d4704b4fb46010f9afd7140b613c33cc0b528f5da9afc51ecfa1e9d6ffd": {
+    "id": "cfd84d4704b4fb46010f9afd7140b613c33cc0b528f5da9afc51ecfa1e9d6ffd",
+    "product": {
+      "nombre": "BURGER DOBLE RUBIA",
+      "precio": 9100,
+      "descripcion": "Doble burger, queso cheddar, lechuga, cebolla morada, pepinillo y mostaza antigua (Pan de papa)",
+      "ingredientes": [
+        "Doble burger",
+        "queso cheddar",
+        "lechuga",
         "cebolla morada",
         "pepinillo",
-        "queso cheddar",
-        "papas fritas"
+        "mostaza antigua",
+        "Pan de papa"
       ],
-      "foto": true,
-      "categoria": ["SANDWICHS", "HAMBURGUESAS"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/d60ec5d8d206d698c821b3afe6955468cfb94e8b090aaf9474946eb79fc418ba.png"
+      "foto": false,
+      "categoria": [
+        "BURGERS"
+      ]
+    }
   },
-  "aaa62bb6ab8e609857e5bf24272610e8483bdd0a8ebb9720eb9642ed045f4dcc": {
-    "id": "aaa62bb6ab8e609857e5bf24272610e8483bdd0a8ebb9720eb9642ed045f4dcc",
+  "fca7bf03dc7175e96f6f482f0450b576758ee9f194e946d1a879b98255a74fbc": {
+    "id": "fca7bf03dc7175e96f6f482f0450b576758ee9f194e946d1a879b98255a74fbc",
     "product": {
-      "nombre": "JACK BURGER",
-      "precio": 10990,
-      "descripcion": "Hamburguesa hecha en casa, pan frica, Lechuga, tomate, cebolla, choclo, pimentón, tocino, queso cheddar, salsa jack BBQ (whiskey), acompañada de papas fritas",
+      "nombre": "BURGER BARBUDO",
+      "precio": 7800,
+      "descripcion": "Burger, queso cheddar, tocino crujiente, lechuga, chutney de manzana y mostaza antigua (Pan de papa)",
       "ingredientes": [
-        "hamburguesa",
-        "pan frica",
+        "Burger",
+        "queso cheddar",
+        "tocino crujiente",
         "lechuga",
-        "tomate",
-        "cebolla",
-        "choclo",
-        "pimentón",
+        "chutney de manzana",
+        "mostaza antigua",
+        "Pan de papa"
+      ],
+      "foto": false,
+      "categoria": [
+        "BURGERS"
+      ]
+    }
+  },
+  "a620a0c31d388176a52fb75c934506146430b3c3fbc25ae76bc753ffc24f103d": {
+    "id": "a620a0c31d388176a52fb75c934506146430b3c3fbc25ae76bc753ffc24f103d",
+    "product": {
+      "nombre": "NICK'S BURGER NORMAL",
+      "precio": 7800,
+      "descripcion": "Burger, cebolla salteda, queso cheddar, lechuga, tocino y mostaza. (Pan de papa)",
+      "ingredientes": [
+        "Burger",
+        "cebolla salteda",
+        "queso cheddar",
+        "lechuga",
         "tocino",
-        "queso cheddar",
-        "salsa jack BBQ (whiskey)",
-        "papas fritas"
+        "mostaza",
+        "Pan de papa"
       ],
-      "foto": true,
-      "categoria": ["SANDWICHS", "HAMBURGUESAS", "WHISKY"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/aaa62bb6ab8e609857e5bf24272610e8483bdd0a8ebb9720eb9642ed045f4dcc.png"
+      "foto": false,
+      "categoria": [
+        "BURGERS"
+      ]
+    }
   },
-  "a3450374e53c3787a63b3050205e0cca0170bd6b52c0b6f0b9b3f17a38041e10": {
-    "id": "a3450374e53c3787a63b3050205e0cca0170bd6b52c0b6f0b9b3f17a38041e10",
+  "8f22f8c0cceb227fe91054daf9225d3fe8d71d638d9d053e546e89e59e45248b": {
+    "id": "8f22f8c0cceb227fe91054daf9225d3fe8d71d638d9d053e546e89e59e45248b",
     "product": {
-      "nombre": "SWEET CHILI BURGER",
-      "precio": 10990,
-      "descripcion": "Hamburguesa hecha en casa, pan frica, Lechuga, tomate, jalapeño, huevo, aros de cebolla, salsa sweet Chili, acompañada de papas fritas",
+      "nombre": "NICK'S BURGER DOBLE",
+      "precio": 9100,
+      "descripcion": "Burger (doble), cebolla salteda, queso cheddar, lechuga, tocino y mostaza. (Pan de papa)",
       "ingredientes": [
-        "hamburguesa",
-        "pan frica",
+        "Doble Burger",
+        "cebolla salteda",
+        "queso cheddar",
+        "lechuga",
+        "tocino",
+        "mostaza",
+        "Pan de papa"
+      ],
+      "foto": false,
+      "categoria": [
+        "BURGERS"
+      ]
+    }
+  },
+  "fb94bbf17e604305acee66998e61c10fbecf35a2e63316b7cf539497ee02fdd3": {
+    "id": "fb94bbf17e604305acee66998e61c10fbecf35a2e63316b7cf539497ee02fdd3",
+    "product": {
+      "nombre": "BURGER PUNCHI",
+      "precio": 7800,
+      "descripcion": "Burger, queso azul, rucúla, cebolla morada, champiñones salteados y salsa de queso azul. (Pan de papa)",
+      "ingredientes": [
+        "Burger",
+        "queso azul",
+        "rucúla",
+        "cebolla morada",
+        "champiñones salteados",
+        "salsa de queso azul",
+        "Pan de papa"
+      ],
+      "foto": false,
+      "categoria": [
+        "BURGERS"
+      ]
+    }
+  },
+  "726f14e9c1efd48df49499419228efbeed0842820685b0dbcc059d283738619d": {
+    "id": "726f14e9c1efd48df49499419228efbeed0842820685b0dbcc059d283738619d",
+    "product": {
+      "nombre": "BURGER BARBARA",
+      "precio": 7400,
+      "descripcion": "Burger, queso cheddar, lechuga, tomate, salsa gold, pepino verde y cebolla morada (Pan de papa)",
+      "ingredientes": [
+        "Burger",
+        "queso cheddar",
         "lechuga",
         "tomate",
-        "jalapeño",
-        "huevo",
-        "aros de cebolla",
-        "salsa sweet Chili",
+        "salsa gold",
+        "pepino verde",
+        "cebolla morada",
+        "Pan de papa"
+      ],
+      "foto": false,
+      "categoria": [
+        "BURGERS"
+      ]
+    }
+  },
+  "6923cbb2be7cf728b944aba62efa6ff45ee9bd0b68c8667568143d049d240a8d": {
+    "id": "6923cbb2be7cf728b944aba62efa6ff45ee9bd0b68c8667568143d049d240a8d",
+    "product": {
+      "nombre": "BURGER VEGETARIANA",
+      "precio": 7200,
+      "descripcion": "Burger de lentejas, palta, champiñones salteados, lechuga, tomate, pepinillo y chutney de manzana (Pan de papa)",
+      "ingredientes": [
+        "Burger de lentejas",
+        "palta",
+        "champiñones salteados",
+        "lechuga",
+        "tomate",
+        "pepinillo",
+        "chutney de manzana",
+        "Pan de papa"
+      ],
+      "foto": false,
+      "categoria": [
+        "BURGERS"
+      ]
+    }
+  },
+  "e8fdc48e8aa0470c51810dc3ae4196039e36d86bb381b4f73c3c4937d8dbd72c": {
+    "id": "e8fdc48e8aa0470c51810dc3ae4196039e36d86bb381b4f73c3c4937d8dbd72c",
+    "product": {
+      "nombre": "BURGER BARBUDO BACON",
+      "precio": 7900,
+      "descripcion": "Burger, queso cheddar, tocino asado, lechuga, tomate y mostaza antigua (Pan de papa)",
+      "ingredientes": [
+        "Burger",
+        "queso cheddar",
+        "tocino asado",
+        "lechuga",
+        "tomate",
+        "mostaza antigua",
+        "Pan de papa"
+      ],
+      "foto": false,
+      "categoria": [
+        "BURGERS"
+      ]
+    }
+  },
+  "74f04c11294c855c83a443a12c418d770e9550a40e73e7f66f74bbf46759e2a3": {
+    "id": "74f04c11294c855c83a443a12c418d770e9550a40e73e7f66f74bbf46759e2a3",
+    "product": {
+      "nombre": "SANDWICH VEGETARIANO",
+      "precio": 6500,
+      "descripcion": "Queso de cabra, tiernos trozos de manzana asados en miel, tomate asado y hojas de albahaca.",
+      "ingredientes": [
+        "Queso de cabra",
+        "manzana asada en miel",
+        "tomate asado",
+        "hojas de albahaca"
+      ],
+      "foto": false,
+      "categoria": [
+        "SANDWICH"
+      ]
+    }
+  },
+  "a89e3aa38eb64303c2569f2b2ef84f4dbf1e9031ff4d194698f10b86f360935d": {
+    "id": "a89e3aa38eb64303c2569f2b2ef84f4dbf1e9031ff4d194698f10b86f360935d",
+    "product": {
+      "nombre": "SANDWICH GRINGO",
+      "precio": 7800,
+      "descripcion": "Carne mechada, pepinillo, tocino crujiente, queso mantecoso fundido, cebolla salteada y un toque de salsa BBQ.",
+      "ingredientes": [
+        "Carne mechada",
+        "pepinillo",
+        "tocino crujiente",
+        "queso mantecoso fundido",
+        "cebolla salteada",
+        "salsa BBQ"
+      ],
+      "foto": false,
+      "categoria": [
+        "SANDWICH"
+      ]
+    }
+  },
+  "aa6f6dd7db1b0b61d8335a01f78732a3d94fe3d39fd46673c07a0330ed120330": {
+    "id": "aa6f6dd7db1b0b61d8335a01f78732a3d94fe3d39fd46673c07a0330ed120330",
+    "product": {
+      "nombre": "SANDWICH PORTEÑO",
+      "precio": 7500,
+      "descripcion": "Carne mechada, mayonesa casera, tomate y palta.",
+      "ingredientes": [
+        "Carne mechada",
+        "mayonesa casera",
+        "tomate",
+        "palta"
+      ],
+      "foto": false,
+      "categoria": [
+        "SANDWICH"
+      ]
+    }
+  },
+  "c1710427f66eb9aa8a2daeba4900d990a07717bdefa9ce34a5cc5b0b651e6ddf": {
+    "id": "c1710427f66eb9aa8a2daeba4900d990a07717bdefa9ce34a5cc5b0b651e6ddf",
+    "product": {
+      "nombre": "LOMO BARBUDO",
+      "precio": 7500,
+      "descripcion": "Lomo de cerdo, tomate, mayo, y chucrut. Acompañado de papas fritas.",
+      "ingredientes": [
+        "Lomo de cerdo",
+        "tomate",
+        "mayo",
+        "chucrut",
         "papas fritas"
       ],
-      "foto": true,
-      "categoria": ["SANDWICHS", "HAMBURGUESAS", "PICANTE"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/a3450374e53c3787a63b3050205e0cca0170bd6b52c0b6f0b9b3f17a38041e10.png"
+      "foto": false,
+      "categoria": [
+        "SANDWICH"
+      ]
+    }
   },
-  "260ddf3ed27db1a2fdaf49bea77ad6f29c7c0386c1ec9463f29b8b07b4bb4039": {
-    "id": "260ddf3ed27db1a2fdaf49bea77ad6f29c7c0386c1ec9463f29b8b07b4bb4039",
+  "7569d68faf4af1f2cdf12dc1946109d0dac37a005b2c6e24b9ad8a1093e08ecc": {
+    "id": "7569d68faf4af1f2cdf12dc1946109d0dac37a005b2c6e24b9ad8a1093e08ecc",
     "product": {
-      "nombre": "BURGER ITALIANA",
-      "precio": 10990,
-      "descripcion": "Hamburguesa hecha en casa, pan frica, mayonesa, tomate, palta, acompañada de papas fritas",
+      "nombre": "DON LOMO",
+      "precio": 7800,
+      "descripcion": "Lomo de cerdo, tomate, mayo, queso mozarella y tocino. Acompañado de papas fritas.",
       "ingredientes": [
-        "hamburguesa",
-        "pan frica",
-        "mayonesa",
+        "Lomo de cerdo",
+        "tomate",
+        "mayo",
+        "queso mozarella",
+        "tocino",
+        "papas fritas"
+      ],
+      "foto": false,
+      "categoria": [
+        "SANDWICH"
+      ]
+    }
+  },
+  "0ab812e152ed55f321edf8233f080fb5ba6da57c3aaaaae1845528bfa2731e61": {
+    "id": "0ab812e152ed55f321edf8233f080fb5ba6da57c3aaaaae1845528bfa2731e61",
+    "product": {
+      "nombre": "EL PORKY",
+      "precio": 6800,
+      "descripcion": "Lomo de cerdo, tomate, palta y mayonesa. Acompañado de papas fritas.",
+      "ingredientes": [
+        "Lomo de cerdo",
         "tomate",
         "palta",
-        "papas fritas"
-      ],
-      "foto": false,
-      "categoria": ["SANDWICHS", "HAMBURGUESAS", "ITALIANO"]
-    }
-  },
-  "89a5035eca0fbdecd1b85d94b52ed3f4d871dbb2f5f289c4aeb764fd25f80283": {
-    "id": "89a5035eca0fbdecd1b85d94b52ed3f4d871dbb2f5f289c4aeb764fd25f80283",
-    "product": {
-      "nombre": "MECHADA ITALIANA",
-      "precio": 10990,
-      "descripcion": "Jugosa carne mechada en pan frica, tomate, palta y mayonesa acompañada de papas fritas",
-      "ingredientes": [
-        "carne mechada",
-        "pan frica",
-        "tomate",
-        "palta",
         "mayonesa",
         "papas fritas"
       ],
       "foto": false,
-      "categoria": ["SANDWICHS", "MECHADA", "ITALIANO", "CHILENO"]
-    }
-  },
-  "9f76dd826f8708b35e5bd1540efe491222406b18d921f9a2735313628fc80896": {
-    "id": "9f76dd826f8708b35e5bd1540efe491222406b18d921f9a2735313628fc80896",
-    "product": {
-      "nombre": "LA POCION",
-      "precio": 6290,
-      "descripcion": "La mezcla perfecta de crema de whiskey, amaretto, jugo de manzana, leche evaporada y almibar de canela dan forma a este delicioso coctel servido en botella Charmer",
-      "ingredientes": [
-        "crema de whiskey",
-        "amaretto",
-        "jugo de manzana",
-        "leche evaporada",
-        "almibar de canela"
-      ],
-      "foto": true,
       "categoria": [
-        "TRAGOS DE LA CASA",
-        "COCTELERIA",
-        "WHISKY",
-        "LICOR",
-        "DULCE"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/9f76dd826f8708b35e5bd1540efe491222406b18d921f9a2735313628fc80896.png"
-  },
-  "c923f751e24e0b7f1ceed171cc22501e41ba9f53604c619cf29c4e3d6ac314da": {
-    "id": "c923f751e24e0b7f1ceed171cc22501e41ba9f53604c619cf29c4e3d6ac314da",
-    "product": {
-      "nombre": "FIRE",
-      "precio": 5990,
-      "descripcion": "Fireball Whisky, jugo de manzana, jugo de limón con un enllantado de azúcar y canela! Para encender la noche!",
-      "ingredientes": [
-        "Fireball Whisky",
-        "jugo de manzana",
-        "jugo de limón",
-        "azúcar",
-        "canela"
-      ],
-      "foto": true,
-      "categoria": ["TRAGOS DE LA CASA", "COCTELERIA", "WHISKY", "PICANTE"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/c923f751e24e0b7f1ceed171cc22501e41ba9f53604c619cf29c4e3d6ac314da.png"
-  },
-  "b8c4cc7460ebc55bd7e021193546e101b7ad522ac2fd0ed1f9942c30062f6dea": {
-    "id": "b8c4cc7460ebc55bd7e021193546e101b7ad522ac2fd0ed1f9942c30062f6dea",
-    "product": {
-      "nombre": "HEAL",
-      "precio": 5990,
-      "descripcion": "Refrescante cóctel a base de Ron de Coco, Curaçao blue, Jugo de piña en vaso enllantado de azúcar al limon",
-      "ingredientes": [
-        "Ron de Coco",
-        "Curaçao blue",
-        "Jugo de piña",
-        "azúcar al limon"
-      ],
-      "foto": true,
-      "categoria": [
-        "TRAGOS DE LA CASA",
-        "COCTELERIA",
-        "RON",
-        "TROPICAL",
-        "DULCE"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/b8c4cc7460ebc55bd7e021193546e101b7ad522ac2fd0ed1f9942c30062f6dea.png"
-  },
-  "ae70b06a0b0d19e926802c95883ac39c0ac600667c47a854cf3d40de660602d4": {
-    "id": "ae70b06a0b0d19e926802c95883ac39c0ac600667c47a854cf3d40de660602d4",
-    "product": {
-      "nombre": "PACTO DE SANGRE",
-      "precio": 5990,
-      "descripcion": "Infusión de azúcar y canela, jugos de naranja y manzana, triple sec, hielo, carmenere más fruta picada dan como resultado este exquisito y refrescante cóctel.",
-      "ingredientes": [
-        "infusión de azúcar y canela",
-        "jugo de naranja",
-        "jugo de manzana",
-        "triple sec",
-        "hielo",
-        "carmenere",
-        "fruta picada"
-      ],
-      "foto": true,
-      "categoria": [
-        "TRAGOS DE LA CASA",
-        "COCTELERIA",
-        "VINO",
-        "FRUTAL",
-        "REFRESCANTE"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/ae70b06a0b0d19e926802c95883ac39c0ac600667c47a854cf3d40de660602d4.png"
-  },
-  "9b33e0f7b8ae0af3c43de7d702187531629c8172bca39c5d4b54650fbaee3377": {
-    "id": "9b33e0f7b8ae0af3c43de7d702187531629c8172bca39c5d4b54650fbaee3377",
-    "product": {
-      "nombre": "SPICY TEQUILA",
-      "precio": 5990,
-      "descripcion": "Tequila, triple sec, jugo de limon, syrup simple, jugo de naranja, enllantado de sal y Merken y gotitas de tabasco",
-      "ingredientes": [
-        "Tequila",
-        "triple sec",
-        "jugo de limon",
-        "syrup simple",
-        "jugo de naranja",
-        "sal",
-        "Merken",
-        "tabasco"
-      ],
-      "foto": false,
-      "categoria": ["TRAGOS DE LA CASA", "COCTELERIA", "TEQUILA", "PICANTE"]
-    }
-  },
-  "eb90a109c7d6e62019882cd1064e80d2bb68ffd391521eaa779f96e25211aea6": {
-    "id": "eb90a109c7d6e62019882cd1064e80d2bb68ffd391521eaa779f96e25211aea6",
-    "product": {
-      "nombre": "BRAMBLE SOUR",
-      "precio": 5990,
-      "descripcion": "Combinacion de pisco, Licor de moras Chambord, limón, azúcar canela y pulpa de Berries.",
-      "ingredientes": [
-        "pisco",
-        "Licor de moras Chambord",
-        "limón",
-        "azúcar canela",
-        "pulpa de Berries"
-      ],
-      "foto": true,
-      "categoria": [
-        "TRAGOS DE LA CASA",
-        "COCTELERIA",
-        "PISCO",
-        "SOUR",
-        "FRUTAL"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/eb90a109c7d6e62019882cd1064e80d2bb68ffd391521eaa779f96e25211aea6.png"
-  },
-  "64b2d7400681f7a365169a7f7972b57d9537002222897e8e8039e4a81af77b09": {
-    "id": "64b2d7400681f7a365169a7f7972b57d9537002222897e8e8039e4a81af77b09",
-    "product": {
-      "nombre": "CAIPIRIÑA",
-      "precio": 5490,
-      "descripcion": "Cóctel brasileño clásico.",
-      "ingredientes": ["Cachaça", "lima", "azúcar"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "CACHAÇA", "BRASILEÑO"]
-    }
-  },
-  "9294ae46a605149eecd29a7a7e765e9d6cd5409342913199eed53fc37f5dbcba": {
-    "id": "9294ae46a605149eecd29a7a7e765e9d6cd5409342913199eed53fc37f5dbcba",
-    "product": {
-      "nombre": "CAIPIROSKA",
-      "precio": 5490,
-      "descripcion": "Variación de la caipiriña con vodka.",
-      "ingredientes": ["Vodka", "lima", "azúcar"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "VODKA"]
-    }
-  },
-  "3223930a3e49b46d487c5e7a721934a0dccf00fe95d4760cb6d03bf6b9244dad": {
-    "id": "3223930a3e49b46d487c5e7a721934a0dccf00fe95d4760cb6d03bf6b9244dad",
-    "product": {
-      "nombre": "DAIKIRI SABOR",
-      "precio": 5490,
-      "descripcion": "Daiquiri clásico con opción de sabor.",
-      "ingredientes": ["Ron", "lima", "azúcar", "sabor a elección"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "RON", "DAIQUIRI", "FRUTAL"]
-    }
-  },
-  "89aadb4edfbe2a3807e284ee0a51adb42b62d9b30324a7d345e3fea7ae542ce2": {
-    "id": "89aadb4edfbe2a3807e284ee0a51adb42b62d9b30324a7d345e3fea7ae542ce2",
-    "product": {
-      "nombre": "DAIKIRI JAGER",
-      "precio": 6490,
-      "descripcion": "Variación de daiquiri con Jägermeister.",
-      "ingredientes": ["Jägermeister", "Ron", "lima", "azúcar"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA CLASICA",
-        "LICOR",
-        "JAGERMEISTER",
-        "RON",
-        "DAIQUIRI"
+        "SANDWICH"
       ]
     }
   },
-  "0f7717e2d4c89fc4b3e98d7beff8e43c4a11ce770b116ddb9f5ac9650a84f156": {
-    "id": "0f7717e2d4c89fc4b3e98d7beff8e43c4a11ce770b116ddb9f5ac9650a84f156",
+  "358e4c709088f22218877776a4d5984540e28de9b0711ae36d0b88d986fafeb9": {
+    "id": "358e4c709088f22218877776a4d5984540e28de9b0711ae36d0b88d986fafeb9",
     "product": {
-      "nombre": "TOM COLLINS",
-      "precio": 5490,
-      "descripcion": "Cóctel clásico refrescante con gin.",
-      "ingredientes": ["Gin", "jugo de limón", "azúcar", "agua con gas"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "GIN", "COLLINS"]
-    }
-  },
-  "05e188820d90e52e4f7d13cf6111b7cf4edb385e28f0bb2cec2dc2ebd36cfbbc": {
-    "id": "05e188820d90e52e4f7d13cf6111b7cf4edb385e28f0bb2cec2dc2ebd36cfbbc",
-    "product": {
-      "nombre": "JHON COLLINS",
-      "precio": 5990,
-      "descripcion": "Variación del Tom Collins con whisky.",
-      "ingredientes": ["Whisky", "jugo de limón", "azúcar", "agua con gas"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "WHISKY", "COLLINS"]
-    }
-  },
-  "2f7dcac3f03eaa76af7f7dfd6331a65f0965da6660c2db08181c1df63106e12a": {
-    "id": "2f7dcac3f03eaa76af7f7dfd6331a65f0965da6660c2db08181c1df63106e12a",
-    "product": {
-      "nombre": "MARGARITA",
-      "precio": 5990,
-      "descripcion": "Cóctel clásico mexicano con tequila.",
-      "ingredientes": ["Tequila", "Triple Sec", "jugo de lima", "sal"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "TEQUILA", "MARGARITA"]
-    }
-  },
-  "9ef2f09ce2f02487f6ae100f0678e381959197f897904fca10777bb2b404a574": {
-    "id": "9ef2f09ce2f02487f6ae100f0678e381959197f897904fca10777bb2b404a574",
-    "product": {
-      "nombre": "MARGARITA BLUE",
-      "precio": 6290,
-      "descripcion": "Margarita con un toque de Curaçao Blue.",
-      "ingredientes": ["Tequila", "Curaçao Blue", "jugo de lima", "sal"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "TEQUILA", "MARGARITA", "LICOR"]
-    }
-  },
-  "4126f1a3d9c2057c683155cc4888d1c450c2a5e1a4d52b339d02845cbcc590c4": {
-    "id": "4126f1a3d9c2057c683155cc4888d1c450c2a5e1a4d52b339d02845cbcc590c4",
-    "product": {
-      "nombre": "MOJITO CLASICO",
-      "precio": 5490,
-      "descripcion": "Cóctel cubano clásico con ron y menta.",
-      "ingredientes": ["Ron", "menta", "lima", "azúcar", "agua con gas"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "RON", "MOJITO", "CUBANO"]
-    }
-  },
-  "e69c737417759e64de5272afc092a5219a979f13b46dc40ed3acc9e523a61a14": {
-    "id": "e69c737417759e64de5272afc092a5219a979f13b46dc40ed3acc9e523a61a14",
-    "product": {
-      "nombre": "MOJITO SABORES",
-      "precio": 5990,
-      "descripcion": "Mojito clásico con opción de sabor.",
+      "nombre": "BLACK VELVET",
+      "precio": 4800,
+      "descripcion": "El terciopelo negro de los cócteles, cerveza negra con espumoso.",
       "ingredientes": [
-        "Ron",
-        "menta",
-        "lima",
-        "azúcar",
-        "agua con gas",
-        "sabor a elección"
-      ],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "RON", "MOJITO", "FRUTAL"]
-    }
-  },
-  "7c8d21ed8a3528870caf992eac4a003bf797d8dd66fbafdc2944cc6fef2dc806": {
-    "id": "7c8d21ed8a3528870caf992eac4a003bf797d8dd66fbafdc2944cc6fef2dc806",
-    "product": {
-      "nombre": "MOJITO COCO",
-      "precio": 6190,
-      "descripcion": "Mojito con sabor a coco.",
-      "ingredientes": [
-        "Ron de Coco",
-        "menta",
-        "lima",
-        "azúcar",
-        "agua con gas"
-      ],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "RON", "MOJITO", "COCO", "TROPICAL"]
-    }
-  },
-  "fe2f8fa6811786283e2ac44032cd9d5f256965e832910a854684bd03713b5d45": {
-    "id": "fe2f8fa6811786283e2ac44032cd9d5f256965e832910a854684bd03713b5d45",
-    "product": {
-      "nombre": "MOJITO JÄGER",
-      "precio": 6990,
-      "descripcion": "Mojito con Jägermeister.",
-      "ingredientes": [
-        "Jägermeister",
-        "menta",
-        "lima",
-        "azúcar",
-        "agua con gas"
-      ],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "LICOR", "JAGERMEISTER", "MOJITO"]
-    }
-  },
-  "ce0d23c83df63469a84f674681589b492b7b58cb86650fe2a3dcbc7b7ae6d349": {
-    "id": "ce0d23c83df63469a84f674681589b492b7b58cb86650fe2a3dcbc7b7ae6d349",
-    "product": {
-      "nombre": "GIN TONIC",
-      "precio": 5990,
-      "descripcion": "Cóctel clásico con gin y tónica.",
-      "ingredientes": ["Gin", "agua tónica", "cítrico"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "GIN", "GIN TONIC"]
-    }
-  },
-  "b6e731b2f613cafc571f6158a465022ee78227a63e4be92618ea5e6118b307b0": {
-    "id": "b6e731b2f613cafc571f6158a465022ee78227a63e4be92618ea5e6118b307b0",
-    "product": {
-      "nombre": "TROPICAL GIN",
-      "precio": 6990,
-      "descripcion": "Gin, Pulpa maracuya, Ginger",
-      "ingredientes": ["Gin", "Pulpa maracuya", "Ginger Ale/Beer"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "GIN", "TROPICAL", "FRUTAL"]
-    }
-  },
-  "8b4e008e3bebf2bbabfde02e4515e9b327e9f64b00851e508ffdff3b347afa90": {
-    "id": "8b4e008e3bebf2bbabfde02e4515e9b327e9f64b00851e508ffdff3b347afa90",
-    "product": {
-      "nombre": "VODKA TONIC",
-      "precio": 5490,
-      "descripcion": "Cóctel simple con vodka y tónica.",
-      "ingredientes": ["Vodka", "agua tónica", "cítrico"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "VODKA", "VODKA TONIC"]
-    }
-  },
-  "b243c5bdfc288d9055a5b5429328518c2bfea23cfbe83dc60355674ecd543da2": {
-    "id": "b243c5bdfc288d9055a5b5429328518c2bfea23cfbe83dc60355674ecd543da2",
-    "product": {
-      "nombre": "RAMAZZOTTI SPRITZ",
-      "precio": 5990,
-      "descripcion": "Spritz refrescante con Ramazzotti Rosato.",
-      "ingredientes": [
-        "Ramazzotti Aperitivo Rosato",
-        "Prosecco",
-        "agua con gas",
-        "albahaca",
-        "lima"
+        "cerveza negra",
+        "espumoso"
       ],
       "foto": false,
       "categoria": [
-        "COCTELERIA CLASICA",
-        "APERITIVO",
-        "SPRITZ",
-        "RAMAZZOTTI",
-        "ITALIANO"
+        "COCKTELERÍA CERVECERA"
       ]
     }
   },
-  "92376e2e93a2b89091420d54e08f295a84c347ab1080d4d0f30a35036cb24ca4": {
-    "id": "92376e2e93a2b89091420d54e08f295a84c347ab1080d4d0f30a35036cb24ca4",
+  "83dddd604ca279e409d5b8cd0472d6f2a22480ed5b4a9f4f95a1aa5ae9d08c6e": {
+    "id": "83dddd604ca279e409d5b8cd0472d6f2a22480ed5b4a9f4f95a1aa5ae9d08c6e",
     "product": {
-      "nombre": "APEROL SPRITZ",
-      "precio": 5990,
-      "descripcion": "Spritz italiano clásico con Aperol.",
-      "ingredientes": ["Aperol", "Prosecco", "agua con gas", "naranja"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA CLASICA",
-        "APERITIVO",
-        "SPRITZ",
-        "APEROL",
-        "ITALIANO"
-      ]
-    }
-  },
-  "257e4143ac21ff6ae1a31f6e40df9d45461b14fda94d2c71bff3b7b8f5a1d63b": {
-    "id": "257e4143ac21ff6ae1a31f6e40df9d45461b14fda94d2c71bff3b7b8f5a1d63b",
-    "product": {
-      "nombre": "LONG ISLAND",
-      "precio": 5990,
-      "descripcion": "Vodka + Tequila + Gin + Ron Blanco + Triple Sec + Azucar + Jugo de Limon + Coca Cola",
+      "nombre": "FLAMING YAGER",
+      "precio": 5200,
+      "descripcion": "Un shot de Jagermeister dentro de un vaso de cerveza stout.",
       "ingredientes": [
-        "Vodka",
-        "Tequila",
-        "Gin",
-        "Ron Blanco",
-        "Triple Sec",
-        "Azucar",
-        "Jugo de Limon",
-        "Coca Cola"
+        "Jagermeister",
+        "cerveza stout"
       ],
       "foto": false,
       "categoria": [
-        "COCTELERIA CLASICA",
-        "VODKA",
-        "TEQUILA",
-        "GIN",
-        "RON",
-        "LICOR"
+        "COCKTELERÍA CERVECERA"
       ]
     }
   },
-  "90a9418fbebb5a5305c4f046ed3750d1d04ff3391c6091d3e5c78dd7314eaaf6": {
-    "id": "90a9418fbebb5a5305c4f046ed3750d1d04ff3391c6091d3e5c78dd7314eaaf6",
+  "40f507cc98e4d917d5016ad6d3951955e2620bf665367e62c74df8dc6d50993c": {
+    "id": "40f507cc98e4d917d5016ad6d3951955e2620bf665367e62c74df8dc6d50993c",
     "product": {
-      "nombre": "MOSCOW MULE",
-      "precio": 6290,
-      "descripcion": "Cóctel con vodka, ginger beer y lima.",
-      "ingredientes": ["Vodka", "Ginger Beer", "jugo de lima"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "VODKA", "MULE"]
-    }
-  },
-  "128cdfa7dc5c1a4e90d4ad005c84fdbf6b94f8031112cc7eb9ceed9fa81e197d": {
-    "id": "128cdfa7dc5c1a4e90d4ad005c84fdbf6b94f8031112cc7eb9ceed9fa81e197d",
-    "product": {
-      "nombre": "LONDON MULE",
-      "precio": 6990,
-      "descripcion": "Variación del Moscow Mule con gin.",
-      "ingredientes": ["Gin", "Ginger Beer", "jugo de lima"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "GIN", "MULE"]
-    }
-  },
-  "83e5ffdd357d7b367284286b5a828e153b0b148a76b17336de23a309b1aee12f": {
-    "id": "83e5ffdd357d7b367284286b5a828e153b0b148a76b17336de23a309b1aee12f",
-    "product": {
-      "nombre": "ITALO MULE",
-      "precio": 6990,
-      "descripcion": "Variación del Mule con Amaro italiano.",
-      "ingredientes": ["Amaro", "Ginger Beer", "jugo de lima"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "LICOR", "AMARO", "MULE", "ITALIANO"]
-    }
-  },
-  "af5eca929b529a6d645936bac6caa151327dc4723734eb27ffc7d0e2bafd6061": {
-    "id": "af5eca929b529a6d645936bac6caa151327dc4723734eb27ffc7d0e2bafd6061",
-    "product": {
-      "nombre": "PADRINO",
-      "precio": 6490,
-      "descripcion": "Cóctel simple de whisky y amaretto.",
-      "ingredientes": ["Whisky", "Amaretto"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "WHISKY", "LICOR", "AMARETTO"]
-    }
-  },
-  "4655401272feb30b04cd88a5e9e8d6a8e137ac3dd43e34259ddeef907608395c": {
-    "id": "4655401272feb30b04cd88a5e9e8d6a8e137ac3dd43e34259ddeef907608395c",
-    "product": {
-      "nombre": "JAGERMEISTER SOUR",
-      "precio": 5690,
-      "descripcion": "Versión sour con Jägermeister.",
-      "ingredientes": ["Jägermeister", "jugo de limón", "azúcar"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "LICOR", "JAGERMEISTER", "SOUR"]
-    }
-  },
-  "ec2f166ea5f6eead7eb1dfb9bc7c93db528eed8015dcf2823cce7287e3297ada": {
-    "id": "ec2f166ea5f6eead7eb1dfb9bc7c93db528eed8015dcf2823cce7287e3297ada",
-    "product": {
-      "nombre": "AMARETTO SOUR",
-      "precio": 5690,
-      "descripcion": "Cóctel sour clásico con Amaretto.",
-      "ingredientes": ["Amaretto", "jugo de limón", "azúcar"],
-      "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "LICOR", "AMARETTO", "SOUR"]
-    }
-  },
-  "312e9657aec0f9499042e73d80e6c2d67f0ea3024f3bbe1d0840e332de28e27d": {
-    "id": "312e9657aec0f9499042e73d80e6c2d67f0ea3024f3bbe1d0840e332de28e27d",
-    "product": {
-      "nombre": "PISCO SOUR",
-      "precio": 4490,
-      "descripcion": "Cóctel sour clásico de Perú/Chile.",
+      "nombre": "BULL",
+      "precio": 5500,
+      "descripcion": "Cerveza rubia lager, shot de tequila, shot de energética y shot de limón.",
       "ingredientes": [
-        "Pisco",
-        "jugo de limón",
-        "jarabe de goma",
-        "clara de huevo",
+        "Cerveza rubia lager",
+        "shot de tequila",
+        "shot de energética",
+        "shot de limón"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA CERVECERA"
+      ]
+    }
+  },
+  "ebc494611f719287614897c6204f38c71c0a1cc7ef771f9822a8ab087d821d4b": {
+    "id": "ebc494611f719287614897c6204f38c71c0a1cc7ef771f9822a8ab087d821d4b",
+    "product": {
+      "nombre": "WEISSER SOUR",
+      "precio": 5500,
+      "descripcion": "Cerveza de trigo, Wild Turkey, limón triple seco y amargo de angostura a elección.",
+      "ingredientes": [
+        "Cerveza de trigo",
+        "Wild Turkey",
+        "limón triple seco",
         "amargo de angostura"
       ],
       "foto": false,
-      "categoria": ["COCTELERIA CLASICA", "PISCO", "SOUR", "CHILENO", "PERUANO"]
+      "categoria": [
+        "COCKTELERÍA CERVECERA"
+      ]
     }
   },
-  "daa03817ac322849dde2ec129c8206b2a8dc1a55a61bd2e45333605636783783": {
-    "id": "daa03817ac322849dde2ec129c8206b2a8dc1a55a61bd2e45333605636783783",
+  "c50e5c7468b6dd0f363c02d0a2e49fb30099531467777e0ac95b29d218331079": {
+    "id": "c50e5c7468b6dd0f363c02d0a2e49fb30099531467777e0ac95b29d218331079",
     "product": {
-      "nombre": "COPA ESPUMANTE",
-      "precio": 3490,
-      "descripcion": "Copa de vino espumante.",
-      "ingredientes": ["Vino espumante"],
+      "nombre": "IRISH CAR BOMB",
+      "precio": 5800,
+      "descripcion": "Cerveza stout con whisky + shot de licor Beilys. (INO MEZCLAR, TOMAR POR SEPARADO!)",
+      "ingredientes": [
+        "Cerveza stout",
+        "whisky",
+        "licor Beilys"
+      ],
       "foto": false,
-      "categoria": ["VINOS", "ESPUMANTE"]
+      "categoria": [
+        "COCKTELERÍA CERVECERA"
+      ]
     }
   },
-  "8640424f5852a50c62067758ec99162e25598c1a41ecdd21fe5aacf078b95ae8": {
-    "id": "8640424f5852a50c62067758ec99162e25598c1a41ecdd21fe5aacf078b95ae8",
+  "cf09b5bf8abe740a2cd723297453d6f149b6b6e268cd1cd749eb99992335d318": {
+    "id": "cf09b5bf8abe740a2cd723297453d6f149b6b6e268cd1cd749eb99992335d318",
     "product": {
-      "nombre": "COPA DE VINO",
-      "precio": 2000,
-      "descripcion": "Copa de vino tinto o blanco.",
-      "ingredientes": ["Vino (tinto o blanco)"],
-      "foto": false,
-      "categoria": ["VINOS"]
-    }
-  },
-  "d3390069b9511067dc2b537b6269628ace146da22957be62a018ee657eae710f": {
-    "id": "d3390069b9511067dc2b537b6269628ace146da22957be62a018ee657eae710f",
-    "product": {
-      "nombre": "ALTO DEL CARMEN 35°",
-      "precio": 4490,
-      "descripcion": "Pisco chileno.",
-      "ingredientes": ["Pisco Alto del Carmen 35°"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "PISCO", "CHILENO"]
-    }
-  },
-  "e2099dfe07d9c48767f1f607961f1d1d683956609d985a852c51ef78049a9a38": {
-    "id": "e2099dfe07d9c48767f1f607961f1d1d683956609d985a852c51ef78049a9a38",
-    "product": {
-      "nombre": "MISTRAL 35°",
-      "precio": 5990,
-      "descripcion": "Pisco chileno.",
-      "ingredientes": ["Pisco Mistral 35°"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "PISCO", "CHILENO"]
-    }
-  },
-  "e24e3f191194bd40fe49bf75b5efd48607716201ac2467730a4293e40decc95d": {
-    "id": "e24e3f191194bd40fe49bf75b5efd48607716201ac2467730a4293e40decc95d",
-    "product": {
-      "nombre": "MISTRAL NOBEL 40",
-      "precio": 6990,
-      "descripcion": "Pisco chileno premium.",
-      "ingredientes": ["Pisco Mistral Nobel 40°"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "PISCO", "CHILENO", "PREMIUM"]
-    }
-  },
-  "e0180f5a80ce3b21b648c7a0669210cd8a6d76a79ee650427f0de94f6a6213c8": {
-    "id": "e0180f5a80ce3b21b648c7a0669210cd8a6d76a79ee650427f0de94f6a6213c8",
-    "product": {
-      "nombre": "JAGERMEISTER",
-      "precio": 4990,
-      "descripcion": "Licor de hierbas alemán.",
-      "ingredientes": ["Jägermeister"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "LICOR", "JAGERMEISTER", "ALEMAN"]
-    }
-  },
-  "47a95262701be62a680b0864a1e3367308285b79e4a0a26a4105d2820fb653f1": {
-    "id": "47a95262701be62a680b0864a1e3367308285b79e4a0a26a4105d2820fb653f1",
-    "product": {
-      "nombre": "JACK DANIELS N7",
-      "precio": 7490,
-      "descripcion": "Tennessee Whiskey.",
-      "ingredientes": ["Jack Daniel's Old No. 7 Tennessee Whiskey"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "WHISKY", "TENNESSEE WHISKEY", "AMERICANO"]
-    }
-  },
-  "85d60bf6a8db193c65f5c9da9a7c35be86a3f05bbbca52391356eba5c4251f6e": {
-    "id": "85d60bf6a8db193c65f5c9da9a7c35be86a3f05bbbca52391356eba5c4251f6e",
-    "product": {
-      "nombre": "JIM BEAM HONEY",
-      "precio": 6290,
-      "descripcion": "Licor de bourbon con miel.",
-      "ingredientes": ["Jim Beam Honey Bourbon Liqueur"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "WHISKY", "BOURBON", "LICOR", "AMERICANO"]
-    }
-  },
-  "825cc7f7eedc21ccbda8f7fd2a8709e399edca951352608dc011b64e119c93cb": {
-    "id": "825cc7f7eedc21ccbda8f7fd2a8709e399edca951352608dc011b64e119c93cb",
-    "product": {
-      "nombre": "JOHNNIE WALKER RED",
-      "precio": 5490,
-      "descripcion": "Scotch Whisky.",
-      "ingredientes": ["Johnnie Walker Red Label Scotch Whisky"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "WHISKY", "SCOTCH", "ESCOCES"]
-    }
-  },
-  "9cae63bf8e01d0ae979cbf6d21f30abdf5e80deafad429f7b6db77f909ffa2f1": {
-    "id": "9cae63bf8e01d0ae979cbf6d21f30abdf5e80deafad429f7b6db77f909ffa2f1",
-    "product": {
-      "nombre": "FERNET BRANCA",
-      "precio": 4990,
-      "descripcion": "Amaro italiano.",
-      "ingredientes": ["Fernet Branca"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "LICOR", "FERNET", "AMARO", "ITALIANO"]
-    }
-  },
-  "5d13ccdefeb50c69e28a117b30db00922f917b31ca477585381698701168f4f2": {
-    "id": "5d13ccdefeb50c69e28a117b30db00922f917b31ca477585381698701168f4f2",
-    "product": {
-      "nombre": "FERNET BUHERO NEGRO",
-      "precio": 4990,
-      "descripcion": "Fernet.",
-      "ingredientes": ["Fernet Buhero Negro"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "LICOR", "FERNET"]
-    }
-  },
-  "3b175a1f796651952f42b8e45365e529e1d3b63c385311e4fcb89bfe4b52d62d": {
-    "id": "3b175a1f796651952f42b8e45365e529e1d3b63c385311e4fcb89bfe4b52d62d",
-    "product": {
-      "nombre": "GIN WAV",
-      "precio": 6990,
-      "descripcion": "Gin.",
-      "ingredientes": ["Gin WAV"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "GIN"]
-    }
-  },
-  "9b39527067a7c4e3da6e1054d09d8c767fd377b58a4ab87422089c4b478160fe": {
-    "id": "9b39527067a7c4e3da6e1054d09d8c767fd377b58a4ab87422089c4b478160fe",
-    "product": {
-      "nombre": "ABSOLUT BLUE",
-      "precio": 5200,
-      "descripcion": "Vodka sueco.",
-      "ingredientes": ["Absolut Vodka (Blue)"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "VODKA", "SUECO"]
-    }
-  },
-  "dbe0fffa36c946af149cf0eb4a34e0ce562f31d0499b4bd4fa209b9ff494aa47": {
-    "id": "dbe0fffa36c946af149cf0eb4a34e0ce562f31d0499b4bd4fa209b9ff494aa47",
-    "product": {
-      "nombre": "VODKA STOLICH",
-      "precio": 4490,
-      "descripcion": "Vodka ruso.",
-      "ingredientes": ["Stolichnaya Vodka"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "VODKA", "RUSO"]
-    }
-  },
-  "6e258681f9c41ec41d64c16b58e6ffbf946085386d81b35d0e4098d29fd1f4af": {
-    "id": "6e258681f9c41ec41d64c16b58e6ffbf946085386d81b35d0e4098d29fd1f4af",
-    "product": {
-      "nombre": "SHOT TEQUILA",
-      "precio": 3890,
-      "descripcion": "Shot de Tequila.",
-      "ingredientes": ["Tequila"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "TEQUILA", "SHOTS"]
-    }
-  },
-  "af99bb016b740537afbd365afb433fcfe6b9694e553f8079532bcd1b0732a70b": {
-    "id": "af99bb016b740537afbd365afb433fcfe6b9694e553f8079532bcd1b0732a70b",
-    "product": {
-      "nombre": "SHOT JAGER",
-      "precio": 3890,
-      "descripcion": "Shot de Jägermeister.",
-      "ingredientes": ["Jägermeister"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "LICOR", "JAGERMEISTER", "SHOTS"]
-    }
-  },
-  "04ae3864d3480306f3acfabbc6cefcd5a25994d8a00181ab54553a4161a0d4f1": {
-    "id": "04ae3864d3480306f3acfabbc6cefcd5a25994d8a00181ab54553a4161a0d4f1",
-    "product": {
-      "nombre": "SHOT AMARETTO",
-      "precio": 3890,
-      "descripcion": "Shot de Amaretto.",
-      "ingredientes": ["Amaretto"],
-      "foto": false,
-      "categoria": ["DESTILADOS", "LICOR", "AMARETTO", "SHOTS"]
-    }
-  },
-  "4c89b5de3301cf20968023bb61a0726eabf9f7dee4a039452b4358a2398de1ff": {
-    "id": "4c89b5de3301cf20968023bb61a0726eabf9f7dee4a039452b4358a2398de1ff",
-    "product": {
-      "nombre": "SCHOP AUSTRAL CALAFATE 500cc",
+      "nombre": "RADLER",
       "precio": 4800,
-      "descripcion": "Cerveza de barril Austral Calafate.",
-      "ingredientes": ["Cerveza Austral Calafate (Schop/Draft)"],
-      "foto": true,
-      "categoria": [
-        "CERVEZAS",
-        "SCHOP",
-        "DRAFT",
-        "AUSTRAL",
-        "ARTESANAL",
-        "CHILENO"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/4c89b5de3301cf20968023bb61a0726eabf9f7dee4a039452b4358a2398de1ff.png"
-  },
-  "2bf2b75f1dbde536c61a5c5d2b1b4d07d7b41bc609953706d6d8923a1d3a0469": {
-    "id": "2bf2b75f1dbde536c61a5c5d2b1b4d07d7b41bc609953706d6d8923a1d3a0469",
-    "product": {
-      "nombre": "SCHOP HEINEKEN 500cc",
-      "precio": 4000,
-      "descripcion": "Cerveza de barril Heineken.",
-      "ingredientes": ["Cerveza Heineken (Schop/Draft)"],
-      "foto": false,
-      "categoria": ["CERVEZAS", "SCHOP", "DRAFT", "HEINEKEN", "LAGER"]
-    }
-  },
-  "c4184a6d5ed7e187afa3d4c0dd6c91a7df7c01bebf827766181dc157808ff2bb": {
-    "id": "c4184a6d5ed7e187afa3d4c0dd6c91a7df7c01bebf827766181dc157808ff2bb",
-    "product": {
-      "nombre": "CORONA 330cc",
-      "precio": 3000,
-      "descripcion": "Cerveza mexicana en botella.",
-      "ingredientes": ["Cerveza Corona"],
-      "foto": true,
-      "categoria": ["CERVEZAS", "BOTELLA", "LAGER", "MEXICANO"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/c4184a6d5ed7e187afa3d4c0dd6c91a7df7c01bebf827766181dc157808ff2bb.png"
-  },
-  "9b101cbcac7fd40530521ae7eab528c0c641494b29fb60e05caea198b0ae6f29": {
-    "id": "9b101cbcac7fd40530521ae7eab528c0c641494b29fb60e05caea198b0ae6f29",
-    "product": {
-      "nombre": "ROYAL GOLDEN LAGER 355cc",
-      "precio": 3000,
-      "descripcion": "Cerveza lager en botella.",
-      "ingredientes": ["Cerveza Royal Golden Lager"],
-      "foto": true,
-      "categoria": ["CERVEZAS", "BOTELLA", "LAGER"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/9b101cbcac7fd40530521ae7eab528c0c641494b29fb60e05caea198b0ae6f29.png"
-  },
-  "3cc29efaf296e987760f6a59ebdc351701e148c887697134fe36e612fccd4ca0": {
-    "id": "3cc29efaf296e987760f6a59ebdc351701e148c887697134fe36e612fccd4ca0",
-    "product": {
-      "nombre": "BELLANGE IPA 7° 473cc",
-      "precio": 5200,
-      "descripcion": "Cerveza artesanal IPA.",
-      "ingredientes": ["Cerveza Bellange IPA 7°"],
-      "foto": false,
-      "categoria": ["CERVEZAS", "LATA", "ARTESANAL", "IPA"]
-    }
-  },
-  "218adf50c3fc08d6f76c5f688269e6bbc7788524b3cda9d2a9e238b303273146": {
-    "id": "218adf50c3fc08d6f76c5f688269e6bbc7788524b3cda9d2a9e238b303273146",
-    "product": {
-      "nombre": "BELLANGE AAA 5,7° 473cc",
-      "precio": 4600,
-      "descripcion": "Cerveza artesanal AAA.",
-      "ingredientes": ["Cerveza Bellange AAA 5,7°"],
-      "foto": false,
-      "categoria": ["CERVEZAS", "LATA", "ARTESANAL", "AMBER ALE"]
-    }
-  },
-  "6bcdd8a91998b84fb8cd7ca128e94eb4bd176867b45a8c44b34fea9d370c7c86": {
-    "id": "6bcdd8a91998b84fb8cd7ca128e94eb4bd176867b45a8c44b34fea9d370c7c86",
-    "product": {
-      "nombre": "LINEA 1 - American Amber Ale 5,5°",
-      "precio": 5200,
-      "descripcion": "Una Amber Ale roja como las venas que atraviesan el subsuelo santiaguino desde los Dominicos hasta San Pablo. Cerveza acaramelada, de tonos cobrizos y un complejo perfil de maltas que incluye Pilsen, Munich, aroma, Cara Munich II, Cara Amber y levaduras US-05.",
+      "descripcion": "Cerveza lager, sprite y limón.",
       "ingredientes": [
-        "Malta Pilsen",
-        "Malta Munich",
-        "Malta aroma",
-        "Malta Cara Munich II",
-        "Malta Cara Amber",
-        "Levadura US-05",
-        "lúpulo",
-        "agua"
+        "Cerveza lager",
+        "sprite",
+        "limón"
       ],
-      "foto": true,
-      "categoria": ["CERVEZAS", "LATA", "ARTESANAL", "AMBER ALE", "CHILENO"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/6bcdd8a91998b84fb8cd7ca128e94eb4bd176867b45a8c44b34fea9d370c7c86.png"
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA CERVECERA"
+      ]
+    }
   },
-  "b3882ce76ee1a4d3295d8e52e34c2bb6531128780dc8a61789d160751ccba280": {
-    "id": "b3882ce76ee1a4d3295d8e52e34c2bb6531128780dc8a61789d160751ccba280",
+  "f7124ef52b9bc6ed80124053eb908b06fdbef67ccac2e3b926bff984ef47cc12": {
+    "id": "f7124ef52b9bc6ed80124053eb908b06fdbef67ccac2e3b926bff984ef47cc12",
     "product": {
-      "nombre": "SAN PATO - Stout 4,2°",
-      "precio": 4900,
-      "descripcion": "Cerveza negra, con espuma color canela, aromas a Malta tostada y café con chocolate. Sabor tostado intenso con tintes terrosos.",
-      "ingredientes": [
-        "Malta tostada",
-        "Café (aroma)",
-        "Chocolate (aroma)",
-        "lúpulo",
-        "levadura",
-        "agua"
-      ],
-      "foto": true,
-      "categoria": ["CERVEZAS", "LATA", "ARTESANAL", "STOUT", "CHILENO"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/b3882ce76ee1a4d3295d8e52e34c2bb6531128780dc8a61789d160751ccba280.png"
-  },
-  "4b51b98e647f2444997840cd257ca8b34c2146c48f21569fd291c71e03aa8681": {
-    "id": "4b51b98e647f2444997840cd257ca8b34c2146c48f21569fd291c71e03aa8681",
-    "product": {
-      "nombre": "PRE EMERGENCIA - Hazy Ipa 6°",
+      "nombre": "SUBMARINO",
       "precio": 5200,
-      "descripcion": "Cerveza ultra turbia, muy sedosa en boca y acompañada de una inmensa cantidad de lúpulos.",
-      "ingredientes": ["Lúpulos (varios)", "malta", "levadura", "agua"],
-      "foto": true,
-      "categoria": [
-        "CERVEZAS",
-        "LATA",
-        "ARTESANAL",
-        "IPA",
-        "HAZY IPA",
-        "CHILENO"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/4b51b98e647f2444997840cd257ca8b34c2146c48f21569fd291c71e03aa8681.png"
-  },
-  "3fca33d13419899aa1e747a468e19b954d6583e574b9e03c8c1a39e80f30ac5f": {
-    "id": "3fca33d13419899aa1e747a468e19b954d6583e574b9e03c8c1a39e80f30ac5f",
-    "product": {
-      "nombre": "RE EMERGENCIA - Doble Hazy Ipa 8,1°",
-      "precio": 5400,
-      "descripcion": "La versión doble de la icónica Pre Emergencia, más turbia, lupulada y alcohólica.",
+      "descripcion": "Shot de tequila, cerveza rubia, granadina y limón.",
       "ingredientes": [
-        "Lúpulos (varios, alta cantidad)",
-        "malta",
-        "levadura",
-        "agua"
+        "Shot de tequila",
+        "cerveza rubia",
+        "granadina",
+        "limón"
       ],
-      "foto": true,
-      "categoria": [
-        "CERVEZAS",
-        "LATA",
-        "ARTESANAL",
-        "IPA",
-        "HAZY IPA",
-        "DOBLE IPA",
-        "CHILENO"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/3fca33d13419899aa1e747a468e19b954d6583e574b9e03c8c1a39e80f30ac5f.png"
-  },
-  "39a04b1df8cdb2e2c5bac08825e95ac17818b28855bae42179d437e66357ea86": {
-    "id": "39a04b1df8cdb2e2c5bac08825e95ac17818b28855bae42179d437e66357ea86",
-    "product": {
-      "nombre": "MAHOU Sin Alcohol",
-      "precio": 3000,
-      "descripcion": "Cerveza sin alcohol.",
-      "ingredientes": ["Cerveza Mahou Sin Alcohol"],
-      "foto": false,
-      "categoria": ["CERVEZAS", "SIN ALCOHOL"]
-    }
-  },
-  "dac89d6a7603f058f87724f3b0527a572c10a1312b4090445011888047eb8ca6": {
-    "id": "dac89d6a7603f058f87724f3b0527a572c10a1312b4090445011888047eb8ca6",
-    "product": {
-      "nombre": "AGUA MINERAL SIN GAS",
-      "precio": 1200,
-      "descripcion": "Agua mineral embotellada sin gas.",
-      "ingredientes": ["Agua mineral sin gas"],
-      "foto": true,
-      "categoria": ["BEBIDAS Y JUGOS", "AGUA", "SIN GAS"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/dac89d6a7603f058f87724f3b0527a572c10a1312b4090445011888047eb8ca6.png"
-  },
-  "25d6682ccd9cb2a59bd0c815349e90bf406b35f7b5df5bdcc60ae9a98a6105cd": {
-    "id": "25d6682ccd9cb2a59bd0c815349e90bf406b35f7b5df5bdcc60ae9a98a6105cd",
-    "product": {
-      "nombre": "AGUA CON GAS",
-      "precio": 1200,
-      "descripcion": "Agua mineral embotellada con gas.",
-      "ingredientes": ["Agua mineral con gas"],
-      "foto": true,
-      "categoria": ["BEBIDAS Y JUGOS", "AGUA", "CON GAS"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/25d6682ccd9cb2a59bd0c815349e90bf406b35f7b5df5bdcc60ae9a98a6105cd.png"
-  },
-  "de7529887ab2a9abcc7ab22f6550be4cf01bb5ad4f8a4b9fd34fe32dcf22c2d5": {
-    "id": "de7529887ab2a9abcc7ab22f6550be4cf01bb5ad4f8a4b9fd34fe32dcf22c2d5",
-    "product": {
-      "nombre": "JUGO MARACUYA",
-      "precio": 3500,
-      "descripcion": "Jugo de maracuyá.",
-      "ingredientes": ["Jugo de maracuyá"],
-      "foto": false,
-      "categoria": ["BEBIDAS Y JUGOS", "JUGOS", "FRUTAL", "TROPICAL"]
-    }
-  },
-  "3c09208f6b3f144f892df44f19268a1d05901e8f5d48a79c9e460dc24a84f9e4": {
-    "id": "3c09208f6b3f144f892df44f19268a1d05901e8f5d48a79c9e460dc24a84f9e4",
-    "product": {
-      "nombre": "JUGO MANGO",
-      "precio": 3500,
-      "descripcion": "Jugo de mango.",
-      "ingredientes": ["Jugo de mango"],
-      "foto": false,
-      "categoria": ["BEBIDAS Y JUGOS", "JUGOS", "FRUTAL", "TROPICAL"]
-    }
-  },
-  "17ffbc7c168a41f5153223d652f7c149562025ec759b247c0313effbd5e0f7c3": {
-    "id": "17ffbc7c168a41f5153223d652f7c149562025ec759b247c0313effbd5e0f7c3",
-    "product": {
-      "nombre": "JUGO PIÑA",
-      "precio": 3500,
-      "descripcion": "Jugo de piña.",
-      "ingredientes": ["Jugo de piña"],
-      "foto": false,
-      "categoria": ["BEBIDAS Y JUGOS", "JUGOS", "FRUTAL", "TROPICAL"]
-    }
-  },
-  "e01d000104638a995111628bdff500aaddf86f82d1b569a2bc78aec207cf37c0": {
-    "id": "e01d000104638a995111628bdff500aaddf86f82d1b569a2bc78aec207cf37c0",
-    "product": {
-      "nombre": "JUGO BERRIES",
-      "precio": 3500,
-      "descripcion": "Jugo de berries.",
-      "ingredientes": ["Jugo de berries"],
-      "foto": false,
-      "categoria": ["BEBIDAS Y JUGOS", "JUGOS", "FRUTAL"]
-    }
-  },
-  "e8c03c819fd7c9ec1c2fbc6bf1771221fda4873541f4e3c20ad5653822703012": {
-    "id": "e8c03c819fd7c9ec1c2fbc6bf1771221fda4873541f4e3c20ad5653822703012",
-    "product": {
-      "nombre": "LIMONADA MENTA JENGIBRE",
-      "precio": 3500,
-      "descripcion": "Limonada casera con menta y jengibre.",
-      "ingredientes": ["Limonada", "menta", "jengibre"],
-      "foto": true,
-      "categoria": ["BEBIDAS Y JUGOS", "LIMONADA", "REFRESCANTE", "SIN ALCOHOL"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/e8c03c819fd7c9ec1c2fbc6bf1771221fda4873541f4e3c20ad5653822703012.png"
-  },
-  "0ad87928a975f116fa228cddf00233ddafe29adf30cd2d89f82b7cbfe1fb377a": {
-    "id": "0ad87928a975f116fa228cddf00233ddafe29adf30cd2d89f82b7cbfe1fb377a",
-    "product": {
-      "nombre": "COCA NORMAL 350cc",
-      "precio": 2500,
-      "descripcion": "Coca-Cola clásica en lata.",
-      "ingredientes": ["Coca-Cola Normal"],
-      "foto": true,
-      "categoria": ["BEBIDAS Y JUGOS", "BEBIDAS GASEOSAS", "COCA-COLA"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/0ad87928a975f116fa228cddf00233ddafe29adf30cd2d89f82b7cbfe1fb377a.png"
-  },
-  "10e5391336d76fce89633a89cee086af634ae4e4e38389d86af35c3b3d7565be": {
-    "id": "10e5391336d76fce89633a89cee086af634ae4e4e38389d86af35c3b3d7565be",
-    "product": {
-      "nombre": "COCA ZERO 350cc",
-      "precio": 2500,
-      "descripcion": "Coca-Cola Zero azúcar en lata.",
-      "ingredientes": ["Coca-Cola Zero"],
-      "foto": true,
-      "categoria": [
-        "BEBIDAS Y JUGOS",
-        "BEBIDAS GASEOSAS",
-        "COCA-COLA",
-        "SIN AZUCAR"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/10e5391336d76fce89633a89cee086af634ae4e4e38389d86af35c3b3d7565be.png"
-  },
-  "92abd9fb31f9aaa7fef7a68252394d5f2e6d3c75996589d5d2b90dd1bf05c6d3": {
-    "id": "92abd9fb31f9aaa7fef7a68252394d5f2e6d3c75996589d5d2b90dd1bf05c6d3",
-    "product": {
-      "nombre": "AGUA TÓNICA 350cc",
-      "precio": 2500,
-      "descripcion": "Agua tónica Schweppes en lata.",
-      "ingredientes": ["Agua tónica (Schweppes)"],
-      "foto": true,
-      "categoria": [
-        "BEBIDAS Y JUGOS",
-        "BEBIDAS GASEOSAS",
-        "AGUA TONICA",
-        "MIXER"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/92abd9fb31f9aaa7fef7a68252394d5f2e6d3c75996589d5d2b90dd1bf05c6d3.png"
-  },
-  "b074c91ccf8b6928cc8875be07f46d1e626c4abcc7d07e517a444a42497840d4": {
-    "id": "b074c91ccf8b6928cc8875be07f46d1e626c4abcc7d07e517a444a42497840d4",
-    "product": {
-      "nombre": "GINGER ALE 350cc",
-      "precio": 2500,
-      "descripcion": "Ginger Ale Schweppes en lata.",
-      "ingredientes": ["Ginger Ale (Schweppes)"],
-      "foto": true,
-      "categoria": [
-        "BEBIDAS Y JUGOS",
-        "BEBIDAS GASEOSAS",
-        "GINGER ALE",
-        "MIXER"
-      ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/b074c91ccf8b6928cc8875be07f46d1e626c4abcc7d07e517a444a42497840d4.png"
-  },
-  "5d7d9fd8ca62841ea5fcaff63e1bd65283de383b206a6c385931dd6ed12861b9": {
-    "id": "5d7d9fd8ca62841ea5fcaff63e1bd65283de383b206a6c385931dd6ed12861b9",
-    "product": {
-      "nombre": "PEPSI ZERO 350cc",
-      "precio": 2500,
-      "descripcion": "Pepsi Zero azúcar en lata.",
-      "ingredientes": ["Pepsi Zero"],
       "foto": false,
       "categoria": [
-        "BEBIDAS Y JUGOS",
-        "BEBIDAS GASEOSAS",
-        "PEPSI",
-        "SIN AZUCAR"
+        "COCKTELERÍA CERVECERA"
       ]
     }
   },
-  "08c1e4be148b0eac3719325b9a42320c64d116203131df0ea23fe818739d983d": {
-    "id": "08c1e4be148b0eac3719325b9a42320c64d116203131df0ea23fe818739d983d",
+  "61b03fb5cc61a82d9ff1385a9ac04e8b7badc5dd767805074e6d999d69c247b7": {
+    "id": "61b03fb5cc61a82d9ff1385a9ac04e8b7badc5dd767805074e6d999d69c247b7",
     "product": {
-      "nombre": "QUESO CHEDDAR",
-      "precio": 1000,
-      "descripcion": "Extra de queso cheddar.",
-      "ingredientes": ["Queso cheddar"],
-      "foto": false,
-      "categoria": ["EXTRAS", "QUESO"]
-    }
-  },
-  "a9f9a387327dd20eb12eb648522ef509460280098dfef10bed0ba9925efea39e": {
-    "id": "a9f9a387327dd20eb12eb648522ef509460280098dfef10bed0ba9925efea39e",
-    "product": {
-      "nombre": "TOCINO",
-      "precio": 1000,
-      "descripcion": "Extra de tocino.",
-      "ingredientes": ["Tocino"],
-      "foto": false,
-      "categoria": ["EXTRAS", "CARNE"]
-    }
-  },
-  "3e30915d540c91cd14afff28b5773bd261d6dd2afc4bce24f06264561384b28d": {
-    "id": "3e30915d540c91cd14afff28b5773bd261d6dd2afc4bce24f06264561384b28d",
-    "product": {
-      "nombre": "CHELADA (limon y sal)",
-      "precio": 1000,
-      "descripcion": "Preparación para cerveza con limón y sal.",
-      "ingredientes": ["Limón", "sal"],
-      "foto": false,
-      "categoria": ["EXTRAS", "PREPARACION CERVEZA"]
-    }
-  },
-  "3c29fe9751b8446aaac7a7775bfd371698b9658065e607b85d2c972e7c99a67f": {
-    "id": "3c29fe9751b8446aaac7a7775bfd371698b9658065e607b85d2c972e7c99a67f",
-    "product": {
-      "nombre": "MICHELADA (limon, sal, tabasco, salsa inglesa)",
-      "precio": 1000,
-      "descripcion": "Preparación para cerveza con limón, sal, tabasco y salsa inglesa.",
-      "ingredientes": ["Limón", "sal", "tabasco", "salsa inglesa"],
-      "foto": false,
-      "categoria": ["EXTRAS", "PREPARACION CERVEZA", "PICANTE"]
-    }
-  },
-  "a10a6ab5ff5ae2d41bed6431acd3307fca112cd79bafdf711eab413f682f9873": {
-    "id": "a10a6ab5ff5ae2d41bed6431acd3307fca112cd79bafdf711eab413f682f9873",
-    "product": {
-      "nombre": "BOMBILLA COMESTIBLE",
-      "precio": 1000,
-      "descripcion": "Bombilla que se puede comer.",
-      "ingredientes": ["Bombilla comestible"],
-      "foto": true,
-      "categoria": ["EXTRAS", "OTROS"]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/a10a6ab5ff5ae2d41bed6431acd3307fca112cd79bafdf711eab413f682f9873.png"
-  },
-  "5a1a826335dcfeaf25a72abb13d5a2514a260b97472c0959e7b25aa24e872d64": {
-    "id": "5a1a826335dcfeaf25a72abb13d5a2514a260b97472c0959e7b25aa24e872d64",
-    "product": {
-      "nombre": "BARRA",
-      "precio": 0,
-      "descripcion": "Opción de consumo en barra.",
+      "nombre": "CHERRY SPRITZ",
+      "precio": 6900,
+      "descripcion": "",
       "ingredientes": [],
       "foto": false,
-      "categoria": ["EXTRAS", "OTROS"]
-    }
-  },
-  "69d3d6c0f3a4421de05e956c50ccfa5cb088ed246f39ecd5884d5d88ea9c1716": {
-    "id": "69d3d6c0f3a4421de05e956c50ccfa5cb088ed246f39ecd5884d5d88ea9c1716",
-    "product": {
-      "nombre": "SOUR CREAM",
-      "precio": 1000,
-      "descripcion": "Extra de sour cream.",
-      "ingredientes": ["Sour cream"],
-      "foto": false,
-      "categoria": ["EXTRAS", "SALSAS"]
-    }
-  },
-  "b0479d4e3910e99cdc99198efe40503b15a82fdd5c1f1b3e92e49d3bad67d14a": {
-    "id": "b0479d4e3910e99cdc99198efe40503b15a82fdd5c1f1b3e92e49d3bad67d14a",
-    "product": {
-      "nombre": "EXTRA PULPA",
-      "precio": 1000,
-      "descripcion": "Extra de pulpa de fruta para jugos o cócteles.",
-      "ingredientes": ["Pulpa de fruta"],
-      "foto": false,
-      "categoria": ["EXTRAS", "FRUTA"]
-    }
-  },
-  "6064b189b02d84ab4fa200d13131d1345001d47cd5cbe61edefbe1b29c1192c1": {
-    "id": "6064b189b02d84ab4fa200d13131d1345001d47cd5cbe61edefbe1b29c1192c1",
-    "product": {
-      "nombre": "MOSTAZA MIEL",
-      "precio": 1000,
-      "descripcion": "Extra de salsa mostaza y miel.",
-      "ingredientes": ["Salsa mostaza y miel"],
-      "foto": false,
-      "categoria": ["EXTRAS", "SALSAS"]
-    }
-  },
-  "0ae7bcfc176acb011018510d424cf023855fa5b66963d8939656778981fe47a2": {
-    "id": "0ae7bcfc176acb011018510d424cf023855fa5b66963d8939656778981fe47a2",
-    "product": {
-      "nombre": "MAYO CILANTRO",
-      "precio": 1000,
-      "descripcion": "Extra de mayonesa con cilantro.",
-      "ingredientes": ["Mayonesa con cilantro"],
-      "foto": false,
-      "categoria": ["EXTRAS", "SALSAS"]
-    }
-  },
-  "1e59281baaf26b0309ab13225abd5f8b31fe8b2ca19df2dca2005eae352cd39a": {
-    "id": "1e59281baaf26b0309ab13225abd5f8b31fe8b2ca19df2dca2005eae352cd39a",
-    "product": {
-      "nombre": "EXTRA VEGETALES",
-      "precio": 800,
-      "descripcion": "Extra de vegetales.",
-      "ingredientes": ["Vegetales adicionales"],
-      "foto": false,
-      "categoria": ["EXTRAS", "VEGETALES"]
-    }
-  },
-  "d93e3a04160db4d4405cbdee6b5addee2185f1b8b6b3be29a80abe1162943d3d": {
-    "id": "d93e3a04160db4d4405cbdee6b5addee2185f1b8b6b3be29a80abe1162943d3d",
-    "product": {
-      "nombre": "ALTO DEL CARMEN 35° X2",
-      "precio": 6490,
-      "descripcion": "+1 bebida lata 350ml",
-      "ingredientes": ["2x Pisco Alto del Carmen 35°", "1x bebida lata 350ml"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "PISCO", "OFERTAS"]
-    }
-  },
-  "db26a1f805e64752d21a8676c802bf00eb33e43695e31903c498d6c03d3a04ac": {
-    "id": "db26a1f805e64752d21a8676c802bf00eb33e43695e31903c498d6c03d3a04ac",
-    "product": {
-      "nombre": "MISTRAL 35° 2X",
-      "precio": 6990,
-      "descripcion": "Promoción 2x1 en Pisco Mistral 35°.",
-      "ingredientes": ["2x Pisco Mistral 35°"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "PISCO", "OFERTAS"]
-    }
-  },
-  "ee44d301e31331734ba6c04bded509e209043e1d3e81d241b20812e73d72e96d": {
-    "id": "ee44d301e31331734ba6c04bded509e209043e1d3e81d241b20812e73d72e96d",
-    "product": {
-      "nombre": "HAVANA CLUB ESPECIAL X2",
-      "precio": 6990,
-      "descripcion": "Promoción 2x1 en Ron Havana Club Especial.",
-      "ingredientes": ["2x Ron Havana Club Especial"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "RON", "OFERTAS"]
-    }
-  },
-  "e65ac6b8d86b182b3f04256cb0c8a517fb0e57a1a9b69c2c7958548d2cf42fc7": {
-    "id": "e65ac6b8d86b182b3f04256cb0c8a517fb0e57a1a9b69c2c7958548d2cf42fc7",
-    "product": {
-      "nombre": "BACARDI AÑEJO 2X",
-      "precio": 6990,
-      "descripcion": "Promoción 2x1 en Ron Bacardi Añejo.",
-      "ingredientes": ["2x Ron Bacardi Añejo"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "RON", "OFERTAS"]
-    }
-  },
-  "5f169aa992803a7d4695ca17ccfeec0b423de88d2e9f131a7361d25c6b02da08": {
-    "id": "5f169aa992803a7d4695ca17ccfeec0b423de88d2e9f131a7361d25c6b02da08",
-    "product": {
-      "nombre": "FERNET BRANCA X2",
-      "precio": 7990,
-      "descripcion": "Promoción 2x1 en Fernet Branca.",
-      "ingredientes": ["2x Fernet Branca"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "LICOR", "FERNET", "OFERTAS"]
-    }
-  },
-  "71880aed0462d734656ded71679adcecc235a416e7e9a4070c6e7820606d329d": {
-    "id": "71880aed0462d734656ded71679adcecc235a416e7e9a4070c6e7820606d329d",
-    "product": {
-      "nombre": "FERNET BUHERO NEGRO X2",
-      "precio": 7990,
-      "descripcion": "Promoción 2x1 en Fernet Buhero Negro.",
-      "ingredientes": ["2x Fernet Buhero Negro"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "LICOR", "FERNET", "OFERTAS"]
-    }
-  },
-  "5dd468bb3f50659dc3023622c349b9956eef97ea788f613d090297800d7c0e47": {
-    "id": "5dd468bb3f50659dc3023622c349b9956eef97ea788f613d090297800d7c0e47",
-    "product": {
-      "nombre": "VODKA STOLI X2",
-      "precio": 6990,
-      "descripcion": "Promoción 2x1 en Vodka Stolichnaya.",
-      "ingredientes": ["2x Stolichnaya Vodka"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "VODKA", "OFERTAS"]
-    }
-  },
-  "6c790ebad2c52298a4e52dfe065a5b0655c79610c468c2651870695a61adf63c": {
-    "id": "6c790ebad2c52298a4e52dfe065a5b0655c79610c468c2651870695a61adf63c",
-    "product": {
-      "nombre": "VODKA SKYY BLUE X2",
-      "precio": 6990,
-      "descripcion": "Promoción 2x1 en Vodka SKYY.",
-      "ingredientes": ["2x Vodka SKYY"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "VODKA", "OFERTAS"]
-    }
-  },
-  "a3f339d684e5736aaaeff78b0711ad80cfc8c264a06037e54148a716a9f4eb3f": {
-    "id": "a3f339d684e5736aaaeff78b0711ad80cfc8c264a06037e54148a716a9f4eb3f",
-    "product": {
-      "nombre": "VODKA SKYY PIÑA X2",
-      "precio": 6990,
-      "descripcion": "Promoción 2x1 en Vodka SKYY Infusions Pineapple.",
-      "ingredientes": ["2x Vodka SKYY Infusions Pineapple"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "VODKA", "SABORIZADO", "OFERTAS"]
-    }
-  },
-  "b766a816bb0b055abaffa55d520d97784110063fae06848c9e333031537e1c6c": {
-    "id": "b766a816bb0b055abaffa55d520d97784110063fae06848c9e333031537e1c6c",
-    "product": {
-      "nombre": "VODKA SKYY STRAWBERRY X2",
-      "precio": 6990,
-      "descripcion": "Promoción 2x1 en Vodka SKYY Infusions Strawberry.",
-      "ingredientes": ["2x Vodka SKYY Infusions Strawberry"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "VODKA", "SABORIZADO", "OFERTAS"]
-    }
-  },
-  "cf9f3c611eff02896bb5831b129d1e8e1c37aa780a38cffce4fc011fcec394fb": {
-    "id": "cf9f3c611eff02896bb5831b129d1e8e1c37aa780a38cffce4fc011fcec394fb",
-    "product": {
-      "nombre": "VODKA SKYY RASPBERRY X2",
-      "precio": 6990,
-      "descripcion": "Promoción 2x1 en Vodka SKYY Infusions Raspberry.",
-      "ingredientes": ["2x Vodka SKYY Infusions Raspberry"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "VODKA", "SABORIZADO", "OFERTAS"]
-    }
-  },
-  "9fc5ebd1ece863c6ceea4ca4a36801a7ec82109c1295e81dd237370572e1b055": {
-    "id": "9fc5ebd1ece863c6ceea4ca4a36801a7ec82109c1295e81dd237370572e1b055",
-    "product": {
-      "nombre": "JOHNNIE WALKER ROJO X2",
-      "precio": 9990,
-      "descripcion": "1 bebida lata 350ml",
-      "ingredientes": ["2x Johnnie Walker Red Label", "1x bebida lata 350ml"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "WHISKY", "SCOTCH", "OFERTAS"]
-    }
-  },
-  "ecf5a4faf443c573272a1406779e9a212ad7e499f22c75eaac10e62b72af19f9": {
-    "id": "ecf5a4faf443c573272a1406779e9a212ad7e499f22c75eaac10e62b72af19f9",
-    "product": {
-      "nombre": "BALLANTINE'S X2",
-      "precio": 9990,
-      "descripcion": "Promoción 2x1 en Ballantine's Finest Scotch Whisky.",
-      "ingredientes": ["2x Ballantine's Finest Scotch Whisky"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "WHISKY", "SCOTCH", "OFERTAS"]
-    }
-  },
-  "db875ccb7ce95ff666f8136173bf66cace9f6dd8bf433d76ecad625d4252e9d7": {
-    "id": "db875ccb7ce95ff666f8136173bf66cace9f6dd8bf433d76ecad625d4252e9d7",
-    "product": {
-      "nombre": "JACK DANIELS N7 X2",
-      "precio": 10990,
-      "descripcion": "1 bebida lata 350ml",
-      "ingredientes": ["2x Jack Daniel's Old No. 7", "1x bebida lata 350ml"],
-      "foto": false,
       "categoria": [
-        "PROMOS",
-        "DESTILADOS",
-        "WHISKY",
-        "TENNESSEE WHISKEY",
-        "OFERTAS"
+        "COCKTELERÍA"
       ]
     }
   },
-  "9bae289760cd3fc2139de11e96462ecbaa6093fdcf0a259aaa9dfa4a32104494": {
-    "id": "9bae289760cd3fc2139de11e96462ecbaa6093fdcf0a259aaa9dfa4a32104494",
+  "1dcea9577642c196da6df4358a313628082b48fed5256365147efa9c6893c853": {
+    "id": "1dcea9577642c196da6df4358a313628082b48fed5256365147efa9c6893c853",
     "product": {
-      "nombre": "WOODFORD RESERVE Bourbon 2X",
-      "precio": 11990,
-      "descripcion": "Promoción 2x1 en Woodford Reserve Bourbon.",
-      "ingredientes": ["2x Woodford Reserve Bourbon"],
-      "foto": false,
-      "categoria": [
-        "PROMOS",
-        "DESTILADOS",
-        "WHISKY",
-        "BOURBON",
-        "PREMIUM",
-        "OFERTAS"
-      ]
-    }
-  },
-  "2c7f08e68604e3a81b3b5f7605f6599b09cfaafbc10426f57e7827797ec75017": {
-    "id": "2c7f08e68604e3a81b3b5f7605f6599b09cfaafbc10426f57e7827797ec75017",
-    "product": {
-      "nombre": "ABSOLUT RASPBERRY X2",
-      "precio": 7490,
-      "descripcion": "Promoción 2x1 en Absolut Raspberri Vodka.",
-      "ingredientes": ["2x Absolut Raspberri Vodka"],
-      "foto": false,
-      "categoria": ["PROMOS", "DESTILADOS", "VODKA", "SABORIZADO", "OFERTAS"]
-    }
-  },
-  "fda8a4eb860775956296358bacf72a321260a6e2e11b117a2dd4b3ef5343e8da": {
-    "id": "fda8a4eb860775956296358bacf72a321260a6e2e11b117a2dd4b3ef5343e8da",
-    "product": {
-      "nombre": "CAIPIRIÑA 2X",
-      "precio": 8490,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Caipiriña"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "CACHAÇA",
-        "OFERTAS"
-      ]
-    }
-  },
-  "fec83718c4c41cf5ad7494c3e08dce03d3f2dc64de14bd6fe98d28d8770be4ac": {
-    "id": "fec83718c4c41cf5ad7494c3e08dce03d3f2dc64de14bd6fe98d28d8770be4ac",
-    "product": {
-      "nombre": "CAIPIROSKA 2X",
-      "precio": 8490,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Caipiroska"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "VODKA",
-        "OFERTAS"
-      ]
-    }
-  },
-  "5e8750aeaccf80fb6ce6b1a0039ef7aca1e05b7b3e498df00ca88ffd38dee5cd": {
-    "id": "5e8750aeaccf80fb6ce6b1a0039ef7aca1e05b7b3e498df00ca88ffd38dee5cd",
-    "product": {
-      "nombre": "DAIKIRI 2X",
-      "precio": 8490,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Daiquiri (sabor a elección)"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "RON",
-        "DAIQUIRI",
-        "OFERTAS"
-      ]
-    }
-  },
-  "b6098369e1d43fef303c9e2026d2309c7eb88b576b0120f3789c1cc3cf6ca1f7": {
-    "id": "b6098369e1d43fef303c9e2026d2309c7eb88b576b0120f3789c1cc3cf6ca1f7",
-    "product": {
-      "nombre": "MARGARITA 2X",
-      "precio": 9490,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Margarita"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "TEQUILA",
-        "MARGARITA",
-        "OFERTAS"
-      ]
-    }
-  },
-  "fac3464ce515ea5ed181d2d282379fbd3f48e2fdfa85c1a2322820e35891a7ad": {
-    "id": "fac3464ce515ea5ed181d2d282379fbd3f48e2fdfa85c1a2322820e35891a7ad",
-    "product": {
-      "nombre": "MARGARITA BLUE 2X",
-      "precio": 9990,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Margarita Blue"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "TEQUILA",
-        "MARGARITA",
-        "LICOR",
-        "OFERTAS"
-      ]
-    }
-  },
-  "8099d5af8aa0729dabc32fd0e29a840c037e0ea8d0cfc6a3c71b4de527680312": {
-    "id": "8099d5af8aa0729dabc32fd0e29a840c037e0ea8d0cfc6a3c71b4de527680312",
-    "product": {
-      "nombre": "MOJITO SABOR 2X",
-      "precio": 9490,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Mojito Sabores"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "RON",
-        "MOJITO",
-        "OFERTAS"
-      ]
-    }
-  },
-  "72763cb0abfcc99438463863ec87676722f4db7dc4413f8118f210682f21e0b4": {
-    "id": "72763cb0abfcc99438463863ec87676722f4db7dc4413f8118f210682f21e0b4",
-    "product": {
-      "nombre": "GIN TONIC 2X",
-      "precio": 9490,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Gin Tonic"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "GIN",
-        "GIN TONIC",
-        "OFERTAS"
-      ]
-    }
-  },
-  "b72ec25bdea83f8eaf40cc044908603581e1bfec55a94b02b9c967489a750c3d": {
-    "id": "b72ec25bdea83f8eaf40cc044908603581e1bfec55a94b02b9c967489a750c3d",
-    "product": {
-      "nombre": "TROPICAL GIN 2X",
-      "precio": 10990,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Tropical Gin"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "GIN",
-        "OFERTAS"
-      ]
-    }
-  },
-  "d0caad514a92f9f2271333bb058c7e662ca5ec7da9dc58cafc1021549df88962": {
-    "id": "d0caad514a92f9f2271333bb058c7e662ca5ec7da9dc58cafc1021549df88962",
-    "product": {
-      "nombre": "RAMAZZOTTI 2X",
-      "precio": 8990,
-      "descripcion": "Martes a Jueves todo el dia (Probablemente Ramazzotti Spritz)",
-      "ingredientes": ["2x Ramazzotti Spritz"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "APERITIVO",
-        "SPRITZ",
-        "RAMAZZOTTI",
-        "OFERTAS"
-      ]
-    }
-  },
-  "d27de301e03fdc852e3cca0779d46f566108a9278540c1ba96e2802599989f51": {
-    "id": "d27de301e03fdc852e3cca0779d46f566108a9278540c1ba96e2802599989f51",
-    "product": {
-      "nombre": "APEROL 2X",
-      "precio": 8990,
-      "descripcion": "Martes a Jueves todo el dia (Probablemente Aperol Spritz)",
-      "ingredientes": ["2x Aperol Spritz"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "APERITIVO",
-        "SPRITZ",
-        "APEROL",
-        "OFERTAS"
-      ]
-    }
-  },
-  "3fecc9df7c7f8b3a86488e63c3ad6cf828d45f18aefbc149c13913493fb13612": {
-    "id": "3fecc9df7c7f8b3a86488e63c3ad6cf828d45f18aefbc149c13913493fb13612",
-    "product": {
-      "nombre": "MOSCOW MULE 2X",
-      "precio": 8990,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Moscow Mule"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "VODKA",
-        "MULE",
-        "OFERTAS"
-      ]
-    }
-  },
-  "24fd829c3a79f018dc138c21b269604f7dd0834de1bea19bb8b58ed86137ed43": {
-    "id": "24fd829c3a79f018dc138c21b269604f7dd0834de1bea19bb8b58ed86137ed43",
-    "product": {
-      "nombre": "LONDON MULE 2X",
-      "precio": 9990,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x London Mule"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "GIN",
-        "MULE",
-        "OFERTAS"
-      ]
-    }
-  },
-  "fb29538154710460245020c4f873aa6392ea843238324a21669c8ac447c267eb": {
-    "id": "fb29538154710460245020c4f873aa6392ea843238324a21669c8ac447c267eb",
-    "product": {
-      "nombre": "PIÑA COLADA X2",
-      "precio": 8990,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Piña Colada"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "RON",
-        "TROPICAL",
-        "OFERTAS"
-      ]
-    }
-  },
-  "3dfb12bca210259951f9879213dcc44a1a2a9151f67472af5b319a36412d244b": {
-    "id": "3dfb12bca210259951f9879213dcc44a1a2a9151f67472af5b319a36412d244b",
-    "product": {
-      "nombre": "PISCO SOUR 2X",
-      "precio": 6990,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Pisco Sour"],
-      "foto": false,
-      "categoria": [
-        "COCTELERIA 2X",
-        "PROMOS",
-        "COCTELERIA CLASICA",
-        "PISCO",
-        "SOUR",
-        "OFERTAS"
-      ]
-    }
-  },
-  "77ce1da68dfbd2c4f05526c7a939c7f92384701fc9448460236a055b453f9e55": {
-    "id": "77ce1da68dfbd2c4f05526c7a939c7f92384701fc9448460236a055b453f9e55",
-    "product": {
-      "nombre": "SCHOP CALAFATE 2X",
-      "precio": 8490,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Schop Austral Calafate 500cc"],
+      "nombre": "TROPICAL GIN",
+      "precio": 7800,
+      "descripcion": "Disfruta de un agradable día con el exquisito Tropical Gin. Pídelo con red Bull sabor granada, maracuyá, açai o arándano (pídelo preparado o con la Red Bull aparte).",
+      "ingredientes": [
+        "Tropical Gin",
+        "Red Bull (opcional)"
+      ],
       "foto": true,
       "categoria": [
-        "SCHOP 2X",
-        "PROMOS",
-        "CERVEZAS",
-        "SCHOP",
-        "DRAFT",
-        "OFERTAS"
+        "COCKTELERÍA"
       ]
-    },
-    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/77ce1da68dfbd2c4f05526c7a939c7f92384701fc9448460236a055b453f9e55.png"
+    }
   },
-  "5cbdea173695add6ebd0c0cb8bd29a3e56501f033a2309c0b4ea0f10b15f2d47": {
-    "id": "5cbdea173695add6ebd0c0cb8bd29a3e56501f033a2309c0b4ea0f10b15f2d47",
+  "a42fae486e61d0075d6c74f80e086f9bbb06c1a537aa6c781430d2e2bc03e3d1": {
+    "id": "a42fae486e61d0075d6c74f80e086f9bbb06c1a537aa6c781430d2e2bc03e3d1",
     "product": {
-      "nombre": "SCHOP HEINEKEN 2X",
-      "precio": 6990,
-      "descripcion": "Martes a Jueves todo el dia",
-      "ingredientes": ["2x Schop Heineken 500cc"],
+      "nombre": "SANDIA SPRITZ",
+      "precio": 6900,
+      "descripcion": "La sandía es una fruta sinónimo de verano, de frescura, por lo que no podía faltar en la colección de licores De Kuyper, aunque reproducir su sabor suele ser una misión difícil. Los holandeses lo han hecho y todavía están bastante bien. El licor es vigorizante, con un color rojo intenso y un final dulce y aromático. En el sabor de la sandía hay ligeros toques de miel y va acompañado de espumante y agua gasificada.",
+      "ingredientes": [
+        "Licor De Kuyper Sandia",
+        "espumante",
+        "agua gasificada"
+      ],
+      "foto": true,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "567e0ecc748108a943608a149f01bf86555988b8e261cc9df1a2c08e2acdcf4f": {
+    "id": "567e0ecc748108a943608a149f01bf86555988b8e261cc9df1a2c08e2acdcf4f",
+    "product": {
+      "nombre": "DURAZNO SPRITZ",
+      "precio": 6900,
+      "descripcion": "De kuyper Peachtree El sabor de duraznos maduros, su licor a la luz es cristalino. Peachtree es uno de los sabores más populares en todo el Mundo. Claro como el cristal, el espíritu de la luz, que estalla con el sabor de los melocotones maduros de árboles, acompañado de espumante y agua gasificada.",
+      "ingredientes": [
+        "De Kuyper Peachtree",
+        "espumante",
+        "agua gasificada"
+      ],
+      "foto": true,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "5a3d3878477c1b7c6d7f12299d0c871c32f848caa24c4206c8608beb23d910e4": {
+    "id": "5a3d3878477c1b7c6d7f12299d0c871c32f848caa24c4206c8608beb23d910e4",
+    "product": {
+      "nombre": "COCO SPRITZ",
+      "precio": 6900,
+      "descripcion": "De Kuyper, acompañado de espumante y agua gasificada.",
+      "ingredientes": [
+        "Licor De Kuyper Coco",
+        "espumante",
+        "agua gasificada"
+      ],
       "foto": false,
       "categoria": [
-        "SCHOP 2X",
-        "PROMOS",
-        "CERVEZAS",
-        "SCHOP",
-        "DRAFT",
-        "OFERTAS"
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "3c958ece144271ebc8071dad79c52a5c8f4ec6e71178fec3618719ea5c03e6c5": {
+    "id": "3c958ece144271ebc8071dad79c52a5c8f4ec6e71178fec3618719ea5c03e6c5",
+    "product": {
+      "nombre": "MARACUYÁ SPRITZ",
+      "precio": 6900,
+      "descripcion": "El licor de fresas silvestres De Kuyper destaca por su sabor con cuerpo y el aroma de fresas frescas con espumante y agua gasificada.",
+      "ingredientes": [
+        "Licor De Kuyper Fresa Silvestre",
+        "espumante",
+        "agua gasificada"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "3d71931e6df17ccc6d5e69133f51828428a6727ad48aaa1c0a7b5c2b7ffd884e": {
+    "id": "3d71931e6df17ccc6d5e69133f51828428a6727ad48aaa1c0a7b5c2b7ffd884e",
+    "product": {
+      "nombre": "FRUTILLA SPRITZ",
+      "precio": 6900,
+      "descripcion": "De Kuyper, acompañado de espumante y agua gasificada.",
+      "ingredientes": [
+        "Licor De Kuyper Frutilla",
+        "espumante",
+        "agua gasificada"
+      ],
+      "foto": true,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "1efef464d2eb9e8c0843701471e7365dfb76a02d89cc9aed310f5a184e1b0c13": {
+    "id": "1efef464d2eb9e8c0843701471e7365dfb76a02d89cc9aed310f5a184e1b0c13",
+    "product": {
+      "nombre": "ARÁNDANO SPRITZ",
+      "precio": 6900,
+      "descripcion": "DE KUYPER, ACOMPAÑADO DE ESPUMANTE Y AGUA GASIFICADA.",
+      "ingredientes": [
+        "Licor De Kuyper Arándano",
+        "espumante",
+        "agua gasificada"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "8e3aab439df5d34af8ea5637c10883f30286f5a6451098f00cf4c71233732366": {
+    "id": "8e3aab439df5d34af8ea5637c10883f30286f5a6451098f00cf4c71233732366",
+    "product": {
+      "nombre": "LONDON MULE",
+      "precio": 6800,
+      "descripcion": "Gin, jugo de Limón y ginger beer.",
+      "ingredientes": [
+        "Gin",
+        "jugo de Limón",
+        "ginger beer"
+      ],
+      "foto": true,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "c5968bf44e1f7e0a00f7dc12bb76e83c384205d485c87a126ef71ac93f9fa933": {
+    "id": "c5968bf44e1f7e0a00f7dc12bb76e83c384205d485c87a126ef71ac93f9fa933",
+    "product": {
+      "nombre": "DAIQUIRI SABORES",
+      "precio": 5800,
+      "descripcion": "SABORES DISPONIBLES: MARACUYÁ, MANGO, FRUTILLA Y MORA. PREGUNTAR DISPONIBILIDAD",
+      "ingredientes": [
+        "Ron blanco",
+        "jugo de limón",
+        "azúcar",
+        "pulpa de fruta (Maracuyá/Mango/Frutilla/Mora)"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "68991652de188a7f366be1cb93be9d00edb9c7d27be0be4d432edfa17170dffe": {
+    "id": "68991652de188a7f366be1cb93be9d00edb9c7d27be0be4d432edfa17170dffe",
+    "product": {
+      "nombre": "MOSCOW MULE",
+      "precio": 6800,
+      "descripcion": "Vodka, jugo de limón y ginger beer.",
+      "ingredientes": [
+        "Vodka",
+        "jugo de limón",
+        "ginger beer"
+      ],
+      "foto": true,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "a83f456aebc2dc507ab0aa1370f24395ba715c53de5c492d9975e6b0c5d91d96": {
+    "id": "a83f456aebc2dc507ab0aa1370f24395ba715c53de5c492d9975e6b0c5d91d96",
+    "product": {
+      "nombre": "RAMAZOTTI VIOLETTO",
+      "precio": 5800,
+      "descripcion": "Utilizando los conocimientos sobre las hierbas y la experiencia en el comercio de vino y bebidas espirituosas, Ausano Ramazzotti inventa una armoniosa mezcla de hierbas y especias diferentes en un alcohol de primera.",
+      "ingredientes": [
+        "Ramazzotti Violetto"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "f27f547fb74f86f24ed8070ef3aefa602a6ab9f73f8f28fd92f70d87aa35a7c6": {
+    "id": "f27f547fb74f86f24ed8070ef3aefa602a6ab9f73f8f28fd92f70d87aa35a7c6",
+    "product": {
+      "nombre": "BIG MOJITO SABORES",
+      "precio": 6200,
+      "descripcion": "Opciones: Maracuyá, berries y manzana.",
+      "ingredientes": [
+        "Ron blanco",
+        "menta",
+        "limón de pica",
+        "soda",
+        "sabor (Maracuyá/Berries/Manzana)"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "01ab1d10c87aab737ccf49f5a11962e867abd1f9bb443dddb093139ac730e0e0": {
+    "id": "01ab1d10c87aab737ccf49f5a11962e867abd1f9bb443dddb093139ac730e0e0",
+    "product": {
+      "nombre": "NEGRONI",
+      "precio": 6500,
+      "descripcion": "El Negroni es un cóctel de origen italiano preparado a base de Gin, Campari y Vermú rojo.",
+      "ingredientes": [
+        "Gin",
+        "Campari",
+        "Vermú rojo"
+      ],
+      "foto": true,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "1d2b1dffb797e0e64e1f20d90b0cfaa453de5b2076431762a3b6fea1a8359615": {
+    "id": "1d2b1dffb797e0e64e1f20d90b0cfaa453de5b2076431762a3b6fea1a8359615",
+    "product": {
+      "nombre": "APEROL SPRITZ",
+      "precio": 5700,
+      "descripcion": "",
+      "ingredientes": [
+        "Aperol",
+        "Espumante",
+        "Soda"
+      ],
+      "foto": true,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "970a88dc0651b6593d0deb4a6d2dc50f8bfc79def4778713cb9959d502bc8c5d": {
+    "id": "970a88dc0651b6593d0deb4a6d2dc50f8bfc79def4778713cb9959d502bc8c5d",
+    "product": {
+      "nombre": "RAMAZZOTTI",
+      "precio": 5800,
+      "descripcion": "",
+      "ingredientes": [
+        "Ramazzotti Rosato",
+        "Espumante",
+        "Soda"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "9589cf7fb8d7b6e8f2cc1eee83d2207cb84b1d9e7191e900d4016744639d7d73": {
+    "id": "9589cf7fb8d7b6e8f2cc1eee83d2207cb84b1d9e7191e900d4016744639d7d73",
+    "product": {
+      "nombre": "JAGERTRIP",
+      "precio": 5400,
+      "descripcion": "Como el cásico mojito, pero en vez de ron blanco se agrega jagemeister y se finaliza con red bull en vez de soda.",
+      "ingredientes": [
+        "Jagermeister",
+        "menta",
+        "limón",
+        "Red Bull"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "16d331af2741ad9af4afe50fc356a921a62fb0115bcc9413bac1d173f020abe8": {
+    "id": "16d331af2741ad9af4afe50fc356a921a62fb0115bcc9413bac1d173f020abe8",
+    "product": {
+      "nombre": "TOM COLLINS",
+      "precio": 4800,
+      "descripcion": "Gin, jugo de limón y soda.",
+      "ingredientes": [
+        "Gin",
+        "jugo de limón",
+        "soda"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "de145f37a223b49864168574f031cad4b446d223fc3a07903f2a5b4ad4adf48d": {
+    "id": "de145f37a223b49864168574f031cad4b446d223fc3a07903f2a5b4ad4adf48d",
+    "product": {
+      "nombre": "CAIPIRINHA",
+      "precio": 4500,
+      "descripcion": "Desde Brasil, base a limón de pica azúcar flor y cachaça.",
+      "ingredientes": [
+        "Cachaça",
+        "limón de pica",
+        "azúcar flor"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "c06b78a43eb293ac5113d6f228d32fbf2fb145fe20ecac1ff7c71a58132040a1": {
+    "id": "c06b78a43eb293ac5113d6f228d32fbf2fb145fe20ecac1ff7c71a58132040a1",
+    "product": {
+      "nombre": "AMARETTO SOUR",
+      "precio": 4800,
+      "descripcion": "En base a amaretto, jugo de limón y azúcar flor.",
+      "ingredientes": [
+        "Amaretto",
+        "jugo de limón",
+        "azúcar flor"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "9d25f257d1d07417d2f857c622f5ae362b22180ae219ac68385f9aaab117bd7c": {
+    "id": "9d25f257d1d07417d2f857c622f5ae362b22180ae219ac68385f9aaab117bd7c",
+    "product": {
+      "nombre": "SANGRÍA",
+      "precio": 5500,
+      "descripcion": "",
+      "ingredientes": [
+        "Vino tinto",
+        "frutas",
+        "licor",
+        "azúcar"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "c1b4cc8e527d9c06bd633c30ea71a720afbe4a9fbfd9c47b4738103c5cb581c9": {
+    "id": "c1b4cc8e527d9c06bd633c30ea71a720afbe4a9fbfd9c47b4738103c5cb581c9",
+    "product": {
+      "nombre": "CLAVO OXIDADO",
+      "precio": 6800,
+      "descripcion": "Mezcla de whisky y Drambuie (licor de whisky), hielo",
+      "ingredientes": [
+        "Whisky",
+        "Drambuie",
+        "hielo"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "cb77213b3ac35d5d4cae31b8b948af747106a580c479360ea3cf3d97f3694033": {
+    "id": "cb77213b3ac35d5d4cae31b8b948af747106a580c479360ea3cf3d97f3694033",
+    "product": {
+      "nombre": "OLD FASHION CLÁSICO",
+      "precio": 5800,
+      "descripcion": "Bourbon, Amargo angostura, refrescado con aceite de la cáscara de naranja.",
+      "ingredientes": [
+        "Bourbon",
+        "Amargo angostura",
+        "azúcar",
+        "cáscara de naranja"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "701d1bb011d6b1104762de5996a8b61b37e83d214b82801f8139f4ff13e29095": {
+    "id": "701d1bb011d6b1104762de5996a8b61b37e83d214b82801f8139f4ff13e29095",
+    "product": {
+      "nombre": "ALEXANDER",
+      "precio": 5500,
+      "descripcion": "Licor de cacao, crema de leche y ron dorado.",
+      "ingredientes": [
+        "Licor de cacao",
+        "crema de leche",
+        "ron dorado"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "173848d576e54ed49a1a4401d6c143db3beae5a56eafa7424300551ddb5de2b8": {
+    "id": "173848d576e54ed49a1a4401d6c143db3beae5a56eafa7424300551ddb5de2b8",
+    "product": {
+      "nombre": "PIÑA COLADA",
+      "precio": 5500,
+      "descripcion": "Elaborado en base a crema, esencia de coco, ron blanco y piña natural.",
+      "ingredientes": [
+        "Crema de coco",
+        "esencia de coco",
+        "ron blanco",
+        "piña natural"
+      ],
+      "foto": true,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "2c16897e84da33a809295a3be6c7c647f6593617e2e1887e79a4f6929d60f9c8": {
+    "id": "2c16897e84da33a809295a3be6c7c647f6593617e2e1887e79a4f6929d60f9c8",
+    "product": {
+      "nombre": "MANHATTAN",
+      "precio": 5800,
+      "descripcion": "Vermut rojo whisky en copa helada.",
+      "ingredientes": [
+        "Whisky",
+        "Vermut rojo",
+        "Amargo angostura"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "0ca8067ff5d65fae96903f511c569fb586c95c8b95f7f1e5b5e5ba655095980c": {
+    "id": "0ca8067ff5d65fae96903f511c569fb586c95c8b95f7f1e5b5e5ba655095980c",
+    "product": {
+      "nombre": "MOJITO",
+      "precio": 5200,
+      "descripcion": "Originario de cuba en base a ron blanco, menta, limón de pica y soda.",
+      "ingredientes": [
+        "Ron blanco",
+        "menta",
+        "limón de pica",
+        "soda",
+        "azúcar"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "b3717bc1be13e78fea7492957c1c07a58117bc97771694baac9476e54720a8f6": {
+    "id": "b3717bc1be13e78fea7492957c1c07a58117bc97771694baac9476e54720a8f6",
+    "product": {
+      "nombre": "BIG MOJITO",
+      "precio": 5800,
+      "descripcion": "Originario de cuba en base y ron blanco, menta, limón de pica y soda.",
+      "ingredientes": [
+        "Ron blanco",
+        "menta",
+        "limón de pica",
+        "soda",
+        "azúcar"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "a3334df595252f1d96012e60544bfe07b6451f6175ced4443f83805abf0e49f6": {
+    "id": "a3334df595252f1d96012e60544bfe07b6451f6175ced4443f83805abf0e49f6",
+    "product": {
+      "nombre": "MOJITO SABORES",
+      "precio": 5400,
+      "descripcion": "Originario de Cuba en base a ron con sabor a manzana, maracuyá o berry, limón de pica, menta y soda.",
+      "ingredientes": [
+        "Ron blanco",
+        "menta",
+        "limón de pica",
+        "soda",
+        "sabor (manzana/maracuyá/berry)"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "6524309ad06efc96f38fb4268792caa9e7f0fded8994d8c05d1910b8adfb623c": {
+    "id": "6524309ad06efc96f38fb4268792caa9e7f0fded8994d8c05d1910b8adfb623c",
+    "product": {
+      "nombre": "MARTINI",
+      "precio": 5800,
+      "descripcion": "Copa muy fría, secada con gin o vodka (a elección) y Martini bien frío.",
+      "ingredientes": [
+        "Gin o Vodka",
+        "Vermut seco"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "15d1eddf9d5b285a775cb270b8e700df7b65e35934b1fdfaec712c8aed830902": {
+    "id": "15d1eddf9d5b285a775cb270b8e700df7b65e35934b1fdfaec712c8aed830902",
+    "product": {
+      "nombre": "DAIQUIRI",
+      "precio": 5300,
+      "descripcion": "Refrescante, con jugo natural de limón, ron blanco, clásico.",
+      "ingredientes": [
+        "Ron blanco",
+        "jugo de limón",
+        "azúcar"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "2cefd4b0ffe0e9dd10dca8f43e673f365e9a0d94ec0a7e49b1cc7f1d477176db": {
+    "id": "2cefd4b0ffe0e9dd10dca8f43e673f365e9a0d94ec0a7e49b1cc7f1d477176db",
+    "product": {
+      "nombre": "RUSO BLANCO",
+      "precio": 5500,
+      "descripcion": "Trago dulce a base de Kahlúa, crema y vodka.",
+      "ingredientes": [
+        "Kahlúa",
+        "crema",
+        "vodka"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "b2d3113708e86ec641f06dc1cc05e0d1fed02d00dc79ce3ee4e336e4f0612440": {
+    "id": "b2d3113708e86ec641f06dc1cc05e0d1fed02d00dc79ce3ee4e336e4f0612440",
+    "product": {
+      "nombre": "PISCO SOUR",
+      "precio": 4800,
+      "descripcion": "",
+      "ingredientes": [
+        "Pisco",
+        "jugo de limón",
+        "goma"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "8971f85aeed9d917684226d09fc39c21a12ecda9f84cf95fd8debd0b5c0dd4bc": {
+    "id": "8971f85aeed9d917684226d09fc39c21a12ecda9f84cf95fd8debd0b5c0dd4bc",
+    "product": {
+      "nombre": "PISCO SOUR PERUANO (TABERNERO)",
+      "precio": 5500,
+      "descripcion": "Elaborado con pisco peruano (capellanes), jugo de limón de pica y amargo de angostura.",
+      "ingredientes": [
+        "Pisco peruano (Tabernero Capellanes)",
+        "jugo de limón de pica",
+        "amargo de angostura",
+        "clara de huevo",
+        "goma"
+      ],
+      "foto": false,
+      "categoria": [
+        "COCKTELERÍA"
+      ]
+    }
+  },
+  "372818843bb33f4ae6c788d0fe3ca65154b0d370b12e2afdf56b61c840bccd1b": {
+    "id": "372818843bb33f4ae6c788d0fe3ca65154b0d370b12e2afdf56b61c840bccd1b",
+    "product": {
+      "nombre": "JIM BEAM",
+      "precio": 5500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "BOURBON"
+      ]
+    }
+  },
+  "f6e64809ee7a86cd97eef2017da107c839561b2c19130a215d1126ede653af21": {
+    "id": "f6e64809ee7a86cd97eef2017da107c839561b2c19130a215d1126ede653af21",
+    "product": {
+      "nombre": "JACK DANIEL'S FIRE CINNAMON SHOT",
+      "precio": 5800,
+      "descripcion": "SHOT",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "BOURBON"
+      ]
+    }
+  },
+  "f790b77af9d6a46aef2d98d6b45b117fbfe746597c3bcfd63dc9e2aec7a04040": {
+    "id": "f790b77af9d6a46aef2d98d6b45b117fbfe746597c3bcfd63dc9e2aec7a04040",
+    "product": {
+      "nombre": "JACK DANIEL'S APPLE",
+      "precio": 5800,
+      "descripcion": "BEBIDA ADICIONAL $500",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "BOURBON"
+      ]
+    }
+  },
+  "bd925be2c008519bcc05040f6c2a0337676ebf54f5edec530641219a10878447": {
+    "id": "bd925be2c008519bcc05040f6c2a0337676ebf54f5edec530641219a10878447",
+    "product": {
+      "nombre": "JACK DANIEL'S",
+      "precio": 5500,
+      "descripcion": "BEBIDA ADICIONAL $500",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "BOURBON"
+      ]
+    }
+  },
+  "5f3d9226de51f51a2fe57d21f4840e83f93ed3f5e8ee3195edf4bbba42f6c87f": {
+    "id": "5f3d9226de51f51a2fe57d21f4840e83f93ed3f5e8ee3195edf4bbba42f6c87f",
+    "product": {
+      "nombre": "JACK DANIEL'S HONEY",
+      "precio": 6000,
+      "descripcion": "Tennessee Honey. BEBIDA ADICIONAL $500",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "BOURBON"
+      ]
+    }
+  },
+  "fb21e569bd2c26117f8342158390de89b0362cfd63c14521a919595ef47771f1": {
+    "id": "fb21e569bd2c26117f8342158390de89b0362cfd63c14521a919595ef47771f1",
+    "product": {
+      "nombre": "JACK DANIEL'S GENTLEMAN",
+      "precio": 7500,
+      "descripcion": "Gentleman Jack. BEBIDA ADICIONAL $500",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "BOURBON"
+      ]
+    }
+  },
+  "379079fad7816d7da9593dd3bb8f7cdee4fafcae4c8d83c788cb9a7e5a3310ce": {
+    "id": "379079fad7816d7da9593dd3bb8f7cdee4fafcae4c8d83c788cb9a7e5a3310ce",
+    "product": {
+      "nombre": "JACK DANIEL'S - SINGLE BARREL",
+      "precio": 10500,
+      "descripcion": "Single Barrel",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "BOURBON"
+      ]
+    }
+  },
+  "cb6f726a41d2f9f16fa3d948179b3330ae05f7072939a9b4c0de72ea240866d9": {
+    "id": "cb6f726a41d2f9f16fa3d948179b3330ae05f7072939a9b4c0de72ea240866d9",
+    "product": {
+      "nombre": "JOHNNIE WALKER RED LABEL",
+      "precio": 5500,
+      "descripcion": "La bebida se cobra a parte $500",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "WHISKY"
+      ]
+    }
+  },
+  "6ed5c14ee72d8251c658ca71bab7c8e4d9793503ff840d3f3faf484153974e3e": {
+    "id": "6ed5c14ee72d8251c658ca71bab7c8e4d9793503ff840d3f3faf484153974e3e",
+    "product": {
+      "nombre": "JOHNNIE WALKER BLACK LABEL",
+      "precio": 6500,
+      "descripcion": "La bebida se cobra a parte $500",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "WHISKY"
+      ]
+    }
+  },
+  "cfeb8029caf161975fec3a902918ea62b13ef583abb061b1b8a65834e3168e87": {
+    "id": "cfeb8029caf161975fec3a902918ea62b13ef583abb061b1b8a65834e3168e87",
+    "product": {
+      "nombre": "BALLANTINE'S",
+      "precio": 4500,
+      "descripcion": "La bebida se cobra a parte $500",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "WHISKY"
+      ]
+    }
+  },
+  "ff56deb08d646fc30b800b94047cace41cbf4865efe09f527a48366ad6662430": {
+    "id": "ff56deb08d646fc30b800b94047cace41cbf4865efe09f527a48366ad6662430",
+    "product": {
+      "nombre": "Mezcla para Destilado",
+      "precio": 500,
+      "descripcion": "Bebida extra para acompañar whisky/bourbon.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "EXTRAS"
+      ]
+    }
+  },
+  "f6eee6aa6b3a35d1069d2ea937718ae82e180c39327f6f0e91acb4688e162d4b": {
+    "id": "f6eee6aa6b3a35d1069d2ea937718ae82e180c39327f6f0e91acb4688e162d4b",
+    "product": {
+      "nombre": "GIN THE BOTANIST",
+      "precio": 7900,
+      "descripcion": "The Botanist es un gin de producción en lotes pequeños, hecho de 9 aromas básicos y 22 botánicos locales elegidos a mano, que crecen salvajemente en la isla de Islay, conocida por sus excelentes whiskeys picantes. El gin es destilado en un alambique único y famoso, llamado Betty. Betty no permite que nadie la apure y trabaja bajo leve presión, que le permite soltar aromas sutiles. James tarda 7 meses cada año en elegir personalmente los ingredientes para The Botanist, hoja por hoja, flor por flor, cuando cada planta está en su mejor momento. Luego llena una bolsa de algodón con suficientes botánicos cuidadosamente preparados para un lote de ginebra a la vez, y entrega los frutos de su trabajo.",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "GIN"
+      ]
+    }
+  },
+  "1d2a3020967f263af8cb327bef61da12deae70fa74c1adc062635645b7654b1f": {
+    "id": "1d2a3020967f263af8cb327bef61da12deae70fa74c1adc062635645b7654b1f",
+    "product": {
+      "nombre": "GIN PROA",
+      "precio": 6500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "GIN"
+      ]
+    }
+  },
+  "5eee9e12175f0e41b01e70d6cbca4bd134ecadfd71ea1803abe1b8a15c86b57f": {
+    "id": "5eee9e12175f0e41b01e70d6cbca4bd134ecadfd71ea1803abe1b8a15c86b57f",
+    "product": {
+      "nombre": "GIN PUEBLO",
+      "precio": 6000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": true,
+      "categoria": [
+        "GIN"
+      ]
+    }
+  },
+  "6c8db6d9a60e22ab87af8ce8da07458822dde428c68618b37c92979e4c36cdfb": {
+    "id": "6c8db6d9a60e22ab87af8ce8da07458822dde428c68618b37c92979e4c36cdfb",
+    "product": {
+      "nombre": "GIN BOMBAY",
+      "precio": 5500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "GIN"
+      ]
+    }
+  },
+  "75d70e86ca98ca2449607d43be60bfc1a3b0577c0cd2232eb9a2f6cc93eb01ad": {
+    "id": "75d70e86ca98ca2449607d43be60bfc1a3b0577c0cd2232eb9a2f6cc93eb01ad",
+    "product": {
+      "nombre": "GIN TANQUERAY",
+      "precio": 5500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "GIN"
+      ]
+    }
+  },
+  "f0760174f86b281aca3d0c6776a5971e01274f829a9851f9533ebb337130efc4": {
+    "id": "f0760174f86b281aca3d0c6776a5971e01274f829a9851f9533ebb337130efc4",
+    "product": {
+      "nombre": "GIN BEEFEATER",
+      "precio": 5500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "GIN"
+      ]
+    }
+  },
+  "c9483e637820826c21f2f25c6c7947178e4c0a106a8f781244e616f0f4372ece": {
+    "id": "c9483e637820826c21f2f25c6c7947178e4c0a106a8f781244e616f0f4372ece",
+    "product": {
+      "nombre": "GIN TANQUERAY TEN",
+      "precio": 7200,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "GIN"
+      ]
+    }
+  },
+  "e0d0485f2e2e7446c81a983f9eb01d1294b482f22665d92bc52acd5df03eb22a": {
+    "id": "e0d0485f2e2e7446c81a983f9eb01d1294b482f22665d92bc52acd5df03eb22a",
+    "product": {
+      "nombre": "GIN HENDRICK'S",
+      "precio": 7000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "GIN"
+      ]
+    }
+  },
+  "127b1909e2a745833a31bc432d11faa9a2fc45ec48a82ce92730da6ba0193c0d": {
+    "id": "127b1909e2a745833a31bc432d11faa9a2fc45ec48a82ce92730da6ba0193c0d",
+    "product": {
+      "nombre": "HAVANA",
+      "precio": 5000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "RON"
+      ]
+    }
+  },
+  "f47f24bcde7cb552257b8497bb6565b748e1efafce174cd51adecd624d5b16f2": {
+    "id": "f47f24bcde7cb552257b8497bb6565b748e1efafce174cd51adecd624d5b16f2",
+    "product": {
+      "nombre": "PAMPERO",
+      "precio": 5500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "RON"
+      ]
+    }
+  },
+  "86ebed39426cd2370996b3a3bcbd20a971aae0cb7059ed15e4e73bf12d95d289": {
+    "id": "86ebed39426cd2370996b3a3bcbd20a971aae0cb7059ed15e4e73bf12d95d289",
+    "product": {
+      "nombre": "FLOR DE CAÑA 7 AÑOS",
+      "precio": 6500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "RON"
+      ]
+    }
+  },
+  "08bd844dcf2427b209ad0100df85c849b7c6cbf5e7ba07ad279bcd11db4efecd": {
+    "id": "08bd844dcf2427b209ad0100df85c849b7c6cbf5e7ba07ad279bcd11db4efecd",
+    "product": {
+      "nombre": "ALTO DEL CARMEN TRANSPARENTE 40°",
+      "precio": 5000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "c6e6d7c525a32d1e58fc1eba663ec7aeb95654c3aa75e87a9b96fc9aa81d7a3a": {
+    "id": "c6e6d7c525a32d1e58fc1eba663ec7aeb95654c3aa75e87a9b96fc9aa81d7a3a",
+    "product": {
+      "nombre": "PISCO ALTO DEL CARMEN ROBLE DEL SUR",
+      "precio": 5500,
+      "descripcion": "35° Reposado en barricas de roble americano.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "3979698202ec1de5ccaadd328107973f322ccc04e950dd9008f2769d583ebb0b": {
+    "id": "3979698202ec1de5ccaadd328107973f322ccc04e950dd9008f2769d583ebb0b",
+    "product": {
+      "nombre": "ALTO DEL CARMEN 35°",
+      "precio": 4500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "f99cc11cfa372ca592d4558a7ad1c76d103c446a9662e680cf35bde9baec4ac0": {
+    "id": "f99cc11cfa372ca592d4558a7ad1c76d103c446a9662e680cf35bde9baec4ac0",
+    "product": {
+      "nombre": "ALTO DEL CARMEN ETIQUETA NEGRA 40°",
+      "precio": 6000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "ae7172642d9171564aedcc8ca7e7cbe5c05d69205842325f8a87156a16deede0": {
+    "id": "ae7172642d9171564aedcc8ca7e7cbe5c05d69205842325f8a87156a16deede0",
+    "product": {
+      "nombre": "ALTO DEL CARMEN ETIQUETA BLANCA 40°",
+      "precio": 6000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "7321ecd7b44685626740bf8c6572fa62ee0b53f4c03f0c79364448b81022af91": {
+    "id": "7321ecd7b44685626740bf8c6572fa62ee0b53f4c03f0c79364448b81022af91",
+    "product": {
+      "nombre": "MALPASO ICONO",
+      "precio": 7500,
+      "descripcion": "40° Moscatel Rosada y moscatel de Alejandría. Producción propia de sectores escogidos en el predio. Cuidadosa destilación en alambiques de cobre, para lograr conservar aromas y disminuir drásticamente las impurezas.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "b5f296ebfc4ff347deec1d12fa957f47f9bc136e5205f9219be343d10ecfd92f": {
+    "id": "b5f296ebfc4ff347deec1d12fa957f47f9bc136e5205f9219be343d10ecfd92f",
+    "product": {
+      "nombre": "MALPASO PEDRO JIMÉNEZ",
+      "precio": 6000,
+      "descripcion": "40°",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "562154ac0f5d39ea0cebf2e52333929a4356f2a96a1478939a060cc9bd1a495a": {
+    "id": "562154ac0f5d39ea0cebf2e52333929a4356f2a96a1478939a060cc9bd1a495a",
+    "product": {
+      "nombre": "PISCO BOU BARROETA ROMANET",
+      "precio": 7000,
+      "descripcion": "Limpidez: Limpio, transparente con leves tonos verdosos y amarillo. Brillo: Luz cálida tenue. Tinte: Marca tonos verdes claros y amarillo (guarda). Descripción Reposo: Aroma maderoso y caramelo. 35° Agitado: Cítricos como la naranja caramelizada y una intensa graduación alcohólica. Ataque: Maderoso muy intenso. Evolución: Aparece especias como la canela y se mantiene un alto sabor farmacéutico (alcohol). Final en boca: Sutil, pero con persistencia de sabor a alcohol.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "ae25c0c02234546f114f6a23cd2aee70f22397d81dbaed0256c6c87c9176ab00": {
+    "id": "ae25c0c02234546f114f6a23cd2aee70f22397d81dbaed0256c6c87c9176ab00",
+    "product": {
+      "nombre": "ESPÍRITU DE LOS ANDES 40°",
+      "precio": 6500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "3527bf7ed3c59f4bedaa5c78089b8d7e3dc2acb85f4f9609c358bf70984d31d9": {
+    "id": "3527bf7ed3c59f4bedaa5c78089b8d7e3dc2acb85f4f9609c358bf70984d31d9",
+    "product": {
+      "nombre": "VALLE LUNA ENVEJECIDO 40°",
+      "precio": 6000,
+      "descripcion": "Valle Luna envejecido 40 es un pisco elaborado 100% con uvas Moscatel de Alejandría y añejado o envejecido entre 12-14 meses en barricas de Roble francés tostadas. Este pisco tiene un proceso de doble destilación y triple filtración para asegurar un alcohol sedoso, pero con buena propiedad de fruta. Queremos invitar al consumidor de pisco añejados que pruebe este Pisco Artesanal único, con toques de madera, ahumado.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "b8126b44490f472173d914ac5d9d81e4db841d5918b2daa01771a9afb39c5ec3": {
+    "id": "b8126b44490f472173d914ac5d9d81e4db841d5918b2daa01771a9afb39c5ec3",
+    "product": {
+      "nombre": "VALLE LUNA 35°",
+      "precio": 5000,
+      "descripcion": "Este Pisco nace como un tributo a la magia de la imponente Luna sobre nuestro majestuoso Valle del Elqui. Estos dos elementos combinados, tienen una influencia única sobre las parras Cosechamos de noche y en ciertos periodos del ciclo Lunar. La calidad intensidad de las uvas se potencian influencia de la Luna, que, sumado energía del Valle del Elqui, hace que tengamos un mosto de inmejorable calidad. Hemos descubierto la forma embotellar este secreto y lo queremos compartir con ustedes. Valle Luna es un Pisco único.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "b6770b4bf35660240fd268c7c58763a53280f7b18e6345e08e4519e219803e72": {
+    "id": "b6770b4bf35660240fd268c7c58763a53280f7b18e6345e08e4519e219803e72",
+    "product": {
+      "nombre": "VALLE LUNA 40°",
+      "precio": 5500,
+      "descripcion": "Este Pisco nace como un tributo a la magia de la imponente Luna sobre nuestro majestuoso Valle del Elqui. Estos dos elementos combinados, tienen una influencia única sobre las parras Cosechamos de noche y en ciertos periodos del ciclo Lunar. La calidad intensidad de las uvas se potencian influencia de la Luna, que, sumado energía del Valle del Elqui, hace que tengamos un mosto de inmejorable calidad. Hemos descubierto la forma embotellar este secreto y lo queremos compartir con ustedes. Valle Luna es un Pisco único.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "2fdadc7a2e5f803f1b52c816489c27700ea4b3591636388368bb94ba3f94ef2a": {
+    "id": "2fdadc7a2e5f803f1b52c816489c27700ea4b3591636388368bb94ba3f94ef2a",
+    "product": {
+      "nombre": "MISTRAL 35°",
+      "precio": 4500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "57a7f52e9e8ab1cdc54c88a551bcf1ab5b8bf6c79534c011f22a935fe81f5de2": {
+    "id": "57a7f52e9e8ab1cdc54c88a551bcf1ab5b8bf6c79534c011f22a935fe81f5de2",
+    "product": {
+      "nombre": "MISTRAL 40°",
+      "precio": 5000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "6ce99f7d47cedeed3f8acab0e2a3fd7cbec304c3cf91e517c169c9385388733c": {
+    "id": "6ce99f7d47cedeed3f8acab0e2a3fd7cbec304c3cf91e517c169c9385388733c",
+    "product": {
+      "nombre": "MISTRAL NOBEL (AÑEJADO)",
+      "precio": 5500,
+      "descripcion": "40°",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "f7580ed5338a4409c580791a82b9b728ade9378dec0837f3ad76f0a37c3860ca": {
+    "id": "f7580ed5338a4409c580791a82b9b728ade9378dec0837f3ad76f0a37c3860ca",
+    "product": {
+      "nombre": "GOBERNADOR 35°",
+      "precio": 5000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "e6ee31213a757c35b2f1e9f6da8ac50971278908de47c56c66ce1f2038796149": {
+    "id": "e6ee31213a757c35b2f1e9f6da8ac50971278908de47c56c66ce1f2038796149",
+    "product": {
+      "nombre": "MAL PASO 35°",
+      "precio": 4500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "5f04e496168fb7edd6ff062b87e78450c7d2d767cfdcb4e588726901dbed475d": {
+    "id": "5f04e496168fb7edd6ff062b87e78450c7d2d767cfdcb4e588726901dbed475d",
+    "product": {
+      "nombre": "MAL PASO 40°",
+      "precio": 5000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "874bf5deb6964f26cc7ee5776fc8f6efe4b7fbad8b19d5560085ff4b01902505": {
+    "id": "874bf5deb6964f26cc7ee5776fc8f6efe4b7fbad8b19d5560085ff4b01902505",
+    "product": {
+      "nombre": "PISCO BAUZA 35°",
+      "precio": 6000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "8bbaf1796973bd8d25e71dde9f90344c8449e9d1da0c655946b906ef86731437": {
+    "id": "8bbaf1796973bd8d25e71dde9f90344c8449e9d1da0c655946b906ef86731437",
+    "product": {
+      "nombre": "HORCÓN QUEMADO 35°",
+      "precio": 5500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "d3d0a394e203e3854d5d71bbf64385a7a60f4878da2f29c921dd49769ff1bb50": {
+    "id": "d3d0a394e203e3854d5d71bbf64385a7a60f4878da2f29c921dd49769ff1bb50",
+    "product": {
+      "nombre": "HORCÓN QUEMADO 40°",
+      "precio": 6000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "PISCO"
+      ]
+    }
+  },
+  "f8af3f39c1c455e3434a1fb7b3f2c4d92306e43694af37ccd784c7eb9482394c": {
+    "id": "f8af3f39c1c455e3434a1fb7b3f2c4d92306e43694af37ccd784c7eb9482394c",
+    "product": {
+      "nombre": "GREY GOOSE",
+      "precio": 6500,
+      "descripcion": "Clásico",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "VODKA"
+      ]
+    }
+  },
+  "15dd68bc63812840536a2312102f0172a617e778cb71075d55930cc3dd755b45": {
+    "id": "15dd68bc63812840536a2312102f0172a617e778cb71075d55930cc3dd755b45",
+    "product": {
+      "nombre": "GREY GOOSE NARANJA",
+      "precio": 6500,
+      "descripcion": "Sabor Naranja",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "VODKA"
+      ]
+    }
+  },
+  "fcf07fa494d5c312cdcde1873e15cdd096e7bf8d93770e9271d2fbf2043800ec": {
+    "id": "fcf07fa494d5c312cdcde1873e15cdd096e7bf8d93770e9271d2fbf2043800ec",
+    "product": {
+      "nombre": "STOLICHNAYA",
+      "precio": 5000,
+      "descripcion": "Tradicional",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "VODKA"
+      ]
+    }
+  },
+  "dff96e4467660923f77c16fc7944a9775cc3d14a2c4b15ba4f5e3daf949ed2e8": {
+    "id": "dff96e4467660923f77c16fc7944a9775cc3d14a2c4b15ba4f5e3daf949ed2e8",
+    "product": {
+      "nombre": "ABSOLUT",
+      "precio": 5500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "VODKA"
+      ]
+    }
+  },
+  "d51d795c926176287d074780cd1b5096fdb1140aeb226510ba33caeccc7cddcf": {
+    "id": "d51d795c926176287d074780cd1b5096fdb1140aeb226510ba33caeccc7cddcf",
+    "product": {
+      "nombre": "MOJITO SIN ALCOHOL SABORES",
+      "precio": 4500,
+      "descripcion": "SABORES DISPONIBLES. MARACUYÁ Y FRUTOS ROJOS (PREGUNTAR DISPONIBILIDAD)",
+      "ingredientes": [
+        "Pulpa (Maracuyá/Frutos Rojos)",
+        "menta",
+        "limón",
+        "goma",
+        "soda"
+      ],
+      "foto": true,
+      "categoria": [
+        "SIN ALCOHOL"
+      ]
+    }
+  },
+  "b40897da4dc9cadd83d50d48216ad4d3f32b3e59bb56a1f03158cab418aaf25e": {
+    "id": "b40897da4dc9cadd83d50d48216ad4d3f32b3e59bb56a1f03158cab418aaf25e",
+    "product": {
+      "nombre": "VERANO TROPICAL",
+      "precio": 3800,
+      "descripcion": "Trago sin alcohol con un toque de granadina, jugo de limón natural, ginger ale.",
+      "ingredientes": [
+        "granadina",
+        "jugo de limón natural",
+        "ginger ale"
+      ],
+      "foto": false,
+      "categoria": [
+        "SIN ALCOHOL"
+      ]
+    }
+  },
+  "1c0dfde01950d1daa200ebbec351e4d287272e9d290fc677c00abb4d2506b21e": {
+    "id": "1c0dfde01950d1daa200ebbec351e4d287272e9d290fc677c00abb4d2506b21e",
+    "product": {
+      "nombre": "SAN FRANCISCO",
+      "precio": 4000,
+      "descripcion": "Trago sin alcohol refrescante, elaborado con un toque de granadina, jugo de limón, jugo de naranja natural y jugo de piña natural",
+      "ingredientes": [
+        "granadina",
+        "jugo de limón",
+        "jugo de naranja natural",
+        "jugo de piña natural"
+      ],
+      "foto": false,
+      "categoria": [
+        "SIN ALCOHOL"
+      ]
+    }
+  },
+  "13626415c57275c15d1ebfc8a1ea866efebbe66f849b29a334327f3c1c86c8cc": {
+    "id": "13626415c57275c15d1ebfc8a1ea866efebbe66f849b29a334327f3c1c86c8cc",
+    "product": {
+      "nombre": "MOJITO SIN ALCOHOL",
+      "precio": 4000,
+      "descripcion": "",
+      "ingredientes": [
+        "menta",
+        "limón",
+        "goma",
+        "soda"
+      ],
+      "foto": false,
+      "categoria": [
+        "SIN ALCOHOL"
+      ]
+    }
+  },
+  "083d0ee9edc747c92e8daeac8002d7b115cfa6d3a6a940ff109518571b9cecaa": {
+    "id": "083d0ee9edc747c92e8daeac8002d7b115cfa6d3a6a940ff109518571b9cecaa",
+    "product": {
+      "nombre": "PIÑA COLADA SIN ALCOHOL",
+      "precio": 4000,
+      "descripcion": "",
+      "ingredientes": [
+        "Crema de coco",
+        "jugo de piña"
+      ],
+      "foto": false,
+      "categoria": [
+        "SIN ALCOHOL"
+      ]
+    }
+  },
+  "b2731df4cf5846a31854054f8a95232a7372afa21bd819bc729194c6b2d14e6d": {
+    "id": "b2731df4cf5846a31854054f8a95232a7372afa21bd819bc729194c6b2d14e6d",
+    "product": {
+      "nombre": "CAIPIRINHA SIN ALCOHOL",
+      "precio": 3800,
+      "descripcion": "",
+      "ingredientes": [
+        "Limón de pica",
+        "azúcar",
+        "soda o agua con gas"
+      ],
+      "foto": false,
+      "categoria": [
+        "SIN ALCOHOL"
+      ]
+    }
+  },
+  "eb16b6898e332bb68ba19cb1fb450850bda6a42bbbc5a32cdbaabbb836ac52cd": {
+    "id": "eb16b6898e332bb68ba19cb1fb450850bda6a42bbbc5a32cdbaabbb836ac52cd",
+    "product": {
+      "nombre": "CAIPIRINHA NARANJA SIN ALCOHOL",
+      "precio": 3800,
+      "descripcion": "",
+      "ingredientes": [
+        "Naranja",
+        "limón",
+        "azúcar",
+        "soda o agua con gas"
+      ],
+      "foto": false,
+      "categoria": [
+        "SIN ALCOHOL"
+      ]
+    }
+  },
+  "586c9d65dd66a4cd8dcd81a121969023f8fc32417a5031890440b7fb1993c7c7": {
+    "id": "586c9d65dd66a4cd8dcd81a121969023f8fc32417a5031890440b7fb1993c7c7",
+    "product": {
+      "nombre": "LIMONADA",
+      "precio": 3800,
+      "descripcion": "",
+      "ingredientes": [
+        "Jugo de limón",
+        "agua",
+        "azúcar"
+      ],
+      "foto": false,
+      "categoria": [
+        "SIN ALCOHOL"
+      ]
+    }
+  },
+  "6d02d03bce666d6d833ed4ee2c15ee66232759961158b9ee7afc959ff6d030b0": {
+    "id": "6d02d03bce666d6d833ed4ee2c15ee66232759961158b9ee7afc959ff6d030b0",
+    "product": {
+      "nombre": "LIMONADA MENTA JENGIBRE",
+      "precio": 4200,
+      "descripcion": "",
+      "ingredientes": [
+        "Jugo de limón",
+        "agua",
+        "azúcar",
+        "menta",
+        "jengibre"
+      ],
+      "foto": false,
+      "categoria": [
+        "SIN ALCOHOL"
+      ]
+    },
+    "image": "file:///Users/jonathan.delgado/Repositories/jondotsoy/carta-el-pacto/src/data/images/6d02d03bce666d6d833ed4ee2c15ee66232759961158b9ee7afc959ff6d030b0.png"
+  },
+  "81f57aabbc8e0ceb6d131b0961fac61a795a419e7ffbb5f528b66b7a928d5d81": {
+    "id": "81f57aabbc8e0ceb6d131b0961fac61a795a419e7ffbb5f528b66b7a928d5d81",
+    "product": {
+      "nombre": "FIREBALL",
+      "precio": 4800,
+      "descripcion": "Shot de fireball",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "DESTILADOS - LOS CLÁSICOS"
+      ]
+    }
+  },
+  "9e3de9dfa7868d96f3b43ebfc01b95b313dca8dc390f54e433e0c552f86af25b": {
+    "id": "9e3de9dfa7868d96f3b43ebfc01b95b313dca8dc390f54e433e0c552f86af25b",
+    "product": {
+      "nombre": "CAMPARI",
+      "precio": 4800,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "DESTILADOS - LOS CLÁSICOS"
+      ]
+    }
+  },
+  "658c8b0063d1b9f2d932765eb0cfc1ecf27ebefb71c7b3c67585d1ccfea6bff9": {
+    "id": "658c8b0063d1b9f2d932765eb0cfc1ecf27ebefb71c7b3c67585d1ccfea6bff9",
+    "product": {
+      "nombre": "APEROL",
+      "precio": 4500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "DESTILADOS - LOS CLÁSICOS"
+      ]
+    }
+  },
+  "4d70c347f74e8890d4f83c7dc596ad674ab55db8bf0c819aff3e0e7e93fbd91d": {
+    "id": "4d70c347f74e8890d4f83c7dc596ad674ab55db8bf0c819aff3e0e7e93fbd91d",
+    "product": {
+      "nombre": "JAGERMEISTER",
+      "precio": 3500,
+      "descripcion": "Shot",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "DESTILADOS - LOS CLÁSICOS"
+      ]
+    }
+  },
+  "854cad6e8ab469d6c919dfc602752e48be4f986487e26d6c48b48be79557156c": {
+    "id": "854cad6e8ab469d6c919dfc602752e48be4f986487e26d6c48b48be79557156c",
+    "product": {
+      "nombre": "SHOT TEQUILA",
+      "precio": 3500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "DESTILADOS - TEQUILA"
+      ]
+    }
+  },
+  "74f06cc881fc2727e4514b11f55eeb8db4a0d855eb979bfd7c2e37bbce5ccbfc": {
+    "id": "74f06cc881fc2727e4514b11f55eeb8db4a0d855eb979bfd7c2e37bbce5ccbfc",
+    "product": {
+      "nombre": "JOSÉ CUERVO",
+      "precio": 4500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "DESTILADOS - TEQUILA"
+      ]
+    }
+  },
+  "84701dd863fd1f22fd8f9843055685c93dd8892a72bcddac8061757a06d8375c": {
+    "id": "84701dd863fd1f22fd8f9843055685c93dd8892a72bcddac8061757a06d8375c",
+    "product": {
+      "nombre": "RICCADONNA CHARDONNAY BRUT",
+      "precio": 16000,
+      "descripcion": "750 cc",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "ESPUMANTES"
+      ]
+    }
+  },
+  "9da2ce24c972f786348bc1e2106b20ec99d667b8af86f3983a7b56ad227c0ceb": {
+    "id": "9da2ce24c972f786348bc1e2106b20ec99d667b8af86f3983a7b56ad227c0ceb",
+    "product": {
+      "nombre": "COPA DE ESPUMANTE",
+      "precio": 3000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "ESPUMANTES"
+      ]
+    }
+  },
+  "497ef325bf2b7acde7d8f07d5daf9bda6a490f980c5f9defadee41efa0b098c5": {
+    "id": "497ef325bf2b7acde7d8f07d5daf9bda6a490f980c5f9defadee41efa0b098c5",
+    "product": {
+      "nombre": "BEBIDAS",
+      "precio": 2000,
+      "descripcion": "Coca-Cola / Coca-Cola Light / Coca-Cola Zero / Sprite / Fanta / Tónica / Ginger Ale",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "EXTRAS"
+      ]
+    }
+  },
+  "2feb19add9785dafcfe5d31133b13283a894c93b53be9e488581c3aa672866a7": {
+    "id": "2feb19add9785dafcfe5d31133b13283a894c93b53be9e488581c3aa672866a7",
+    "product": {
+      "nombre": "AGUA MINERAL",
+      "precio": 2000,
+      "descripcion": "Con gas / Sin gas",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "EXTRAS"
+      ]
+    }
+  },
+  "12dc63d3d3f37bb9dd4cab2300cc9d5d10dac4eef5853de65c929fb4165ed0f8": {
+    "id": "12dc63d3d3f37bb9dd4cab2300cc9d5d10dac4eef5853de65c929fb4165ed0f8",
+    "product": {
+      "nombre": "ENERGETICA",
+      "precio": 4000,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "EXTRAS"
+      ]
+    }
+  },
+  "734a4fcdf14245cf08d859385e3109ed483fe70630f9ba46d0168a1f8c9e2679": {
+    "id": "734a4fcdf14245cf08d859385e3109ed483fe70630f9ba46d0168a1f8c9e2679",
+    "product": {
+      "nombre": "JUGO NATURAL FRUTILLA",
+      "precio": 3500,
+      "descripcion": "",
+      "ingredientes": [
+        "Frutilla"
+      ],
+      "foto": false,
+      "categoria": [
+        "JUGOS NATURALES"
+      ]
+    }
+  },
+  "8830749f4699885d6d18abe5ee38a688c97e24743da5294472c138924d447feb": {
+    "id": "8830749f4699885d6d18abe5ee38a688c97e24743da5294472c138924d447feb",
+    "product": {
+      "nombre": "JUGO NATURAL MARACUYA",
+      "precio": 3500,
+      "descripcion": "",
+      "ingredientes": [
+        "Maracuya"
+      ],
+      "foto": false,
+      "categoria": [
+        "JUGOS NATURALES"
+      ]
+    }
+  },
+  "41261f5279364f8f2420f7e0e9019d5a5548c82c80bcd12011ce66b923b049bc": {
+    "id": "41261f5279364f8f2420f7e0e9019d5a5548c82c80bcd12011ce66b923b049bc",
+    "product": {
+      "nombre": "JUGO NATURAL MORA",
+      "precio": 3500,
+      "descripcion": "",
+      "ingredientes": [
+        "Mora"
+      ],
+      "foto": false,
+      "categoria": [
+        "JUGOS NATURALES"
+      ]
+    }
+  },
+  "177ce3bcdd51d2aad633b5ba32cd302e61abc90ff13f2fcf8828c9a1e477afab": {
+    "id": "177ce3bcdd51d2aad633b5ba32cd302e61abc90ff13f2fcf8828c9a1e477afab",
+    "product": {
+      "nombre": "JUGO NATURAL MANGO",
+      "precio": 3500,
+      "descripcion": "",
+      "ingredientes": [
+        "Mango"
+      ],
+      "foto": false,
+      "categoria": [
+        "JUGOS NATURALES"
+      ]
+    }
+  },
+  "c53c91edf5813a4617d968d67fc06502665fcee82786822c13be79024ba0be1e": {
+    "id": "c53c91edf5813a4617d968d67fc06502665fcee82786822c13be79024ba0be1e",
+    "product": {
+      "nombre": "COPA DE VINO",
+      "precio": 3500,
+      "descripcion": "",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "VINOS"
+      ]
+    }
+  },
+  "162863110b898fe8b7865a45809df994d2b99c5a8704b61dd9cb342b82042bca": {
+    "id": "162863110b898fe8b7865a45809df994d2b99c5a8704b61dd9cb342b82042bca",
+    "product": {
+      "nombre": "MONTGRAS ANTU CABERNET",
+      "precio": 17000,
+      "descripcion": "Vino Tinto Montgras Antu Premiun Cabernet Sauvignon es un tinto de gran calidad procedente de la región de Chile. Esta cepa de Cabernet Sauvignon posee un color rojo intenso de excelente brillo y suavemente se despliega un aroma frutal. Al paladar la boca se envuelve con importantes notas especiadas, suaves taninos y un final marcado con fruta y regaliz.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "VINOS"
+      ]
+    }
+  },
+  "e7232724c3559829560bc18c1539ecd82c1642097f3edbeec54ba127fcead6e2": {
+    "id": "e7232724c3559829560bc18c1539ecd82c1642097f3edbeec54ba127fcead6e2",
+    "product": {
+      "nombre": "MONTEFRANCO ETIQUETA NEGRA CARMENERE",
+      "precio": 16000,
+      "descripcion": "Disfruta de la experiencia única que te ofrece el vino MonteFranco Gran Etiqueta Negra Carmenere 750cc. Este vino chileno es elaborado con uvas cuidadosamente seleccionadas y cultivadas en los valles de Colchagua y Maipo, lo que le otorga un sabor intenso y equilibrado. Su aroma a frutos rojos y especias, junto con su color rojo oscuro, lo hacen perfecto para acompañar carnes rojas, quesos maduros y platos con sabores intensos. Además, su proceso de envejecimiento en barricas de roble francés le da un toque de elegancia y sofisticación.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "VINOS"
+      ]
+    }
+  },
+  "3260954325a2600c90dc741cb9cec8be4cf0bd1c8636f3ba25e5e3009d89cf9b": {
+    "id": "3260954325a2600c90dc741cb9cec8be4cf0bd1c8636f3ba25e5e3009d89cf9b",
+    "product": {
+      "nombre": "MARQUES DE CASA CONCHA CABERNET",
+      "precio": 17000,
+      "descripcion": "1. Sabor intenso: Este vino tiene un sabor intenso y complejo, con notas de frutas negras y especias. 2. Aroma atractivo: El aroma de este vino es atractivo y elegante, con notas de cassis, vainilla. 3. Crianza en barrica: Este vino ha sido criado en barricas de roble francés durante 16 meses, lo que le da un sabor y aroma únicos. 4. Origen de calidad: El Marques De Casa Concha Cabernet Sauvignon proviene de viñedos de alta calidad en el Valle del Maipo, Chile. 5. Maridaje perfecto: Este vino es perfecto para maridar con carnes rojas, quesos maduros y platos con salsas intensas.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "VINOS"
+      ]
+    }
+  },
+  "c875db5cd2eff68b68ece81b31e9e6ec6e3fd3f38c969006e5ceb481eaebe457": {
+    "id": "c875db5cd2eff68b68ece81b31e9e6ec6e3fd3f38c969006e5ceb481eaebe457",
+    "product": {
+      "nombre": "SECRETO CABERNET",
+      "precio": 15000,
+      "descripcion": "Color rojo rubí con matiz violáceo. En nariz es un vino expresivo, marcado por frutos rojos y frutos negros, cassis, ciruela fresca, sumado a una sutil nota herbal y especiada. En boca destaca su textura y equilibrio, siendo al mismo tiempo vibrante, con muy buena estructura y gran profundidad.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "VINOS"
+      ]
+    }
+  },
+  "6e7645c769e26fd5306f78292c07ae7620aaed37b12a808e2b5ecb3f4405f1d2": {
+    "id": "6e7645c769e26fd5306f78292c07ae7620aaed37b12a808e2b5ecb3f4405f1d2",
+    "product": {
+      "nombre": "SECRETO CARMENERE",
+      "precio": 15000,
+      "descripcion": "De color violáceo oscuro. En nariz presenta aromas a cerezas maduras, pimienta negra y mora, sumado a finas hierbas, con suaves notas a tabaco rubio. En boca es amplia, de gran estructura, equilibrada, con taninos redondos. Su final es aterciopelado y muy agradable.",
+      "ingredientes": [],
+      "foto": false,
+      "categoria": [
+        "VINOS"
       ]
     }
   }

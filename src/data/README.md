@@ -1,6 +1,6 @@
-# Carta El Pacto
+# Carta Barbudo
 
-- URL Carta: https://menu.fu.do/elpactorestobar
+- URL Carta: https://www.lacarte.cl/menu/7/barbudo-beer-garden/
 
 # Data scraped
 

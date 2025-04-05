@@ -1,466 +1,86 @@
 {
-  "Agregado": {
-    "label": "Agregado",
-    "emoji": "🛒"
-  },
-  "ACOMPAÑAMIENTOS": {
-    "label": "Acompañamientos",
-    "emoji": "🍽️"
-  },
-  "AGUA": {
-    "label": "Agua",
-    "emoji": "💧"
-  },
-  "AGUA TONICA": {
-    "label": "Agua Tonica",
-    "emoji": "💧"
-  },
-  "ALEMAN": {
-    "label": "Aleman",
-    "emoji": "🇩🇪"
-  },
-  "ALITAS": {
-    "label": "Alitas",
-    "emoji": "🍗"
-  },
-  "AMARETTO": {
-    "label": "Amaretto",
-    "emoji": "🥃"
-  },
-  "AMARO": {
-    "label": "Amaro",
-    "emoji": "🥃"
-  },
-  "AMBER ALE": {
-    "label": "Amber Ale",
-    "emoji": "🍺"
-  },
-  "AMERICANO": {
-    "label": "Americano",
-    "emoji": "🇺🇸"
-  },
-  "APERITIVO": {
-    "label": "Aperitivo",
-    "emoji": "🍸"
-  },
-  "APERITIVOS": {
-    "label": "Aperitivos",
-    "emoji": "🥨"
-  },
-  "APEROL": {
-    "label": "Aperol",
-    "emoji": "🍹"
-  },
-  "ARTESANAL": {
-    "label": "Artesanal",
-    "emoji": "🧑‍🎨"
-  },
-  "AUSTRAL": {
-    "label": "Austral",
-    "emoji": "🍺"
-  },
-  "BEBIDAS GASEOSAS": {
-    "label": "Bebidas Gaseosas",
-    "emoji": "🥤"
-  },
-  "BEBIDAS Y JUGOS": {
-    "label": "Bebidas y Jugos",
-    "emoji": "🍹"
-  },
-  "BOTELLA": {
-    "label": "Botella",
-    "emoji": "🍾"
-  },
   "BOURBON": {
     "label": "Bourbon",
     "emoji": "🥃"
   },
-  "BRASILEÑO": {
-    "label": "Brasileño",
-    "emoji": "🇧🇷"
+  "BURGERS": {
+    "label": "Burgers",
+    "emoji": "🍔"
   },
-  "CACHAÇA": {
-    "label": "Cachaça",
-    "emoji": "🥃"
-  },
-  "CARNE": {
-    "label": "Carne",
-    "emoji": "🥩"
-  },
-  "CERVEZAS": {
-    "label": "Cervezas",
+  "CERVEZAS SIN ALCOHOL": {
+    "label": "Cervezas Sin Alcohol",
     "emoji": "🍺"
   },
-  "CHILENO": {
-    "label": "Chileno",
-    "emoji": "🇨🇱"
-  },
-  "CHORRILLANA": {
-    "label": "Chorrillana",
-    "emoji": "🍟"
-  },
-  "COCA-COLA": {
-    "label": "Coca-Cola",
-    "emoji": "🥤"
-  },
-  "COCO": {
-    "label": "Coco",
-    "emoji": "🥥"
-  },
-  "COCTELERIA": {
-    "label": "Cocteleria",
+  "COCKTELERÍA": {
+    "label": "Cocktelería",
     "emoji": "🍸"
   },
-  "COCTELERIA 2X": {
-    "label": "Cocteleria 2x",
-    "emoji": "🥂"
-  },
-  "COCTELERIA CLASICA": {
-    "label": "Cocteleria Clasica",
-    "emoji": "🍸"
-  },
-  "COLLINS": {
-    "label": "Collins",
+  "COCKTELERÍA CERVECERA": {
+    "label": "Cocktelería Cervecera",
     "emoji": "🍹"
   },
-  "CON GAS": {
-    "label": "Con Gas",
-    "emoji": "🫧"
-  },
-  "COREANO": {
-    "label": "Coreano",
-    "emoji": "🇰🇷"
-  },
-  "CUBANO": {
-    "label": "Cubano",
-    "emoji": "🇨🇺"
-  },
-  "DAIQUIRI": {
-    "label": "Daiquiri",
-    "emoji": "🍹"
-  },
-  "DESTILADOS": {
-    "label": "Destilados",
+  "DESTILADOS - LOS CLÁSICOS": {
+    "label": "Destilados - Los Clásicos",
     "emoji": "🥃"
   },
-  "DOBLE IPA": {
-    "label": "Doble Ipa",
+  "DESTILADOS - TEQUILA": {
+    "label": "Destilados - Tequila",
+    "emoji": "🌵"
+  },
+  "EN SCHOP": {
+    "label": "En Schop",
     "emoji": "🍺"
   },
-  "DRAFT": {
-    "label": "Draft",
-    "emoji": "🍺"
-  },
-  "DULCE": {
-    "label": "Dulce",
-    "emoji": "🍬"
-  },
-  "EMPANADAS": {
-    "label": "Empanadas",
-    "emoji": "🥟"
-  },
-  "ESCOCES": {
-    "label": "Escoces",
-    "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
-  },
-  "ESPUMANTE": {
-    "label": "Espumante",
-    "emoji": "🥂"
+  "ESPUMANTES": {
+    "label": "Espumantes",
+    "emoji": "🍾"
   },
   "EXTRAS": {
     "label": "Extras",
     "emoji": "➕"
   },
-  "FERNET": {
-    "label": "Fernet",
-    "emoji": "🥃"
-  },
-  "FONDOS": {
-    "label": "Fondos",
-    "emoji": "🍲"
-  },
-  "FRITOS": {
-    "label": "Fritos",
-    "emoji": "🍟"
-  },
-  "FRUTA": {
-    "label": "Fruta",
-    "emoji": "🍓"
-  },
-  "FRUTAL": {
-    "label": "Frutal",
-    "emoji": "🍇"
-  },
   "GIN": {
     "label": "Gin",
     "emoji": "🍸"
   },
-  "GIN TONIC": {
-    "label": "Gin Tonic",
-    "emoji": "🍸"
-  },
-  "GINGER ALE": {
-    "label": "Ginger Ale",
-    "emoji": "🥤"
-  },
-  "HAMBURGUESAS": {
-    "label": "Hamburguesas",
-    "emoji": "🍔"
-  },
-  "HAZY IPA": {
-    "label": "Hazy Ipa",
-    "emoji": "🍺"
-  },
-  "HEINEKEN": {
-    "label": "Heineken",
-    "emoji": "🍺"
-  },
-  "IPA": {
-    "label": "Ipa",
-    "emoji": "🍺"
-  },
-  "ITALIANO": {
-    "label": "Italiano",
-    "emoji": "🇮🇹"
-  },
-  "JAGERMEISTER": {
-    "label": "Jagermeister",
-    "emoji": "🥃"
-  },
-  "JUGOS": {
-    "label": "Jugos",
+  "JUGOS NATURALES": {
+    "label": "Jugos Naturales",
     "emoji": "🧃"
-  },
-  "LAGER": {
-    "label": "Lager",
-    "emoji": "🍺"
-  },
-  "LATA": {
-    "label": "Lata",
-    "emoji": "🥫"
-  },
-  "LICOR": {
-    "label": "Licor",
-    "emoji": "🥃"
-  },
-  "LIMONADA": {
-    "label": "Limonada",
-    "emoji": "🍋"
-  },
-  "LOADED FRIES": {
-    "label": "Loaded Fries",
-    "emoji": "🍟"
-  },
-  "MARGARITA": {
-    "label": "Margarita",
-    "emoji": "🍹"
-  },
-  "MECHADA": {
-    "label": "Mechada",
-    "emoji": "🥩"
-  },
-  "MEXICANO": {
-    "label": "Mexicano",
-    "emoji": "🇲🇽"
-  },
-  "MIXER": {
-    "label": "Mixer",
-    "emoji": "🥤"
-  },
-  "MOJITO": {
-    "label": "Mojito",
-    "emoji": "🍹"
-  },
-  "MULE": {
-    "label": "Mule",
-    "emoji": "🍹"
-  },
-  "OFERTAS": {
-    "label": "Ofertas",
-    "emoji": "🏷️"
-  },
-  "OTROS": {
-    "label": "Otros",
-    "emoji": "❓"
-  },
-  "PAPAS": {
-    "label": "Papas",
-    "emoji": "🥔"
-  },
-  "PAPAS FRITAS": {
-    "label": "Papas Fritas",
-    "emoji": "🍟"
   },
   "PARA COMPARTIR": {
     "label": "Para Compartir",
-    "emoji": "👨‍👩‍👧‍👦"
-  },
-  "PEPSI": {
-    "label": "Pepsi",
-    "emoji": "🥤"
-  },
-  "PERUANO": {
-    "label": "Peruano",
-    "emoji": "🇵🇪"
-  },
-  "PICANTE": {
-    "label": "Picante",
-    "emoji": "🌶️"
-  },
-  "PICOTEOS": {
-    "label": "Picoteos",
-    "emoji": "🥨"
+    "emoji": "🍽️"
   },
   "PISCO": {
     "label": "Pisco",
-    "emoji": "🥃"
+    "emoji": "🍇"
   },
-  "POLLO": {
-    "label": "Pollo",
-    "emoji": "🍗"
+  "PIZZAS": {
+    "label": "Pizzas",
+    "emoji": "🍕"
   },
-  "PREMIUM": {
-    "label": "Premium",
-    "emoji": "⭐"
-  },
-  "PREPARACION CERVEZA": {
-    "label": "Preparacion Cerveza",
-    "emoji": "🍺"
-  },
-  "PROMOS": {
-    "label": "Promos",
-    "emoji": "🏷️"
-  },
-  "QUESADILLAS": {
-    "label": "Quesadillas",
-    "emoji": "🌮"
-  },
-  "QUESO": {
-    "label": "Queso",
-    "emoji": "🧀"
-  },
-  "RAMAZZOTTI": {
-    "label": "Ramazzotti",
-    "emoji": "🍹"
-  },
-  "REFRESCANTE": {
-    "label": "Refrescante",
-    "emoji": "🧊"
+  "PROMO CHELA DEL DÍA": {
+    "label": "Promo Chela Del Día",
+    "emoji": "🍻"
   },
   "RON": {
     "label": "Ron",
     "emoji": "🥃"
   },
-  "RUSO": {
-    "label": "Ruso",
-    "emoji": "🇷🇺"
-  },
-  "SABORIZADO": {
-    "label": "Saborizado",
-    "emoji": "🍓"
-  },
-  "SALSAS": {
-    "label": "Salsas",
-    "emoji": "🥫"
-  },
-  "SANDWICHS": {
-    "label": "Sandwichs",
+  "SANDWICH": {
+    "label": "Sandwich",
     "emoji": "🥪"
-  },
-  "SCHOP": {
-    "label": "Schop",
-    "emoji": "🍺"
-  },
-  "SCHOP 2X": {
-    "label": "Schop 2x",
-    "emoji": "🍻"
-  },
-  "SCOTCH": {
-    "label": "Scotch",
-    "emoji": "🥃"
-  },
-  "SHOTS": {
-    "label": "Shots",
-    "emoji": "샷"
   },
   "SIN ALCOHOL": {
     "label": "Sin Alcohol",
-    "emoji": "🚫"
-  },
-  "SIN AZUCAR": {
-    "label": "Sin Azucar",
-    "emoji": "🚫"
-  },
-  "SIN GAS": {
-    "label": "Sin Gas",
-    "emoji": "💧"
-  },
-  "SOPAIPILLAS": {
-    "label": "Sopaipillas",
-    "emoji": "🥞"
-  },
-  "SOUR": {
-    "label": "Sour",
-    "emoji": "🍋"
-  },
-  "SPRITZ": {
-    "label": "Spritz",
-    "emoji": "🍹"
-  },
-  "STOUT": {
-    "label": "Stout",
-    "emoji": "🍺"
-  },
-  "SUECO": {
-    "label": "Sueco",
-    "emoji": "🇸🇪"
-  },
-  "TABLAS": {
-    "label": "Tablas",
-    "emoji": "🧀"
-  },
-  "TENNESSEE WHISKEY": {
-    "label": "Tennessee Whiskey",
-    "emoji": "🥃"
-  },
-  "TEQUILA": {
-    "label": "Tequila",
-    "emoji": "🥃"
-  },
-  "TRAGOS DE LA CASA": {
-    "label": "Tragos De La Casa",
-    "emoji": "🏠"
-  },
-  "TROPICAL": {
-    "label": "Tropical",
-    "emoji": "🌴"
-  },
-  "VARIADO": {
-    "label": "Variado",
-    "emoji": ""
-  },
-  "VEGETALES": {
-    "label": "Vegetales",
-    "emoji": "🥦"
-  },
-  "VEGETARIANO": {
-    "label": "Vegetariano",
-    "emoji": "🥬"
-  },
-  "VINO": {
-    "label": "Vino",
-    "emoji": "🍷"
+    "emoji": "🥤"
   },
   "VINOS": {
     "label": "Vinos",
-    "emoji": "🍇"
+    "emoji": "🍷"
   },
   "VODKA": {
     "label": "Vodka",
-    "emoji": "🥃"
-  },
-  "VODKA TONIC": {
-    "label": "Vodka Tonic",
     "emoji": "🍸"
   },
   "WHISKY": {
